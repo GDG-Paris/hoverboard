@@ -68,10 +68,10 @@
                     </div>
                     <div class="bottom">
                         <span class="typo-white">
-                            October 23-24, 2015
+                            February 5, 2016
                         </span>
                         <span class="block typo-white">
-                            Lviv, Ukraine
+                            Paris, France
                         </span>
                     </div>
                 </paper-toolbar>
@@ -112,20 +112,23 @@
                                         </div>
                                     </div>
                                 </div>
-                                <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=GDG%20DevFest%20Ukraine%202015&dates=20151023T090000/20151024T180000&details=The%20biggest%20Google%20related%20event%20in%20Ukraine%20carefully%20crafted%20for%20you%20by%20GDG%20community!%20Awesome%20speakers%20and%20lot's%20of%20fun!%20Details%20at%20http://devfest.gdg.org.ua&location=Shchyretska%20St%2036,%20L'viv,%20Львівська%20область,%20Ukraine&pli=1&uid=&sf=true&output=xml#eventpage_6"
-                                target="_blank" onclick="ga('send', 'add-event-to-calendar', 'button', 'click');">
+                                <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MHZ1dHZibGc0b3RvMXVoZXI5dGlvMTQ2NGcgOGlkbTgwMHByM3R0YjU2MDUwamdlZDhhcHNAZw&tmsrc=8idm800pr3ttb56050jged8aps%40group.calendar.google.com" target="_blank" onclick="ga('send', 'add-event-to-calendar', 'button', 'click');">
                                     <paper-fab class="section-fab-right" icon="icons:event"></paper-fab>
                                 </a>
                             </hero-block>
                             <statistics-block></statistics-block>
+                            <!--
                             <featured-people people="{{speakers}}">
                                 <h4 class="heading">Rockstar Speakers</h4>
                             </featured-people>
+                            -->
                             <call-to-action></call-to-action>
                             <photo-block></photo-block>
                             <tickets-block></tickets-block>
                             <latest-news posts="{{posts}}"></latest-news>
-                            <social-feed source="http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=7200"></social-feed>
+                            <!-- TODO Twitter hashtags integration
+                            <social-feed source="https://api.twitter.com/1.1/search/tweets.json?q=@gdgparis&result_type=mixed&count=5"></social-feed>
+                            -->
                             <map-block></map-block>
                             <logos-block logos-blocks="{{partners}}">
                                 <h4 class="heading">Partners</h4>
@@ -203,7 +206,7 @@
         <paper-dialog class="video-dialog fit" id="promo-video-dialog" with-backdrop modal entry-animation="scale-up-animation" exit-animation="fade-out-animation">
             <paper-toolbar class="navbar-overlay fit">
                 <paper-icon-button icon="icons:arrow-back" on-tap="closeVideoCard"></paper-icon-button>
-                <div class="title text-left">GDG DevFest Ukraine 2015</div>
+                <div class="title text-left">GDG DevFest Paris 2016</div>
             </paper-toolbar>
             <div class="fullvideo-container fit">
                 <google-youtube id="promo-video" video-id="_yhIH9wb3hE" fluid="true" autohide="1" chromeless="true"></google-youtube>
