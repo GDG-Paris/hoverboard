@@ -1,0 +1,32 @@
+[{
+    "title": "General sponsor",
+    "logos": [{
+        "name": "Google",
+        "url": "https://www.google.fr/intl/en/about/",
+        "logoUrl": "../images/partners/google.svg"
+    }]
+}, {
+    "title": "Platinum sponsors",
+    "logos": [{
+        "name": "Cirruseo",
+        "url": "http://www.cirruseo.com/",
+        "logoUrl": "../images/partners/cirruseo.png"
+    }]
+}, {
+    "title": "Gold sponsors",
+    "logos": [{
+        "name": "gPartner",
+        "url": "http://gpartner.eu/",
+        "logoUrl": "../images/partners/gPartner.png"
+    }]
+}, {
+    "title": "Silver sponsors",
+    "logos": []
+}, {
+    "title": "Press partners",
+    "logos": [{
+        "name": "FrAndroid",
+        "url": "http://www.frandroid.com/",
+        "logoUrl": "../images/partners/frandroid.png"
+    }]
+}]
