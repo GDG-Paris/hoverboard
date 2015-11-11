@@ -32483,10 +32483,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <div class="container card-container flex relative layout vertical">
       <div class="card">
         <div class="card-content">
-          <span>The biggest Google related event in Ukraine carefully crafted for you by GDG community! Awesome speakers and lot's of fun! This time, right in the heart of Lviv!</span>
+          <span>The biggest Google related event in right in the heart of Paris carefully crafted for you by GDG community! Awesome speakers and lot's of fun!</span>
         </div>
         <div class="card-content">
-          <a class="bottom-link" data-route="about" href="/about">See DevFest 2014</a>
+          <a class="bottom-link" data-route="about" href="/about">See DevFest 2015</a>
         </div>
       </div>
     </div>
@@ -32554,7 +32554,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             'generateAlbumUrl(userId, albumId)'
         ],
         generateAlbumUrl: function(userId, albumId) {
-            this.albumUrl = 'https://picasaweb.google.com/data/feed/api/user/' + userId + '/albumid/' + albumId + '?alt=json';
+            this.albumUrl = 'https://picasaweb.google.com/data/feed/api/user/' + userId + '/albumid/' + albumId + '?kind=photo&imgmax=1600&alt=json';
             this.$.ajax.generateRequest();
         },
         photosLoaded: function(event, response) {
@@ -32634,10 +32634,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         <paper-dialog id="photosDialog" class="gallery-dialog fit" entry-animation="scale-up-animation" exit-animation="fade-out-animation">
             <paper-toolbar class="navbar-overlay fit">
                 <paper-icon-button icon="icons:arrow-back" on-tap="closeGallery"></paper-icon-button>
-                <div class="title text-left">GDG DevFest Ukraine 2014 - Photos</div>
+                <div class="title text-left">GDG DevFest Paris 2015 - Photos</div>
             </paper-toolbar>
             <div class="gallery-container fit">
-                <photo-gallery user-id="104154992083455126443" album-id="6189295328162771457"></photo-gallery>
+                <photo-gallery user-id="100575125902423385750" album-id="6112093557233433969"></photo-gallery>
             </div>
         </paper-dialog>
     </template>
@@ -32650,8 +32650,11 @@ Polymer({
     },
     attached: function() {
         this.photos = {
-            big: '../images/backgrounds/2014_1.jpg',
-            small: ['../images/backgrounds/2014_2.jpg', '../images/backgrounds/2014_3.jpg']
+            big: '../images/backgrounds/2015_01.jpg',
+            small: [
+                '../images/backgrounds/2015_02.jpg',
+                '../images/backgrounds/2015_03.jpg'
+            ]
         };
     },
     openGallery: function() {
@@ -32708,16 +32711,16 @@ Polymer({
         },
         attached: function() {
             this.statistics = [{
-                counter: 500,
+                counter: 700,
                 caption: 'Attendees'
             }, {
-                counter: 2,
-                caption: 'Days'
+                counter: 1,
+                caption: 'Day'
             }, {
-                counter: 40,
+                counter: 20,
                 caption: 'Sessions'
             }, {
-                counter: 3,
+                counter: 4,
                 caption: 'Parallel tracks'
             }];
         }
@@ -32878,7 +32881,7 @@ Polymer({
                     </div>
                 </div>
             </template>
-            <a href="/assets/GDG_DevFest_Ukraine_2015_Partnership_Proposition.pdf" class="block-link" target="_blank" onclick="ga('send', 'become-a-partner', 'button', 'click');">
+            <a href="/assets/GDG_DevFest_Paris_2016_Sponsor_kit.pdf" class="block-link" target="_blank" onclick="ga('send', 'become-a-partner', 'button', 'click');">
                 <paper-button class="colorful" raised="">Become a partner</paper-button>
             </a>
         </div>
@@ -33095,15 +33098,14 @@ Polymer({
                         <span class="link-block-title block">For visitors</span>
                         <ul class="link-block">
                             <li><a href="https://developers.google.com/" target="_blank">Google Developers</a></li>
-                            <li><a href="http://gdg-devfest-ua.appspot.com/" target="_blank">GDG DevFest Ukraine 2013</a></li>
-                            <li><a href="http://devfest.gdg.org.ua/2014/" target="_blank">GDG DevFest Ukraine 2014</a></li>
+                            <li><a href="http://2015.devfest.gdgparis.com" target="_blank">GDG DevFest Paris 2015</a></li>
                             <li><a href="/code-of-conduct">Code of Conduct</a></li>
                         </ul>
                     </div>
                     <div class="flex link-block-wrapper">
                         <span class="link-block-title block">For partners</span>
                         <ul class="link-block">
-                            <li><a href="/assets/GDG_DevFest_Ukraine_2015_Partnership_Proposition.pdf" target="_blank">Partnership Proposition</a></li>
+                            <li><a href="/assets/GDG_DevFest_Paris_2016_Sponsor_kit.pdf" target="_blank">Partnership Proposition</a></li>
                             <li><a href="http://bit.ly/dfua-media" target="_blank">Media Kit</a></li>
                             <li><a href="https://docs.google.com/forms/d/1sOjuv7rv77JXq2jPBdh3tg-O4CV8HpLTED5cjJBxnG8/viewform" target="_blank">Media Accreditation</a></li>
                         </ul>
@@ -33111,20 +33113,14 @@ Polymer({
                     <div class="flex link-block-wrapper">
                         <span class="link-block-title block">Contact us</span>
                         <ul class="link-block">
-                            <li><a href="mailto:devfest@gdg.org.ua">devfest@google.com</a></li>
+                            <li><a href="mailto:contact@gdgparis.com">contact@gdgparis.com</a></li>
                         </ul>
                         <div class="icons-wrapper align-pb-block">
-                            <a href="https://plus.google.com/102444623953913144164" target="_blank">
+                            <a href="https://plus.google.com/+GDGParis" target="_blank">
                                 <paper-icon-button icon="app-icons:gplus"></paper-icon-button>
                             </a>
-                            <a href="https://www.facebook.com/GDGLviv" target="_blank">
-                                <paper-icon-button icon="app-icons:facebook"></paper-icon-button>
-                            </a>
-                            <a href="https://twitter.com/gdglviv" target="_blank">
+                            <a href="https://twitter.com/gdgparis" target="_blank">
                                 <paper-icon-button icon="app-icons:twitter"></paper-icon-button>
-                            </a>
-                            <a href="https://www.linkedin.com/company/google-developers-group-lviv" target="_blank">
-                                <paper-icon-button icon="app-icons:linkedin"></paper-icon-button>
                             </a>
                         </div>
                     </div>
@@ -33271,8 +33267,8 @@ Polymer({
                 color: inherit;
             }
         </style>
-        <google-map class="fit" zoom="15" latitude="49.809841" longitude="23.982805" styles="[[options]]" disable-zoom="" disable-default-ui="">
-            <google-map-marker latitude="49.809841" longitude="23.972805"></google-map-marker>
+        <google-map class="fit" zoom="15" latitude="48.8685257" longitude="2.2864417" styles="[[options]]" disable-zoom="" disable-default-ui="">
+            <google-map-marker latitude="48.8685257" longitude="2.2864417"></google-map-marker>
         </google-map>
         <div class="container card-container relative layout horizontal center-center">
             <div class="flex-3 hidden-xs"></div>
@@ -33282,7 +33278,7 @@ Polymer({
                         <div class="title">
                             <h4>Location</h4>
                         </div>
-                        <p>Pivdennyi Expo Center<br>Shchyretska St, 36, L'viv, Ukraine</p>
+                        <p>La Grande Crypte<br>69 bis rue Boissière, 75016 Paris</p>
                     </div>
                     <div class="card-actions">
                         <a class="bottom-link" href="https://www.google.fr/maps/dir//La+Grande+Crypte+-+Dussauge+%26+Co,+69+bis+rue+Boissi%C3%A8re,+75016+Paris/@48.8685038,2.2169546,12z/data=!4m13!1m4!3m3!1s0x47e671eaf00443dd:0x3962ff5787fd45dd!2sLa+Grande+Crypte+-+Dussauge+%26+Co!3b1!4m7!1m0!1m5!1m1!1s0x47e671eaf00443dd:0x3962ff5787fd45dd!2m2!1d2.2869935!2d48.868525?hl=en" target="_blank">
@@ -33379,13 +33375,13 @@ Polymer({
             }
         </style>
         <div class="container container-narrow flex relative layout vertical-horizontal center-center">
-            <h4 class="heading flex text self-center text-center">GDG DevFest 2014</h4>
+            <h4 class="heading flex text self-center text-center">GDG DevFest Paris 2015</h4>
              <paper-button class="white border-button open-dialog-button" on-tap="playVideo">See how it was</paper-button>
         </div>
         <paper-dialog class="video-dialog fit" id="videoDialog" modal="" entry-animation="scale-up-animation" exit-animation="fade-out-animation">
             <paper-toolbar class="navbar-overlay fit">
                 <paper-icon-button icon="icons:arrow-back" on-tap="closeVideoCard"></paper-icon-button>
-                <div class="title text-left">GDG DevFest Ukraine 2014 - Highlights</div>
+                <div class="title text-left">GDG DevFest Paris 2015 - Highlights</div>
             </paper-toolbar>
             <div class="fullvideo-container fit">
                 <google-youtube id="video" video-id="t95z_HLMTmM" fluid="true" autohide="1" chromeless="true"></google-youtube>
@@ -34043,7 +34039,7 @@ Polymer({
             <span class="flex"></span>
             <div class="flex-5 second-block">
                 <h4 class="heading">Social</h4>
-                <span class="block">Add to circles, like, follow or connect with us on</span>
+                <span class="block">Add to circles, follow or connect with us on</span>
                 <div class="align-pb-block">
                     <a href="https://plus.google.com/+GDGParis" target="_blank">
                         <paper-icon-button icon="app-icons:gplus"></paper-icon-button>
@@ -35245,33 +35241,41 @@ Polymer({
             <div class="price-block-wrapper flex layout vertical-horizontal">
                 <div class="price-block flex text-center">
                     <span class="ticket-name block">Student</span>
-                    <span class="price">400</span>
-                    <span class="currency">UAH</span>
-                    <span class="additional-info block">*Before October 23 or 100 tickets.
+                    <span class="price">10</span>
+                    <span class="currency">€</span>
+                    <span class="additional-info block">*First 100 tickets.
                         <br>Requires valid student ID</span>
                 </div>
                 <div class="price-block flex text-center relative sold-out">
                     <span class="ticket-name block">Early Bird</span>
-                    <span class="price">600</span>
-                    <span class="currency">UAH</span>
-                    <span class="additional-info block">*Before September 27 or 150 tickets</span>
+                    <span class="price">10</span>
+                    <span class="currency">€</span>
+                    <span class="additional-info block">*First 100 tickets tickets</span>
+                    <!--
                     <div class="fit layout vertical center-center sold-out-text"><span>Sold Out</span></div>
+                    -->
                 </div>
                 <div class="price-block flex text-center">
                     <span class="ticket-name block">Lazy Bird</span>
-                    <span class="price">800</span>
-                    <span class="currency">UAH</span>
+                    <span class="price">35</span>
+                    <span class="currency">€</span>
+                    <!--
                     <span class="additional-info block">*Before October 23</span>
+                    -->
                 </div>
             </div>
             <span class="details">Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price.</span>
+
+            <!-- TODO Open registration
             <div class="flex">
                 <paper-button class="white border-button open-dialog-button" on-tap="openTicketsDialog">Buy a ticket</paper-button>
             </div>
+            -->
         </div>
         <paper-dialog id="ticketsDialog" entry-animation="scale-up-animation" exit-animation="fade-out-animation" modal="">
             <div id="2event_tickets_widget" style="width: 640px; height: 300px; background:#fff;"></div>
             <div class="buttons">
+                <!-- TODO Eventbrite integration -->
                 <a href="http://2event.com/events/312113" target="_blank">
                     <paper-button>Buy on the website</paper-button>
                 </a>
@@ -35292,6 +35296,7 @@ Polymer({
         var script = document.createElement('script');
         script.type = 'text/javascript';
         script.async = true;
+        // TODO Eventbrite integration
         script.src = 'https://2event.com/js/widget-tickets.js';
         document.getElementsByTagName('head')[0].appendChild(script);
     },2000);
@@ -35537,9 +35542,9 @@ Polymer({
                             <div class="title-text">Key dates</div>
                         </div>
                         <div class="card-content">
-                            <b>October 11:</b> submit a presentation for review with "_DRAFT" in the filename<br><br>
-                            <b>October 20:</b> submit final presentation with "_FINAL" in the filename<br><br>
-                            <b>October 23:</b> game on, DevFest Ukraine 2015 openning
+                            <b>January 10:</b> submit a presentation for review with "_DRAFT" in the filename<br><br>
+                            <b>January 20:</b> submit final presentation with "_FINAL" in the filename<br><br>
+                            <b>February 5:</b> game on, DevFest Paris 2016 opening
                         </div>
                     </paper-card>
                     <paper-card class="info-card">
