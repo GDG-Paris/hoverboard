@@ -77,31 +77,55 @@
             <h4 class="heading">Tickets</h4>
             <div class="price-block-wrapper flex layout vertical-horizontal">
                 <div class="price-block flex text-center">
-                    <span class="ticket-name block">Student</span>
-                    <span class="price">10</span>
+                    <span class="ticket-name block">
+                        <i18n-msg msgid="student">
+                            Student
+                        </i18n-msg>
+                    </span>
+                    <span class="price">15</span>
                     <span class="currency">€</span>
-                    <span class="additional-info block">*First 100 tickets.
-                        <br/>Requires valid student ID</span>
+                    <span class="additional-info block">
+                        <i18n-msg msgid="valid-student-id">
+                            Requires valid student ID
+                        </i18n-msg>
+                    </span>
                 </div>
-                <div class="price-block flex text-center relative sold-out">
+                <!-- <div class="price-block flex text-center relative sold-out"> -->
+                <div class="price-block flex text-center relative">
                     <span class="ticket-name block">Early Bird</span>
                     <span class="price">10</span>
                     <span class="currency">€</span>
-                    <span class="additional-info block">*First 100 tickets tickets</span>
+                    <span class="additional-info block">
+                        *
+                        <i18n-msg msgid="before-december-31">Before December 31</i18n-msg>
+                    </span>
                     <!--
+                    <div class="fit layout vertical center-center sold-out-text"><span>Sold Out</span></div>
+                    -->
+                </div>
+                <div class="price-block flex text-center relative">
+                    <span class="ticket-name block">General Admission</span>
+                    <span class="price">30</span>
+                    <span class="currency">€</span>
+                    <!--
+                    <span class="additional-info block">*First 100 tickets tickets</span>
                     <div class="fit layout vertical center-center sold-out-text"><span>Sold Out</span></div>
                     -->
                 </div>
                 <div class="price-block flex text-center">
                     <span class="ticket-name block">Lazy Bird</span>
-                    <span class="price">35</span>
+                    <span class="price">60</span>
                     <span class="currency">€</span>
                     <!--
                     <span class="additional-info block">*Before October 23</span>
                     -->
                 </div>
             </div>
-            <span class="details">Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price.</span>
+            <span class="details">
+                <i18n-msg msgid="tickets-disclaimer">
+                    Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price.
+                </i18n-msg>
+            </span>
 
             <!-- TODO Open registration
             <div class="flex">
@@ -129,6 +153,7 @@
         lang: 'en'
     };
     /* jshint ignore:end */
+    /*
     setTimeout(function() {
         var script = document.createElement('script');
         script.type = 'text/javascript';
@@ -137,6 +162,7 @@
         script.src = 'https://2event.com/js/widget-tickets.js';
         document.getElementsByTagName('head')[0].appendChild(script);
     },2000);
+    */
 
     Polymer({
         is: 'tickets-block',

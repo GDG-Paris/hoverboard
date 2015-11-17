@@ -24,38 +24,44 @@
             }
         </style>
         <div class="container flex wrap relative layout horizontal">
-            <template is="dom-repeat" items="{{statistics}}">
-                <div class="statistics-element two-column-xs layout vertical text-center">
-                    <span class="counter">{{item.counter}}</span>
-                    <span class="caption">{{item.caption}}</span>
-                </div>
-            </template>
+            <div class="statistics-element two-column-xs layout vertical text-center">
+                <span class="counter">700</span>
+                <span class="caption">
+                    <i18n-msg msgid="attendees">
+                        Attendees
+                    </i18n-msg>
+                </span>
+            </div>
+            <div class="statistics-element two-column-xs layout vertical text-center">
+                <span class="counter">1</span>
+                <span class="caption">
+                    <i18n-msg msgid="day">
+                        Day
+                    </i18n-msg>
+                </span>
+            </div>
+            <div class="statistics-element two-column-xs layout vertical text-center">
+                <span class="counter">20</span>
+                <span class="caption">
+                    <i18n-msg msgid="sessions">
+                        Sessions
+                    </i18n-msg>
+                </span>
+            </div>
+            <div class="statistics-element two-column-xs layout vertical text-center">
+                <span class="counter">4</span>
+                <span class="caption">
+                    <i18n-msg msgid="parallel-tracks">
+                        Parallel tracks
+                    </i18n-msg>
+                </span>
+            </div>
         </div>
     </template>
 </dom-module>
 
 <script>
     Polymer({
-        is: 'statistics-block',
-        properties: {
-            statistics: {
-                type: Array
-            }
-        },
-        attached: function() {
-            this.statistics = [{
-                counter: 700,
-                caption: 'Attendees'
-            }, {
-                counter: 1,
-                caption: 'Day'
-            }, {
-                counter: 20,
-                caption: 'Sessions'
-            }, {
-                counter: 4,
-                caption: 'Parallel tracks'
-            }];
-        }
+        is: 'statistics-block'
     });
 </script>

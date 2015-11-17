@@ -10,7 +10,8 @@
     "google-web-components": "GoogleWebComponents/google-web-components#1.0.1",
     "page": "visionmedia/page.js#~1.6.4",
     "time-elements": "~0.4.0",
-    "google-analytics": "~0.1.0"
+    "google-analytics": "~0.1.0",
+    "i18n-msg": "https://github.com/ebidel/i18n-msg.git#~1.0.2"
   },
   "devDependencies": {
     "web-component-tester": "*",

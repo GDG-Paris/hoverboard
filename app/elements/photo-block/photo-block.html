@@ -1,4 +1,3 @@
-<link rel="import" href="../photo-gallery/photo-gallery.html">
 <dom-module id="photo-block">
     <style>
     :host {
@@ -50,20 +49,32 @@
             <div class="flex relative big">
                 <iron-image src="{{photos.big}}" class="placeholder-color fit" sizing="cover" preload fade></iron-image>
                 <div class="open-photos layout vertical center-center fit pointer" on-tap="openGallery">
-                    <span>Click here to view more photos</span>
+                    <span>
+                        <i18n-msg msgid="view-more-pictures">
+                            Click here to view more pictures
+                        </i18n-msg>
+                    </span>
                 </div>
             </div>
             <div class="flex layout vertical">
                 <div class="flex relative">
                     <iron-image src="{{photos.small.0}}" class="placeholder-color fit" sizing="cover" preload fade></iron-image>
                     <div class="open-photos layout vertical center-center fit pointer" on-tap="openGallery">
-                        <span>Click here to view more photos</span>
+                        <span>
+                            <i18n-msg msgid="view-more-pictures">
+                                Click here to view more pictures
+                            </i18n-msg>
+                        </span>
                     </div>
                 </div>
                 <div class="flex relative hidden-xs">
                     <iron-image src="{{photos.small.1}}" class="placeholder-color fit" sizing="cover" preload fade></iron-image>
                     <div class="open-photos layout vertical center-center fit pointer" on-tap="openGallery">
-                        <span>Click here to view more photos</span>
+                        <span>
+                            <i18n-msg msgid="view-more-pictures">
+                                Click here to view more pictures
+                            </i18n-msg>
+                        </span>
                     </div>
                 </div>
             </div>

@@ -39,6 +39,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     window.addEventListener('WebComponentsReady', function() {
         // imports are loaded and elements have been registered
     });
+    // Done in HTMLImportsLoaded so I18nMsg will be defined by the time you set I18nMsg.lang.
+    // This timing is necessary under the polyfill and is not needed if the browser supports HTML Imports, natively.
+    document.addEventListener('HTMLImportsLoaded', function() {
+      window.I18nMsg.lang = navigator.languages[0].substring(0, 2) || 'en';
+      window.I18nMsg.url = 'locales'; // optionally use custom folder for locales.
+    });
 
     // Close drawer after menu item is selected if drawerPanel is narrow
     app.onMenuSelect = function() {
