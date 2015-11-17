@@ -10,5 +10,49 @@
   "watch-video": {
     "description": "...",
     "message": "Watch a video"
+  },
+  "register": {
+    "description": "...",
+    "message": "Register"
+  },
+  "attendees": {
+    "description": "...",
+    "message": "Attendees"
+  },
+  "day": {
+    "description": "...",
+    "message": "Day"
+  },
+  "sessions": {
+    "description": "...",
+    "message": "Sessions"
+  },
+  "parallel-tracks": {
+    "description": "...",
+    "message": "Parallel tracks"
+  },
+  "view-more-pictures": {
+    "description": "...",
+    "message": "Click here to view more pictures"
+  },
+  "student": {
+    "description": "...",
+    "message": "Student"
+  },
+  "valid-student-id": {
+    "description": "...",
+    "message": "Requires valid student ID"
+  },
+  "before-december-31": {
+    "description": "...",
+    "message": "Before December 31"
+  },
+  "tickets-disclaimer": {
+    "description": "...",
+    "message": "Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price."
+  },
+  "event-date": {
+    "description": "...",
+    "message": "February 5, 2016"
   }
 }

@@ -10,5 +10,49 @@
   "watch-video": {
     "description": "...",
     "message": "Regardez la vidéo"
+  },
+  "register": {
+    "description": "...",
+    "message": "S'enregistrer"
+  },
+  "attendees": {
+    "description": "...",
+    "message": "Participants"
+  },
+  "day": {
+    "description": "...",
+    "message": "Jour"
+  },
+  "sessions": {
+    "description": "...",
+    "message": "Sessions"
+  },
+  "parallel-tracks": {
+    "description": "...",
+    "message": "Tracks parallèles"
+  },
+  "view-more-pictures": {
+    "description": "...",
+    "message": "Cliquez ici pour voir plus de photos"
+  },
+  "student": {
+    "description": "...",
+    "message": "Etudiants"
+  },
+  "valid-student-id": {
+    "description": "...",
+    "message": "Carte étudiante requise"
+  },
+  "before-december-31": {
+    "description": "...",
+    "message": "Jusqu'au 31 décembre"
+  },
+  "tickets-disclaimer": {
+    "description": "...",
+    "message": "Les tickets donnent accès à toutes les sections de la conférence, pauses cafés, buffet et soirée. Le logement n'est pas inclue dans le prix."
+  },
+  "event-date": {
+    "description": "...",
+    "message": "5 Février 2016"
   }
 }

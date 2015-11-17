@@ -34470,70 +34470,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     is: 'about-conference'
   });
 </script>
-<dom-module id="photo-gallery" assetpath="photo-gallery/">
-    <template>
-        <style>
-            :host {
-                display: block;
-            }
-
-            iron-list {
-                height: 100%;
-                width: 100%;
-                position: relative;
-                box-sizing: border-box;
-                overflow-y: auto;
-            }
-
-            .photos-wrapper {
-                background: rgba(0, 0, 0, 0.8);
-            }
-
-            .item {
-                height: 80vh;
-            }
-
-            .photo {
-                margin: 20px 0;
-            }
-            @media (min-width: 601px) {
-                iron-list {
-                    width: 80%;
-                }
-            }
-        </style>
-        <iron-ajax id="ajax" url="[[albumUrl]]" handle-as="json" on-response="photosLoaded"></iron-ajax>
-        <div class="photos-wrapper layout horizontal center-center fit">
-            <iron-list class="layout vertical" items="[[photos]]" as="photo">
-                <template>
-                    <div class="item">
-                        <iron-image src="[[photo.content.src]]" class="placeholder-color photo fit" preload="" fade="" sizing="cover"></iron-image>
-                    </div>
-                </template>
-            </iron-list>
-        </div>
-    </template>
-</dom-module>
-
-<script>
-    Polymer({
-        is: 'photo-gallery',
-        properties: {
-            userId: String,
-            albumId: String
-        },
-        observers: [
-            'generateAlbumUrl(userId, albumId)'
-        ],
-        generateAlbumUrl: function(userId, albumId) {
-            this.albumUrl = 'https://picasaweb.google.com/data/feed/api/user/' + userId + '/albumid/' + albumId + '?kind=photo&imgmax=1600&alt=json';
-            this.$.ajax.generateRequest();
-        },
-        photosLoaded: function(event, response) {
-            this.photos = response.response.feed.entry;
-        }
-    });
-</script>
 <dom-module id="photo-block" assetpath="photo-block/">
     <style>
     :host {
@@ -34585,20 +34521,32 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <div class="flex relative big">
                 <iron-image src="{{photos.big}}" class="placeholder-color fit" sizing="cover" preload="" fade=""></iron-image>
                 <div class="open-photos layout vertical center-center fit pointer" on-tap="openGallery">
-                    <span>Click here to view more photos</span>
+                    <span>
+                        <i18n-msg msgid="view-more-pictures">
+                            Click here to view more pictures
+                        </i18n-msg>
+                    </span>
                 </div>
             </div>
             <div class="flex layout vertical">
                 <div class="flex relative">
                     <iron-image src="{{photos.small.0}}" class="placeholder-color fit" sizing="cover" preload="" fade=""></iron-image>
                     <div class="open-photos layout vertical center-center fit pointer" on-tap="openGallery">
-                        <span>Click here to view more photos</span>
+                        <span>
+                            <i18n-msg msgid="view-more-pictures">
+                                Click here to view more pictures
+                            </i18n-msg>
+                        </span>
                     </div>
                 </div>
                 <div class="flex relative hidden-xs">
                     <iron-image src="{{photos.small.1}}" class="placeholder-color fit" sizing="cover" preload="" fade=""></iron-image>
                     <div class="open-photos layout vertical center-center fit pointer" on-tap="openGallery">
-                        <span>Click here to view more photos</span>
+                        <span>
+                            <i18n-msg msgid="view-more-pictures">
+                                Click here to view more pictures
+                            </i18n-msg>
+                        </span>
                     </div>
                 </div>
             </div>
@@ -34663,39 +34611,45 @@ Polymer({
             }
         </style>
         <div class="container flex wrap relative layout horizontal">
-            <template is="dom-repeat" items="{{statistics}}">
-                <div class="statistics-element two-column-xs layout vertical text-center">
-                    <span class="counter">{{item.counter}}</span>
-                    <span class="caption">{{item.caption}}</span>
-                </div>
-            </template>
+            <div class="statistics-element two-column-xs layout vertical text-center">
+                <span class="counter">700</span>
+                <span class="caption">
+                    <i18n-msg msgid="attendees">
+                        Attendees
+                    </i18n-msg>
+                </span>
+            </div>
+            <div class="statistics-element two-column-xs layout vertical text-center">
+                <span class="counter">1</span>
+                <span class="caption">
+                    <i18n-msg msgid="day">
+                        Day
+                    </i18n-msg>
+                </span>
+            </div>
+            <div class="statistics-element two-column-xs layout vertical text-center">
+                <span class="counter">20</span>
+                <span class="caption">
+                    <i18n-msg msgid="sessions">
+                        Sessions
+                    </i18n-msg>
+                </span>
+            </div>
+            <div class="statistics-element two-column-xs layout vertical text-center">
+                <span class="counter">4</span>
+                <span class="caption">
+                    <i18n-msg msgid="parallel-tracks">
+                        Parallel tracks
+                    </i18n-msg>
+                </span>
+            </div>
         </div>
     </template>
 </dom-module>
 
 <script>
     Polymer({
-        is: 'statistics-block',
-        properties: {
-            statistics: {
-                type: Array
-            }
-        },
-        attached: function() {
-            this.statistics = [{
-                counter: 700,
-                caption: 'Attendees'
-            }, {
-                counter: 1,
-                caption: 'Day'
-            }, {
-                counter: 20,
-                caption: 'Sessions'
-            }, {
-                counter: 4,
-                caption: 'Parallel tracks'
-            }];
-        }
+        is: 'statistics-block'
     });
 </script>
 <dom-module id="featured-people" assetpath="featured-people/">
@@ -35348,7 +35302,9 @@ Polymer({
         </style>
         <div class="container container-narrow flex relative layout vertical-horizontal center-center">
             <h4 class="heading flex text self-center text-center">GDG DevFest Paris 2015</h4>
-             <paper-button class="white border-button open-dialog-button" on-tap="playVideo">See how it was</paper-button>
+            <!--
+            <paper-button class="white border-button open-dialog-button" on-tap="playVideo">See how it was</paper-button>
+            -->
         </div>
         <paper-dialog class="video-dialog fit" id="videoDialog" modal="" entry-animation="scale-up-animation" exit-animation="fade-out-animation">
             <paper-toolbar class="navbar-overlay fit">
@@ -37212,31 +37168,55 @@ Polymer({
             <h4 class="heading">Tickets</h4>
             <div class="price-block-wrapper flex layout vertical-horizontal">
                 <div class="price-block flex text-center">
-                    <span class="ticket-name block">Student</span>
-                    <span class="price">10</span>
+                    <span class="ticket-name block">
+                        <i18n-msg msgid="student">
+                            Student
+                        </i18n-msg>
+                    </span>
+                    <span class="price">15</span>
                     <span class="currency">€</span>
-                    <span class="additional-info block">*First 100 tickets.
-                        <br>Requires valid student ID</span>
+                    <span class="additional-info block">
+                        <i18n-msg msgid="valid-student-id">
+                            Requires valid student ID
+                        </i18n-msg>
+                    </span>
                 </div>
-                <div class="price-block flex text-center relative sold-out">
+                <!-- <div class="price-block flex text-center relative sold-out"> -->
+                <div class="price-block flex text-center relative">
                     <span class="ticket-name block">Early Bird</span>
                     <span class="price">10</span>
                     <span class="currency">€</span>
-                    <span class="additional-info block">*First 100 tickets tickets</span>
+                    <span class="additional-info block">
+                        *
+                        <i18n-msg msgid="before-december-31">Before December 31</i18n-msg>
+                    </span>
                     <!--
+                    <div class="fit layout vertical center-center sold-out-text"><span>Sold Out</span></div>
+                    -->
+                </div>
+                <div class="price-block flex text-center relative">
+                    <span class="ticket-name block">General Admission</span>
+                    <span class="price">30</span>
+                    <span class="currency">€</span>
+                    <!--
+                    <span class="additional-info block">*First 100 tickets tickets</span>
                     <div class="fit layout vertical center-center sold-out-text"><span>Sold Out</span></div>
                     -->
                 </div>
                 <div class="price-block flex text-center">
                     <span class="ticket-name block">Lazy Bird</span>
-                    <span class="price">35</span>
+                    <span class="price">60</span>
                     <span class="currency">€</span>
                     <!--
                     <span class="additional-info block">*Before October 23</span>
                     -->
                 </div>
             </div>
-            <span class="details">Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price.</span>
+            <span class="details">
+                <i18n-msg msgid="tickets-disclaimer">
+                    Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price.
+                </i18n-msg>
+            </span>
 
             <!-- TODO Open registration
             <div class="flex">
