@@ -1,13 +1,10 @@
 [{
-    "title": "General sponsor",
+    "title": "Platinum sponsors",
     "logos": [{
         "name": "Google",
         "url": "https://www.google.fr/intl/en/about/",
         "logoUrl": "../images/partners/google.svg"
-    }]
-}, {
-    "title": "Platinum sponsors",
-    "logos": [{
+    },{
         "name": "Cirruseo",
         "url": "http://www.cirruseo.com/",
         "logoUrl": "../images/partners/cirruseo.png"
@@ -18,15 +15,21 @@
         "name": "gPartner",
         "url": "http://gpartner.eu/",
         "logoUrl": "../images/partners/gPartner.png"
-    }]
-}, {
-    "title": "Silver sponsors",
-    "logos": []
-}, {
-    "title": "Press partners",
-    "logos": [{
-        "name": "FrAndroid",
-        "url": "http://www.frandroid.com/",
-        "logoUrl": "../images/partners/frandroid.png"
+    },{
+        "name": "Sfeir",
+        "url": "http://www.sfeir.com/",
+        "logoUrl": "../images/partners/sfeir.svg"
+    },{
+        "name": "Intel",
+        "url": "http://www.intel.com/",
+        "logoUrl": "../images/partners/intel.png"
+    },{
+        "name": "Genymobile",
+        "url": "http://www.genymobile.com/",
+        "logoUrl": "../images/partners/genymobile.png"
+    },{
+        "name": "Octo",
+        "url": "http://www.octo.com/",
+        "logoUrl": "../images/partners/octo.png"
     }]
 }]

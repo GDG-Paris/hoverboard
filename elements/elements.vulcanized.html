@@ -23175,6 +23175,12 @@ module.exports = Array.isArray || function (arr) {
             app.smoothScroll(pricetable, 0);
         });
 
+        page('/code-of-conduct', function() {
+            trackPageview('/code-of-conduct');
+            app.route = 'code-of-conduct';
+            app.scrollToTop();
+        });
+
         page('/blog', function() {
             trackPageview('/blog');
             app.route = 'blog';
@@ -23219,12 +23225,6 @@ module.exports = Array.isArray || function (arr) {
             app.scrollToTop();
         });
 
-        page('/code-of-conduct', function() {
-            trackPageview('/code-of-conduct');
-            app.route = 'code-of-conduct';
-            app.scrollToTop();
-        });
-
         page('/speaker-guidelines', function() {
             trackPageview('/speaker-guidelines');
             app.route = 'speaker-guidelines';
@@ -23232,7 +23232,7 @@ module.exports = Array.isArray || function (arr) {
         });
 
         page({
-            hashbang: true
+            hashbang: false
         });
 
         function redirectLink(e) {
@@ -34874,7 +34874,11 @@ Polymer({
                 </div>
             </template>
             <a href="/assets/GDG_DevFest_Paris_2016_Sponsor_kit.pdf" class="block-link" target="_blank" onclick="ga('send', 'become-a-partner', 'button', 'click');">
-                <paper-button class="colorful" raised="">Become a partner</paper-button>
+                <paper-button class="colorful" raised="">
+                    <i18n-msg msgid="become-a-partner">
+                        Become a partner
+                    </i18n-msg>
+                </paper-button>
             </a>
         </div>
     </template>
@@ -35087,7 +35091,11 @@ Polymer({
             <div class="footer-content footer-links-container">
                 <nav class="layout vertical-horizontal flex">
                     <div class="flex link-block-wrapper">
-                        <span class="link-block-title block">For visitors</span>
+                        <span class="link-block-title block">
+                            <i18n-msg msgid="for-visitors">
+                                For visitors
+                            </i18n-msg>
+                        </span>
                         <ul class="link-block">
                             <li><a href="https://developers.google.com/" target="_blank">Google Developers</a></li>
                             <li><a href="http://2015.devfest.gdgparis.com" target="_blank">GDG DevFest Paris 2015</a></li>
@@ -35095,17 +35103,49 @@ Polymer({
                         </ul>
                     </div>
                     <div class="flex link-block-wrapper">
-                        <span class="link-block-title block">For partners</span>
+                        <span class="link-block-title block">
+                            <i18n-msg msgid="for-partners">
+                                For partners
+                            </i18n-msg>
+                        </span>
                         <ul class="link-block">
-                            <li><a href="/assets/GDG_DevFest_Paris_2016_Sponsor_kit.pdf" target="_blank">Partnership Proposition</a></li>
-                            <li><a href="http://bit.ly/dfua-media" target="_blank">Media Kit</a></li>
-                            <li><a href="https://docs.google.com/forms/d/1sOjuv7rv77JXq2jPBdh3tg-O4CV8HpLTED5cjJBxnG8/viewform" target="_blank">Media Accreditation</a></li>
+                            <li>
+                                <a href="/assets/GDG_DevFest_Paris_2016_Sponsor_kit.pdf" target="_blank">
+                                    <i18n-msg msgid="partnership-proposition">
+                                        Partnership Proposition
+                                    </i18n-msg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://bit.ly/dfua-media" target="_blank">
+                                    <i18n-msg msgid="media-kit">
+                                        Media Kit
+                                    </i18n-msg>
+                                </a>
+                            </li>
+                            <!--
+                            <li>
+                                <a href="https://docs.google.com/forms/d/1sOjuv7rv77JXq2jPBdh3tg-O4CV8HpLTED5cjJBxnG8/viewform" target="_blank">
+                                    <i18n-msg msgid="media-accreditation">
+                                        Media Accreditation
+                                    </i18n-msg>
+                                </a>
+                            </li>
+                            -->
                         </ul>
                     </div>
                     <div class="flex link-block-wrapper">
-                        <span class="link-block-title block">Contact us</span>
+                        <span class="link-block-title block">
+                            <i18n-msg msgid="contact-us">
+                                Contact us
+                            </i18n-msg>
+                        </span>
                         <ul class="link-block">
-                            <li><a href="mailto:contact@gdgparis.com">contact@gdgparis.com</a></li>
+                            <li>
+                                <a href="mailto:contact@gdgparis.com">
+                                    contact@gdgparis.com
+                                </a>
+                            </li>
                         </ul>
                         <div class="icons-wrapper align-pb-block">
                             <a href="https://plus.google.com/+GDGParis" target="_blank">
@@ -35116,17 +35156,24 @@ Polymer({
                             </a>
                         </div>
                     </div>
+                    <!-- TODO Newsletter ?
                     <div class="flex">
                         <span class="link-block-title block">Subscribe</span>
                         <span>No spam, only the latest news and updates!</span>
                         <mailchimp-subscribe url="{{url}}" name="{{name}}"></mailchimp-subscribe>
                     </div>
+                    -->
                 </nav>
             </div>
             <!-- <div class="line full-width"></div> -->
             <div class="footer-content footer-bottom layout vertical-horizontal justified">
                 <span class="flex self-center">
-                    © 2015 Based on <a href="https://github.com/gdg-x/hoverboard" target="_blank">Project Hoverboard</a>. Designed and created by <a href="http://o.zasadnyy.com/" target="_blank">Oleh Zasadnyy</a> ·
+                    ©&nbsp;2015&nbsp;
+                    <i18n-msg msgid="based-on">Based on</i18n-msg>
+                    <a href="https://github.com/gdg-x/hoverboard" target="_blank">Project Hoverboard</a>.
+                    <i18n-msg msgid="designed-and-created-by">Designed and created by</i18n-msg>
+                    <a href="http://o.zasadnyy.com/" target="_blank">Oleh Zasadnyy</a>
+                    ·
                     <a href="http://lviv.gdg.org.ua" target="_blank">GDG Lviv</a>
                 </span>
                 <div class="self-end">
@@ -35268,13 +35315,21 @@ Polymer({
                 <div class="paper-card-container location-card">
                     <div class="card-content">
                         <div class="title">
-                            <h4>Location</h4>
+                            <h4>
+                                <i18n-msg msgid="location">
+                                    Location
+                                </i18n-msg>
+                            </h4>
                         </div>
                         <p>La Grande Crypte<br>69 bis rue Boissière, 75016 Paris</p>
                     </div>
                     <div class="card-actions">
                         <a class="bottom-link" href="https://www.google.fr/maps/dir//La+Grande+Crypte+-+Dussauge+%26+Co,+69+bis+rue+Boissi%C3%A8re,+75016+Paris/@48.8685038,2.2169546,12z/data=!4m13!1m4!3m3!1s0x47e671eaf00443dd:0x3962ff5787fd45dd!2sLa+Grande+Crypte+-+Dussauge+%26+Co!3b1!4m7!1m0!1m5!1m1!1s0x47e671eaf00443dd:0x3962ff5787fd45dd!2m2!1d2.2869935!2d48.868525?hl=en" target="_blank">
-                            <paper-button on-tap="readMore">Get directions</paper-button>
+                            <paper-button on-tap="readMore">
+                                <i18n-msg msgid="get-directions">
+                                    Get directions
+                                </i18n-msg>
+                            </paper-button>
                         </a>
                     </div>
                 </div>

@@ -54,5 +54,54 @@
   "event-date": {
     "description": "...",
     "message": "5 Février 2016"
+  },
+  "get-directions": {
+    "description": "...",
+    "message": "Itinéraire"
+  }
+  ,
+  "location": {
+    "description": "...",
+    "message": "Lieu"
+  },
+  "become-a-partner": {
+    "description": "...",
+    "message": "Devenir partenaire"
+  },
+  "partners": {
+    "description": "...",
+    "message": "Partenaires"
+  },
+  "for-visitors": {
+    "description": "...",
+    "message": "Pour les visiteurs"
+  },
+  "for-partners": {
+    "description": "...",
+    "message": "Pour les partenaires"
+  },
+  "partnership-proposition": {
+    "description": "...",
+    "message": "Proposition de partenariat"
+  },
+  "media-kit": {
+    "description": "...",
+    "message": "Kit Media"
+  },
+  "media-accreditation": {
+    "description": "...",
+    "message": "Accréditation Media"
+  },
+  "contact-us": {
+    "description": "...",
+    "message": "Nous contacter"
+  },
+  "based-on": {
+    "description": "...",
+    "message": "Basé sur"
+  },
+  "designed-and-created-by": {
+    "description": "...",
+    "message": "Conçu et créé par"
   }
 }

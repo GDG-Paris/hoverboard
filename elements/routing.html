@@ -21,6 +21,12 @@
             app.smoothScroll(pricetable, 0);
         });
 
+        page('/code-of-conduct', function() {
+            trackPageview('/code-of-conduct');
+            app.route = 'code-of-conduct';
+            app.scrollToTop();
+        });
+
         page('/blog', function() {
             trackPageview('/blog');
             app.route = 'blog';
@@ -65,12 +71,6 @@
             app.scrollToTop();
         });
 
-        page('/code-of-conduct', function() {
-            trackPageview('/code-of-conduct');
-            app.route = 'code-of-conduct';
-            app.scrollToTop();
-        });
-
         page('/speaker-guidelines', function() {
             trackPageview('/speaker-guidelines');
             app.route = 'speaker-guidelines';
@@ -78,7 +78,7 @@
         });
 
         page({
-            hashbang: true
+            hashbang: false
         });
 
         function redirectLink(e) {
