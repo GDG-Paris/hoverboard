@@ -206,11 +206,15 @@
                             <hero-block class="section-shadow container-before-atop" style="background: #455A64; color: #fff;">
                                 <div class="top-section">
                                     <div class="title-wrapper layout horizontal">
-                                        <h3 class="self-end">Code of Conduct</h3>
+                                        <h3 class="self-end">
+                                            <i18n-msg msgid="code-of-conduct">
+                                                Code of Conduct
+                                            </i18n-msg>
+                                        </h3>
                                     </div>
                                 </div>
                             </hero-block>
-                            <cod-block class="container-atop" source="../../posts/code-of-conduct.markdown"></cod-block>
+                            <cod-block class="container-atop" source="{{getMarkdownUrl('code-of-conduct.markdown')}}"></cod-block>
                             <footer-block></footer-block>
                         </section>
                         <section data-route="speaker-guidelines">

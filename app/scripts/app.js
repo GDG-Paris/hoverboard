@@ -46,6 +46,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       window.I18nMsg.url = 'locales'; // optionally use custom folder for locales.
     });
 
+    app.getMarkdownUrl = function(markdownFile){
+      return '../../posts/' + window.I18nMsg.lang + '/' +markdownFile;
+    };
+
     // Close drawer after menu item is selected if drawerPanel is narrow
     app.onMenuSelect = function() {
         var drawerPanel = document.querySelector('#paperDrawerPanel');
@@ -62,7 +66,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         }
     };
     /* jshint ignore:end */
-
 
     app.scrollToTop = function() {
         var heros = document.querySelectorAll('#hero');
