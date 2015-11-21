@@ -128,7 +128,11 @@
             <div class="footer-content footer-links-container">
                 <nav class="layout vertical-horizontal flex">
                     <div class="flex link-block-wrapper">
-                        <span class="link-block-title block">For visitors</span>
+                        <span class="link-block-title block">
+                            <i18n-msg msgid="for-visitors">
+                                For visitors
+                            </i18n-msg>
+                        </span>
                         <ul class="link-block">
                             <li><a href="https://developers.google.com/" target="_blank">Google Developers</a></li>
                             <li><a href="http://2015.devfest.gdgparis.com" target="_blank">GDG DevFest Paris 2015</a></li>
@@ -136,17 +140,49 @@
                         </ul>
                     </div>
                     <div class="flex link-block-wrapper">
-                        <span class="link-block-title block">For partners</span>
+                        <span class="link-block-title block">
+                            <i18n-msg msgid="for-partners">
+                                For partners
+                            </i18n-msg>
+                        </span>
                         <ul class="link-block">
-                            <li><a href="/assets/GDG_DevFest_Paris_2016_Sponsor_kit.pdf" target="_blank">Partnership Proposition</a></li>
-                            <li><a href="http://bit.ly/dfua-media" target="_blank">Media Kit</a></li>
-                            <li><a href="https://docs.google.com/forms/d/1sOjuv7rv77JXq2jPBdh3tg-O4CV8HpLTED5cjJBxnG8/viewform" target="_blank">Media Accreditation</a></li>
+                            <li>
+                                <a href="/assets/GDG_DevFest_Paris_2016_Sponsor_kit.pdf" target="_blank">
+                                    <i18n-msg msgid="partnership-proposition">
+                                        Partnership Proposition
+                                    </i18n-msg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://bit.ly/dfua-media" target="_blank">
+                                    <i18n-msg msgid="media-kit">
+                                        Media Kit
+                                    </i18n-msg>
+                                </a>
+                            </li>
+                            <!--
+                            <li>
+                                <a href="https://docs.google.com/forms/d/1sOjuv7rv77JXq2jPBdh3tg-O4CV8HpLTED5cjJBxnG8/viewform" target="_blank">
+                                    <i18n-msg msgid="media-accreditation">
+                                        Media Accreditation
+                                    </i18n-msg>
+                                </a>
+                            </li>
+                            -->
                         </ul>
                     </div>
                     <div class="flex link-block-wrapper">
-                        <span class="link-block-title block">Contact us</span>
+                        <span class="link-block-title block">
+                            <i18n-msg msgid="contact-us">
+                                Contact us
+                            </i18n-msg>
+                        </span>
                         <ul class="link-block">
-                            <li><a href="mailto:contact@gdgparis.com">contact@gdgparis.com</a></li>
+                            <li>
+                                <a href="mailto:contact@gdgparis.com">
+                                    contact@gdgparis.com
+                                </a>
+                            </li>
                         </ul>
                         <div class="icons-wrapper align-pb-block">
                             <a href="https://plus.google.com/+GDGParis" target="_blank">
@@ -157,17 +193,24 @@
                             </a>
                         </div>
                     </div>
+                    <!-- TODO Newsletter ?
                     <div class="flex">
                         <span class="link-block-title block">Subscribe</span>
                         <span>No spam, only the latest news and updates!</span>
                         <mailchimp-subscribe url="{{url}}" name="{{name}}"></mailchimp-subscribe>
                     </div>
+                    -->
                 </nav>
             </div>
             <!-- <div class="line full-width"></div> -->
             <div class="footer-content footer-bottom layout vertical-horizontal justified">
                 <span class="flex self-center">
-                    &copy; 2015 Based on <a href="https://github.com/gdg-x/hoverboard" target="_blank">Project Hoverboard</a>. Designed and created by <a href="http://o.zasadnyy.com/" target="_blank">Oleh Zasadnyy</a> &middot;
+                    &copy;&nbsp;2015&nbsp;
+                    <i18n-msg msgid="based-on">Based on</i18n-msg>
+                    <a href="https://github.com/gdg-x/hoverboard" target="_blank">Project Hoverboard</a>.
+                    <i18n-msg msgid="designed-and-created-by">Designed and created by</i18n-msg>
+                    <a href="http://o.zasadnyy.com/" target="_blank">Oleh Zasadnyy</a>
+                    &middot;
                     <a href="http://lviv.gdg.org.ua" target="_blank">GDG Lviv</a>
                 </span>
                 <div class="self-end">

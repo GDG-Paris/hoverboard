@@ -54,5 +54,57 @@
   "event-date": {
     "description": "...",
     "message": "February 5, 2016"
+  },
+  "get-directions": {
+    "description": "...",
+    "message": "Get directions"
+  },
+  "location": {
+    "description": "...",
+    "message": "Location"
+  },
+  "become-a-partner": {
+    "description": "...",
+    "message": "Become a partner"
+  },
+  "partners": {
+    "description": "...",
+    "message": "Partners"
+  },
+  "for-visitors": {
+    "description": "...",
+    "message": "For Visitors"
+  },
+  "for-partners": {
+    "description": "...",
+    "message": "For partners"
+  },
+  "for-partners": {
+    "description": "...",
+    "message": "For partners"
+  },
+  "partnership-proposition": {
+    "description": "...",
+    "message": "Partnership Proposition"
+  },
+  "media-kit": {
+    "description": "...",
+    "message": "Media Kit"
+  },
+  "media-accreditation": {
+    "description": "...",
+    "message": "Media Accreditation"
+  },
+  "contact-us": {
+    "description": "...",
+    "message": "Contact Us"
+  },
+  "based-on": {
+    "description": "...",
+    "message": "Based on"
+  },
+  "designed-and-created-by": {
+    "description": "...",
+    "message": "Designed and created by"
   }
 }
