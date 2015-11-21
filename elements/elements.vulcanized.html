@@ -23232,7 +23232,7 @@ module.exports = Array.isArray || function (arr) {
         });
 
         page({
-            hashbang: false
+            hashbang: true
         });
 
         function redirectLink(e) {
@@ -34395,14 +34395,15 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         </style>
         <div id="hero">
             <div class="container flex relative">
+                <!-- TODO Add links back when we publish those parts
                 <paper-toolbar>
                     <paper-icon-button class="menu-toggle" icon="menu" on-tap="togglePanel"></paper-icon-button>
                     <div class="flex hidden-xs">
                         <a data-route="home" href="/" hidden$="{{hideLogo}}">
-                            <img class="logo" src="../images/logo-white.svg" alt="GDG DevFest 2015">
+                            <img class="logo" src="../../images/logo-white.svg" alt="GDG DevFest 2015">
                         </a>
                     </div>
-                    <!-- TODO Add links back when we publish those parts
+
                     <paper-tabs class="hidden-xs" attr-for-selected="data-route" selected="{{route}}">
                         <paper-tab class="text-u-c" link>
                             <a data-route="blog" href="#!/blog" class="nav-link horizontal center-center layout">
@@ -34422,9 +34423,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                         <paper-tab class="text-u-c">
                             <a data-route="contact" href="#!/contact" class="nav-link horizontal center-center layout">Contact</a>
                         </paper-tab>
-                        -->
-                    
+
+                    </paper-tabs>
                 </paper-toolbar>
+                -->
                 <content></content>
             </div>
         </div>
@@ -34460,7 +34462,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           <span>The biggest Google related event in right in the heart of Paris carefully crafted for you by GDG community! Awesome speakers and lot's of fun!</span>
         </div>
         <div class="card-content">
-          <a class="bottom-link" data-route="about" href="/about">See DevFest 2015</a>
+          <a class="bottom-link" data-route="about" href="/about">See DevFest 2016</a>
         </div>
       </div>
     </div>
@@ -34694,7 +34696,7 @@ Polymer({
                 </span>
             </div>
             <div class="statistics-element two-column-xs layout vertical text-center">
-                <span class="counter">20</span>
+                <span class="counter">25</span>
                 <span class="caption">
                     <i18n-msg msgid="sessions">
                         Sessions
@@ -35106,7 +35108,7 @@ Polymer({
                             </li>
                             <li>
                                 <a href="http://2015.devfest.gdgparis.com" target="_blank">
-                                    GDG DevFest Paris 2015
+                                    DevFest Paris 2015
                                 </a>
                             </li>
                             <li>
@@ -35132,6 +35134,7 @@ Polymer({
                                     </i18n-msg>
                                 </a>
                             </li>
+                            <!--
                             <li>
                                 <a href="http://bit.ly/dfua-media" target="_blank">
                                     <i18n-msg msgid="media-kit">
@@ -35139,7 +35142,6 @@ Polymer({
                                     </i18n-msg>
                                 </a>
                             </li>
-                            <!--
                             <li>
                                 <a href="https://docs.google.com/forms/d/1sOjuv7rv77JXq2jPBdh3tg-O4CV8HpLTED5cjJBxnG8/viewform" target="_blank">
                                     <i18n-msg msgid="media-accreditation">
@@ -35193,7 +35195,7 @@ Polymer({
                     <a href="http://lviv.gdg.org.ua" target="_blank">GDG Lviv</a>
                 </span>
                 <div class="self-end">
-                    <img class="gdg-logo" src="../images/gdg-logo.svg" alt="GDG Lviv">
+                    <img class="gdg-logo" src="../images/gdg-logo.svg" alt="GDG Paris">
                 </div>
             </div>
         </div>
@@ -35326,7 +35328,7 @@ Polymer({
             <google-map-marker latitude="48.8685257" longitude="2.2864417"></google-map-marker>
         </google-map>
         <div class="container card-container relative layout horizontal center-center">
-            <div class="flex-3 hidden-xs"></div>
+            <div class="flex-4 hidden-xs"></div>
             <paper-card class="flex-2">
                 <div class="paper-card-container location-card">
                     <div class="card-content">
@@ -36057,7 +36059,7 @@ Polymer({
             text: {
                 type: String,
                 observer: '_textChanged',
-                value: 'Tweet us about your experience at GDG DevFest Ukraine 2015'
+                value: 'Tweet us about your experience at DevFest Paris 2016'
             },
             when: {
                 type: Date
@@ -37304,20 +37306,6 @@ Polymer({
         <div id="pricetable" class="container wrap relative layout vertical text-center">
             <h4 class="heading">Tickets</h4>
             <div class="price-block-wrapper flex layout vertical-horizontal">
-                <div class="price-block flex text-center">
-                    <span class="ticket-name block">
-                        <i18n-msg msgid="student">
-                            Student
-                        </i18n-msg>
-                    </span>
-                    <span class="price">15</span>
-                    <span class="currency">€</span>
-                    <span class="additional-info block">
-                        <i18n-msg msgid="valid-student-id">
-                            Requires valid student ID
-                        </i18n-msg>
-                    </span>
-                </div>
                 <!-- <div class="price-block flex text-center relative sold-out"> -->
                 <div class="price-block flex text-center relative">
                     <span class="ticket-name block">Early Bird</span>
@@ -37347,6 +37335,20 @@ Polymer({
                     <!--
                     <span class="additional-info block">*Before October 23</span>
                     -->
+                </div>
+                <div class="price-block flex text-center">
+                    <span class="ticket-name block">
+                        <i18n-msg msgid="student">
+                            Student
+                        </i18n-msg>
+                    </span>
+                    <span class="price">15</span>
+                    <span class="currency">€</span>
+                    <span class="additional-info block">
+                        <i18n-msg msgid="valid-student-id">
+                            Requires valid student ID
+                        </i18n-msg>
+                    </span>
                 </div>
             </div>
             <span class="details">
