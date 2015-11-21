@@ -54,7 +54,7 @@
             'generateAlbumUrl(userId, albumId)'
         ],
         generateAlbumUrl: function(userId, albumId) {
-            this.albumUrl = 'https://picasaweb.google.com/data/feed/api/user/' + userId + '/albumid/' + albumId + '?kind=photo&imgmax=1600&alt=json';
+            this.albumUrl = 'https://picasaweb.google.com/data/feed/api/user/' + userId + '/albumid/' + albumId + '?kind=photo&imgmax=800&alt=json';
             this.$.ajax.generateRequest();
         },
         photosLoaded: function(event, response) {

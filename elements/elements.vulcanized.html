@@ -34402,26 +34402,28 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                             <img class="logo" src="../images/logo-white.svg" alt="GDG DevFest 2015">
                         </a>
                     </div>
+                    <!-- TODO Add links back when we publish those parts
                     <paper-tabs class="hidden-xs" attr-for-selected="data-route" selected="{{route}}">
-                        <paper-tab class="text-u-c" link="">
+                        <paper-tab class="text-u-c" link>
                             <a data-route="blog" href="#!/blog" class="nav-link horizontal center-center layout">
                                 Blog
                             </a>
                         </paper-tab>
-                        <paper-tab class="text-u-c" link="">
+                        <paper-tab class="text-u-c" link>
                             <a data-route="schedule" href="#!/schedule" class="nav-link horizontal center-center layout">
                                 Schedule
                             </a>
                         </paper-tab>
-                        <paper-tab class="text-u-c" link="">
+                        <paper-tab class="text-u-c" link>
                             <a data-route="speakers" href="#!/speakers" class="nav-link horizontal center-center layout">
                                 Speakers
                             </a>
                         </paper-tab>
-                        <!-- <paper-tab class="text-u-c">
+                        <paper-tab class="text-u-c">
                             <a data-route="contact" href="#!/contact" class="nav-link horizontal center-center layout">Contact</a>
-                        </paper-tab> -->
-                    </paper-tabs>
+                        </paper-tab>
+                        -->
+                    
                 </paper-toolbar>
                 <content></content>
             </div>
@@ -34469,6 +34471,70 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   Polymer({
     is: 'about-conference'
   });
+</script>
+<dom-module id="photo-gallery" assetpath="photo-gallery/">
+    <template>
+        <style>
+            :host {
+                display: block;
+            }
+
+            iron-list {
+                height: 100%;
+                width: 100%;
+                position: relative;
+                box-sizing: border-box;
+                overflow-y: auto;
+            }
+
+            .photos-wrapper {
+                background: rgba(0, 0, 0, 0.8);
+            }
+
+            .item {
+                height: 80vh;
+            }
+
+            .photo {
+                margin: 20px 0;
+            }
+            @media (min-width: 601px) {
+                iron-list {
+                    width: 80%;
+                }
+            }
+        </style>
+        <iron-ajax id="ajax" url="[[albumUrl]]" handle-as="json" on-response="photosLoaded"></iron-ajax>
+        <div class="photos-wrapper layout horizontal center-center fit">
+            <iron-list class="layout vertical" items="[[photos]]" as="photo">
+                <template>
+                    <div class="item">
+                        <iron-image src="[[photo.content.src]]" class="placeholder-color photo fit" preload="" fade="" sizing="cover"></iron-image>
+                    </div>
+                </template>
+            </iron-list>
+        </div>
+    </template>
+</dom-module>
+
+<script>
+    Polymer({
+        is: 'photo-gallery',
+        properties: {
+            userId: String,
+            albumId: String
+        },
+        observers: [
+            'generateAlbumUrl(userId, albumId)'
+        ],
+        generateAlbumUrl: function(userId, albumId) {
+            this.albumUrl = 'https://picasaweb.google.com/data/feed/api/user/' + userId + '/albumid/' + albumId + '?kind=photo&imgmax=800&alt=json';
+            this.$.ajax.generateRequest();
+        },
+        photosLoaded: function(event, response) {
+            this.photos = response.response.feed.entry;
+        }
+    });
 </script>
 <dom-module id="photo-block" assetpath="photo-block/">
     <style>
