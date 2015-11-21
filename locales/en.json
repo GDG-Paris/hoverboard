@@ -106,5 +106,13 @@
   "designed-and-created-by": {
     "description": "...",
     "message": "Designed and created by"
+  },
+  "back-to-to": {
+    "description": "...",
+    "message": "Back to top"
+  },
+  "code-of-conduct": {
+    "description": "...",
+    "message": "Code of Conduct"
   }
 }
