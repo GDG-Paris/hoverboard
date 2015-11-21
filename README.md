@@ -226,7 +226,7 @@ Going to use template? Go on! The only thing we ask - let us know at [lviv@gdg.o
 | [GDG DevFest Belgium 2015](http://devfest.be/) |
 | [GDG DevFest South East Nigeria 2015](http://www.devfestse.com) |
 | [GDG DevFest Istanbul 2015](https://www.devfesttr.com) |
-
+| [GDG DevFest Paris 2016](https://devfest.gdgparis.com) |
 
 
 
