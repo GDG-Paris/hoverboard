@@ -34590,15 +34590,21 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         properties: {
             speakersSource: {
                 type: String,
-                value: '../../data/speakers.json'
+                value: function(){
+                    return '../../data/' + window.I18nMsg.lang + '/speakers.json';
+                }
             },
             sessionsSource: {
                 type: String,
-                value: '../../data/sessions.json'
+                value: function(){
+                    return '../../data/' + window.I18nMsg.lang + '/sessions.json';
+                }
             },
             postsSource: {
                 type: String,
-                value: '../../data/blog.json'
+                value: function(){
+                    return '../../data/' + window.I18nMsg.lang + '/blog.json';
+                }
             },
             partnersSource: {
                 type: String,
@@ -34606,7 +34612,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             },
             scheduleSource: {
                 type: String,
-                value: '../../data/schedule.json'
+                value: function(){
+                    return '../../data/' + window.I18nMsg.lang + '/schedule.json';
+                }
             },
             speakers: {
                 type: Array,
@@ -34797,21 +34805,23 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         </style>
         <div id="hero">
             <div class="container flex relative">
-                <!-- TODO Add links back when we publish those parts
+
                 <paper-toolbar>
                     <paper-icon-button class="menu-toggle" icon="menu" on-tap="togglePanel"></paper-icon-button>
                     <div class="flex hidden-xs">
                         <a data-route="home" href="/" hidden$="{{hideLogo}}">
-                            <img class="logo" src="../../images/logo-white.svg" alt="GDG DevFest 2015">
+                            <img class="logo" src="../images/logo-white.svg" alt="GDG DevFest 2015">
                         </a>
                     </div>
 
                     <paper-tabs class="hidden-xs" attr-for-selected="data-route" selected="{{route}}">
-                        <paper-tab class="text-u-c" link>
+                        <paper-tab class="text-u-c" link="">
                             <a data-route="blog" href="#!/blog" class="nav-link horizontal center-center layout">
                                 Blog
                             </a>
                         </paper-tab>
+
+                        <!-- TODO Add links back when we publish those parts
                         <paper-tab class="text-u-c" link>
                             <a data-route="schedule" href="#!/schedule" class="nav-link horizontal center-center layout">
                                 Schedule
@@ -34825,10 +34835,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                         <paper-tab class="text-u-c">
                             <a data-route="contact" href="#!/contact" class="nav-link horizontal center-center layout">Contact</a>
                         </paper-tab>
+                        -->
 
                     </paper-tabs>
                 </paper-toolbar>
-                -->
                 <content></content>
             </div>
         </div>
@@ -35504,8 +35514,8 @@ Polymer({
                         </span>
                         <ul class="link-block">
                             <li>
-                                <a href="https://developers.google.com/" target="_blank">
-                                    Google Developers
+                                <a href="http://www.meetup.com/gdg-paris/" target="_blank">
+                                    Meetup GDG Paris
                                 </a>
                             </li>
                             <li>
@@ -35518,6 +35528,11 @@ Polymer({
                                     <i18n-msg msgid="code-of-conduct">
                                         Code of Conduct
                                     </i18n-msg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://developers.google.com/" target="_blank">
+                                    Google Developers
                                 </a>
                             </li>
                         </ul>
@@ -36654,7 +36669,10 @@ Polymer({
                     <div class="post-detail card-content layout horizontal">
                         <div class="flex layout vertical center-center">
                             <span class="title self-start">[[meta.title]]</span>
-                            <span class="posted self-start">Posted:
+                            <span class="posted self-start">
+                                <i18n-msg msgid="posted">
+                                    Posted
+                                </i18n-msg>
                                 <span>[[meta.posted]]</span>
                             </span>
                         </div>
@@ -36783,7 +36801,10 @@ Polymer({
                     <paper-material class="layout vertical">
                         <div class="card-content">
                             <span class="title block">[[post.title]]</span>
-                            <span class="posted">Posted
+                            <span class="posted">
+                                <i18n-msg msgid="posted">
+                                    Posted
+                                </i18n-msg>
                                 <span>[[post.posted]]</span>
                             </span>
                         </div>
@@ -36791,7 +36812,11 @@ Polymer({
                             <marked-element markdown="[[post.brief]]"></marked-element>
                         </div>
                         <div class="card-actions">
-                            <paper-button on-tap="readMore">Read more</paper-button>
+                            <paper-button on-tap="readMore">
+                                <i18n-msg msgid="read-more">
+                                    Read more
+                                </i18n-msg>
+                            </paper-button>
                         </div>
                     </paper-material>
                 </div>
@@ -37599,13 +37624,21 @@ Polymer({
                 <div class="flex-5">
                     <span class="title block">[[news.0.title]]</span>
                     <marked-element markdown="[[news.0.brief]]"></marked-element>
-                    <a data-route$="[[news.0.dataRoute]]" href$="[[news.0.url]]" dynamic-link="">Continue reading</a>
+                    <a data-route$="[[news.0.dataRoute]]" href$="[[news.0.url]]" dynamic-link="">
+                        <i18n-msg msgid="continue-reading">
+                            Continue reading
+                        </i18n-msg>
+                    </a>
                 </div>
                 <span class="flex"></span>
                 <div class="flex-5 second-block">
                     <span class="title block">[[news.1.title]]</span>
                     <marked-element markdown="[[news.1.brief]]"></marked-element>
-                    <a data-route$="[[news.1.dataRoute]]" href="[[news.1.url]]" dynamic-link="">Continue reading</a>
+                    <a data-route$="[[news.1.dataRoute]]" href="[[news.1.url]]" dynamic-link="">
+                        <i18n-msg msgid="continue-reading">
+                            Continue reading
+                        </i18n-msg>
+                    </a>
                 </div>
             </div>
         </div>

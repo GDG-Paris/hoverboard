@@ -130,5 +130,17 @@
   "close": {
     "description": "...",
     "message": "Fermer"
+  },
+  "continue-reading": {
+    "description": "...",
+    "message": "Continuer à lire"
+  },
+  "read-more": {
+    "description": "...",
+    "message": "Lire plus"
+  },
+  "posted": {
+    "description": "...",
+    "message": "Posté le"
   }
 }
