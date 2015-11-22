@@ -1,15 +1,22 @@
 [{
     "id": 1,
-    "title": "GDG DevFest 2015 Announced",
-    "titleUrl": "devfest-2015-announced",
-    "posted": "Aug 17, 2015",
-    "file": "2015-08-17-devfest-2015-announced.markdown",
-    "brief": "Ukrainian GDGs are proud to announce the fourth annual GDG DevFest 2015 - the largest Google related event in Ukraine. Like last year, the event will be held on 23-24 October in Lviv. So aside all your business at this time and book tickets to the cultural capital of Ukraine."
+    "title": "DevFest Paris 2016 Announced",
+    "titleUrl": "devfest-paris-2016-announced",
+    "posted": "Oct 22, 2015",
+    "file": "2015-10-22-devfest-paris-2016-announced.markdown",
+    "brief": "GDG Paris is proud to announce this new edition of DevFest Paris - the largest Google related event in Paris. So book the date."
 }, {
     "id": 2,
-    "title": "Call for Speakers",
-    "titleUrl": "call-for-speakers",
-    "posted": "Aug 17, 2015",
-    "file": "2015-08-17-call-for-papers.markdown",
-    "brief": "We're very excited - not just because of the inordinate amount of caffeine based products consumed - but also because our team are putting together the final missing parts to the biggest Google related event in Ukraine - <a href='http://devfest.gdg.org.ua'>GDG DevFest 2015</a>."
+    "title": "Call for Papers",
+    "titleUrl": "call-for-papers",
+    "posted": "Nov 01, 2015",
+    "file": "2015-11-01-call-for-papers.markdown",
+    "brief": "The Call for Papers is now open. Do you want to be a speaker ? Don't forget to submit your proposal before December 15th, 2015."
+}, {
+    "id": 3,
+    "title": "Book yout ticket",
+    "titleUrl": "book-your-ticket",
+    "posted": "Nov 23, 2015",
+    "file": "2015-11-23-book-your-ticket.markdown",
+    "brief": "As of today, you can book <a href='http://www.eventbrite.fr/e/billets-devfest-paris-2016-19529320724'>your ticket</a> for DevFest Paris 2016. Hurry up : we have special price for early birds!"
 }]
