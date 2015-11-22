@@ -61,7 +61,10 @@
                     <paper-material class="layout vertical">
                         <div class="card-content">
                             <span class="title block">[[post.title]]</span>
-                            <span class="posted">Posted
+                            <span class="posted">
+                                <i18n-msg msgid="posted">
+                                    Posted
+                                </i18n-msg>
                                 <span>[[post.posted]]</span>
                             </span>
                         </div>
@@ -69,7 +72,11 @@
                             <marked-element markdown="[[post.brief]]"></marked-element>
                         </div>
                         <div class="card-actions">
-                            <paper-button on-tap="readMore">Read more</paper-button>
+                            <paper-button on-tap="readMore">
+                                <i18n-msg msgid="read-more">
+                                    Read more
+                                </i18n-msg>
+                            </paper-button>
                         </div>
                     </paper-material>
                 </div>

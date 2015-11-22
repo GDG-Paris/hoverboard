@@ -14,15 +14,21 @@
         properties: {
             speakersSource: {
                 type: String,
-                value: '../../data/speakers.json'
+                value: function(){
+                    return '../../data/' + window.I18nMsg.lang + '/speakers.json'
+                }
             },
             sessionsSource: {
                 type: String,
-                value: '../../data/sessions.json'
+                value: function(){
+                    return '../../data/' + window.I18nMsg.lang + '/sessions.json'
+                }
             },
             postsSource: {
                 type: String,
-                value: '../../data/blog.json'
+                value: function(){
+                    return '../../data/' + window.I18nMsg.lang + '/blog.json'
+                }
             },
             partnersSource: {
                 type: String,
@@ -30,7 +36,9 @@
             },
             scheduleSource: {
                 type: String,
-                value: '../../data/schedule.json'
+                value: function(){
+                    return '../../data/' + window.I18nMsg.lang + '/schedule.json'
+                }
             },
             speakers: {
                 type: Array,
