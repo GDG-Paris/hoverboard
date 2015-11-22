@@ -1,11 +1,20 @@
 DevFest Paris 2016 will be held on **February 5** in Paris. You can buy your ticket as of now.
 
 
-### Tickets type
+### Book early
 
-We will have different types of tickets
+We have 3 different prices to encourage you to book early:
 
-* Early birds
+* Early birds : 10 €
+  * For the first 100 registered attendees
 * General admission
-* Lazy birds
-* Students
+  * Standard price : 30 €
+* Lazy birds : 60 €
+  * For the last registered attendees
+
+### Students welcome !
+
+We also want to encourage student with a guaranteed special price:
+
+* Students : 15 €
+  * Student id card required

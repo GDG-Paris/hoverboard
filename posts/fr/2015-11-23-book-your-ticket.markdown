@@ -1,9 +1,20 @@
-DevFest Paris 2016 will be held on **February 5** in Paris. You can buy your ticket as of now.
+Le DevFest Paris 2016 aura lieu le **5 février** à Paris. Vous pouvez dès à présent acheter votre billet.
 
 
-### Tickets
+### Réservez vite
 
-* Early birds
+Nous avons 3 prix différents pour vous encourager à réserver au plus tôt :
+
+* Early birds : 10 €
+  * Pour les 100 premiers inscrits
 * General admission
-* Lazy birds
-* Students
+  * Prix standard : 30 €
+* Lazy birds : 60 €
+  * Pour les dernières places
+
+### Etudiants bienvenus !
+
+Nous avons aussi un prix attractif garanti pour les étudiants :
+
+* Students : 15 €
+  * Carte d'étudiant obligatoire
