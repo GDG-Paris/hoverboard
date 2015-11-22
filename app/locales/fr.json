@@ -47,9 +47,13 @@
     "description": "...",
     "message": "Jusqu'au 31 décembre"
   },
+  "tickets": {
+    "description": "...",
+    "message": "Billets"
+  },
   "tickets-disclaimer": {
     "description": "...",
-    "message": "Les tickets donnent accès à toutes les sections de la conférence, pauses cafés, buffet et soirée. Le logement n'est pas inclus dans le prix."
+    "message": "Les billets donnent accès à toutes les sections de la conférence, pauses cafés, buffet et soirée. Le logement n'est pas inclus dans le prix."
   },
   "event-date": {
     "description": "...",
@@ -58,8 +62,7 @@
   "get-directions": {
     "description": "...",
     "message": "Itinéraire"
-  }
-  ,
+  },
   "location": {
     "description": "...",
     "message": "Lieu"
@@ -108,8 +111,24 @@
     "description": "...",
     "message": "Retour haut"
   },
+  "latest-news": {
+    "description": "...",
+    "message": "Dernières informations"
+  },
   "code-of-conduct": {
     "description": "...",
     "message": "Code de bonne conduite"
+  },
+  "buy-a-ticket": {
+    "description": "...",
+    "message": "Acheter votre billet"
+  },
+  "buy-on-website": {
+    "description": "...",
+    "message": "Acheter sur le site"
+  },
+  "close": {
+    "description": "...",
+    "message": "Fermer"
   }
 }

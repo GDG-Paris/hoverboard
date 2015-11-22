@@ -1,4 +1,4 @@
-GDG DevFest Ukraine 2015 will be held on **October 23-24** in ancient city of Lviv. If you want to be part of this great event as a speaker you knocked at the good door.
+DevFest Paris 2016 will be held on **February 5** in Paris. If you want to be part of this great event as a speaker you knocked at the right door.
 
 
 ### Presenters – who should speak at the DevFest Conference?
@@ -21,11 +21,11 @@ Our team prepared set of interesting topics in but if you have any cool idea you
 * Design support library
 * Voice interactions
 * Apps under the hood (profiling battery, memory, cpu usage)
-* Google Cast 
+* Google Cast
 * Android in the wild, unusual and crazy applications
 * Firebase
 * Continuous integration best practices
-  
+
 
 #### Web
 
@@ -40,19 +40,19 @@ Our team prepared set of interesting topics in but if you have any cool idea you
 #### Cloud
 
 * NodeJS in the Cloud
-* Google Datastore
+* Containers
 * Managed VM and App Engine sandbox
 * Kubernetes
 * Dart at Cloud
 * Go (as a language for a Cloud Ready Apps)
 
 
-### Please fill the [Call for Papers form](http://bit.ly/dfua-cfp) to submit your proposals.
+### Please fill the [Call for Papers form](http://goo.gl/forms/2deMLNSjPu) to submit your proposals.
 
-**Deadline** is September 1, 2015
+**Deadline** is December 15, 2015
 
 **Please note:** There is no guarantee that a submission will be put onto the conference agenda!<br/>
 
-The program committee picks the most interesting talk proposals and informs the selected submitters until September 15, 2015.<br/>
+The program committee picks the most interesting talk proposals and informs the selected submitters until January 5th, 2016.<br/>
 
-Any questions? Email organizers at [devfest@gdg.org.ua](mailto:devfest@gdg.org.ua)
+Any questions? Email organizers at [contact@gdgparis.com](mailto:contact@gdgparis.com)
