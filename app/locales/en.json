@@ -43,9 +43,9 @@
     "description": "...",
     "message": "Requires valid student ID"
   },
-  "before-december-31": {
+  "first-100-tickets": {
     "description": "...",
-    "message": "Before December 31"
+    "message": "First 100 tickets"
   },
   "tickets-disclaimer": {
     "description": "...",
