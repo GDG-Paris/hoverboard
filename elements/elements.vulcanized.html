@@ -34810,7 +34810,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                     <paper-icon-button class="menu-toggle" icon="menu" on-tap="togglePanel"></paper-icon-button>
                     <div class="flex hidden-xs">
                         <a data-route="home" href="/" hidden$="{{hideLogo}}">
-                            <img class="logo" src="../images/logo-white.svg" alt="GDG DevFest 2015">
+                            <img class="logo" src="../images/logo-white.svg" alt="DevFest Paris 2016">
                         </a>
                     </div>
 
@@ -34820,7 +34820,16 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                                 Blog
                             </a>
                         </paper-tab>
-
+                        <paper-tab class="text-u-c" link="">
+                            <a data-route="home" href="/" onclick="window.I18nMsg.lang='en'" class="nav-link horizontal center-center layout">
+                                English
+                            </a>
+                        </paper-tab>
+                        <paper-tab class="text-u-c" link="">
+                            <a data-route="home" href="/" onclick="window.I18nMsg.lang='fr'" class="nav-link horizontal center-center layout">
+                                Français
+                            </a>
+                        </paper-tab>
                         <!-- TODO Add links back when we publish those parts
                         <paper-tab class="text-u-c" link>
                             <a data-route="schedule" href="#!/schedule" class="nav-link horizontal center-center layout">
@@ -36468,7 +36477,7 @@ Polymer({
         properties: {
             author: {
                 type: String,
-                value: 'GDGLviv'
+                value: 'GDGParis'
             },
             url: {
                 type: String
