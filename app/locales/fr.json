@@ -43,9 +43,9 @@
     "description": "...",
     "message": "Carte d'étudiant requise"
   },
-  "before-december-31": {
+  "first-100-tickets": {
     "description": "...",
-    "message": "Jusqu'au 31 décembre"
+    "message": "100 premiers billets"
   },
   "tickets": {
     "description": "...",
