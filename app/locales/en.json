@@ -114,5 +114,25 @@
   "code-of-conduct": {
     "description": "...",
     "message": "Code of Conduct"
+  },
+  "latest-news": {
+    "description": "...",
+    "message": "Latest news"
+  },
+  "tickets": {
+    "description": "...",
+    "message": "Tickets"
+  },
+  "buy-a-ticket": {
+    "description": "...",
+    "message": "Buy a ticket"
+  },
+  "buy-on-website": {
+    "description": "...",
+    "message": "Buy on the Website"
+  },
+  "close": {
+    "description": "...",
+    "message": "Close"
   }
 }

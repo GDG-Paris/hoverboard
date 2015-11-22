@@ -74,7 +74,9 @@
             }
         </style>
         <div id="pricetable" class="container wrap relative layout vertical text-center">
-            <h4 class="heading">Tickets</h4>
+            <h4 class="heading">
+              <i18n-msg msgid="tickets">Tickets</i18n-msg>
+            </h4>
             <div class="price-block-wrapper flex layout vertical-horizontal">
                 <!-- <div class="price-block flex text-center relative sold-out"> -->
                 <div class="price-block flex text-center relative">
@@ -127,20 +129,20 @@
                 </i18n-msg>
             </span>
 
-            <!-- TODO Open registration
             <div class="flex">
-                <paper-button class="white border-button open-dialog-button" on-tap="openTicketsDialog">Buy a ticket</paper-button>
+                <paper-button class="white border-button open-dialog-button" on-tap="openTicketsDialog">
+                  <i18n-msg msgid="buy-a-ticket">Buy a ticket</i18n-msg>
+                </paper-button>
             </div>
-            -->
         </div>
         <paper-dialog id="ticketsDialog" entry-animation="scale-up-animation" exit-animation="fade-out-animation" modal>
-            <div id="2event_tickets_widget" style="width: 640px; height: 300px; background:#fff;"></div>
+            <div id="eventbrite_tickets_widget" style="width: 640px; height: 300px; background:#fff;"></div>
             <div class="buttons">
                 <!-- TODO Eventbrite integration -->
-                <a href="http://2event.com/events/312113" target="_blank">
-                    <paper-button>Buy on the website</paper-button>
+                <a href="http://www.eventbrite.fr/e/billets-devfest-paris-2016-19529320724" target="_blank">
+                    <paper-button><i18n-msg msgid="buy-on-website">Buy on the website</i18n-msg></paper-button>
                 </a>
-                <paper-button dialog-confirm>Close</paper-button>
+                <paper-button dialog-confirm><i18n-msg msgid="close">Close</i18n-msg></paper-button>
             </div>
         </paper-dialog>
     </template>
