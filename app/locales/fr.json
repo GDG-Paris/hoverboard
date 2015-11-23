@@ -1,0 +1,146 @@
+{
+  "devfest-description": {
+    "description": "...",
+    "message": "La plus grosse conférence sur les technologies Google à Paris organisée pour vous par la communauté GDG. Tout sur Android, le Web, le Cloud par des experts mondiaux."
+  },
+  "devfest-think": {
+    "description": "...",
+    "message": "Pensez différemment. Créez ce que vous voulez !"
+  },
+  "watch-video": {
+    "description": "...",
+    "message": "Regardez la vidéo"
+  },
+  "register": {
+    "description": "...",
+    "message": "Réserver"
+  },
+  "attendees": {
+    "description": "...",
+    "message": "Participants"
+  },
+  "day": {
+    "description": "...",
+    "message": "Jour"
+  },
+  "sessions": {
+    "description": "...",
+    "message": "Sessions"
+  },
+  "parallel-tracks": {
+    "description": "...",
+    "message": "Tracks parallèles"
+  },
+  "view-more-pictures": {
+    "description": "...",
+    "message": "Cliquez ici pour voir plus de photos"
+  },
+  "student": {
+    "description": "...",
+    "message": "Etudiants"
+  },
+  "valid-student-id": {
+    "description": "...",
+    "message": "Carte d'étudiant requise"
+  },
+  "first-100-tickets": {
+    "description": "...",
+    "message": "100 premiers billets"
+  },
+  "tickets": {
+    "description": "...",
+    "message": "Billets"
+  },
+  "tickets-disclaimer": {
+    "description": "...",
+    "message": "Les billets donnent accès à toutes les sections de la conférence, pauses cafés, buffet et soirée. Le logement n'est pas inclus dans le prix."
+  },
+  "event-date": {
+    "description": "...",
+    "message": "5 février 2016"
+  },
+  "get-directions": {
+    "description": "...",
+    "message": "Itinéraire"
+  },
+  "location": {
+    "description": "...",
+    "message": "Lieu"
+  },
+  "become-a-partner": {
+    "description": "...",
+    "message": "Devenir partenaire"
+  },
+  "partners": {
+    "description": "...",
+    "message": "Partenaires"
+  },
+  "for-visitors": {
+    "description": "...",
+    "message": "Pour les visiteurs"
+  },
+  "for-partners": {
+    "description": "...",
+    "message": "Pour les partenaires"
+  },
+  "partnership-proposition": {
+    "description": "...",
+    "message": "Proposition de partenariat"
+  },
+  "media-kit": {
+    "description": "...",
+    "message": "Kit Media"
+  },
+  "media-accreditation": {
+    "description": "...",
+    "message": "Accréditation Media"
+  },
+  "contact-us": {
+    "description": "...",
+    "message": "Nous contacter"
+  },
+  "based-on": {
+    "description": "...",
+    "message": "Basé sur"
+  },
+  "designed-and-created-by": {
+    "description": "...",
+    "message": "Conçu et créé par"
+  },
+  "back-to-top": {
+    "description": "...",
+    "message": "Retour haut"
+  },
+  "latest-news": {
+    "description": "...",
+    "message": "Dernières informations"
+  },
+  "code-of-conduct": {
+    "description": "...",
+    "message": "Code de bonne conduite"
+  },
+  "buy-a-ticket": {
+    "description": "...",
+    "message": "Acheter votre billet"
+  },
+  "buy-on-website": {
+    "description": "...",
+    "message": "Acheter sur le site"
+  },
+  "close": {
+    "description": "...",
+    "message": "Fermer"
+  },
+  "continue-reading": {
+    "description": "...",
+    "message": "Continuer à lire"
+  },
+  "read-more": {
+    "description": "...",
+    "message": "Lire plus"
+  },
+  "posted": {
+    "description": "...",
+    "message": "Posté le"
+  }
+}

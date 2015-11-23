@@ -21,7 +21,7 @@
                 color: inherit;
             }
 
-            @media (min-width: 768px) {
+            @media (min-width: 601px) {
                 .card-container {
                     padding: 0;
                 }
@@ -33,22 +33,30 @@
                 color: inherit;
             }
         </style>
-        <google-map class="fit" zoom="15" latitude="49.809841" longitude="23.982805" styles="[[options]]" disable-zoom disable-default-ui>
-            <google-map-marker latitude="49.809841" longitude="23.972805"></google-map-marker>
+        <google-map class="fit" zoom="15" latitude="48.8685257" longitude="2.2864417" styles="[[options]]" disable-zoom disable-default-ui>
+            <google-map-marker latitude="48.8685257" longitude="2.2864417"></google-map-marker>
         </google-map>
         <div class="container card-container relative layout horizontal center-center">
-            <div class="flex-3 hidden-xs"></div>
+            <div class="flex-4 hidden-xs"></div>
             <paper-card class="flex-2">
                 <div class="paper-card-container location-card">
                     <div class="card-content">
                         <div class="title">
-                            <h4>Location</h4>
+                            <h4>
+                                <i18n-msg msgid="location">
+                                    Location
+                                </i18n-msg>
+                            </h4>
                         </div>
-                        <p>Pivdennyi Expo Center</br>Shchyretska St, 36, L'viv, Ukraine</p>
+                        <p>La Grande Crypte</br>69 bis rue Boissière, 75016 Paris</p>
                     </div>
                     <div class="card-actions">
-                        <a class="bottom-link" href="https://www.google.com/maps/dir//49.8097687,23.9727791/@49.8099885,23.9727469,18z" target="_blank">
-                            <paper-button on-tap="readMore">Get directions</paper-button>
+                        <a class="bottom-link" href="https://www.google.fr/maps/dir//La+Grande+Crypte+-+Dussauge+%26+Co,+69+bis+rue+Boissi%C3%A8re,+75016+Paris/@48.8685038,2.2169546,12z/data=!4m13!1m4!3m3!1s0x47e671eaf00443dd:0x3962ff5787fd45dd!2sLa+Grande+Crypte+-+Dussauge+%26+Co!3b1!4m7!1m0!1m5!1m1!1s0x47e671eaf00443dd:0x3962ff5787fd45dd!2m2!1d2.2869935!2d48.868525?hl=en" target="_blank">
+                            <paper-button on-tap="readMore">
+                                <i18n-msg msgid="get-directions">
+                                    Get directions
+                                </i18n-msg>
+                            </paper-button>
                         </a>
                     </div>
                 </div>

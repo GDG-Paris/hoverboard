@@ -1,0 +1,44 @@
+    "id": 9,
+    "featured": true,
+    "name": "Mandy Waite",
+    "title": "Developer Relations Engineer",
+    "company": "Google",
+    "country": "UK",
+    "photoUrl": "../../images/people/mandy_waite.jpg",
+    "bio": "Based in London, UK, Mandy is a Developer Relations Engineer at Google specializing in Container and Cloud technologies and working to make the world a better place for developers building applications for the Cloud. Before Google Mandy worked at Sun Microsystems on performance and scalability of Java and JavaEE and on porting Open Source apps to OpenSolaris. In her spare time Mandy is learning Japanese and likes to play the guitar.",
+    "tags": ["Cloud", "Firebase", "gRPC", "Kubernetes", "Docker"],
+    "badges": [{
+        "name": "GDE",
+        "description": "Dart Google Developer Expert",
+        "link": "https://developers.google.com/experts/people/jana-moudr"
+    }, {
+        "name": "GDG",
+        "description": "Google Developers Group Prague",
+        "link": "https://developers.google.com/groups/chapter/111919016509847766513/"
+    }, {
+        "name": "WTM",
+        "description": "Women Tech Makers Istanbul",
+        "link": "https://developers.google.com/groups/chapter/100514812580249787371/"
+    }],
+    "socials": [{
+        "name": "Google+",
+        "icon": "app-icons:gplus",
+        "link": "https://plus.google.com/+JanaMoudrá"
+    }, {
+        "name": "LinkedIn",
+        "icon": "app-icons:linkedin",
+        "link": "https://cz.linkedin.com/in/janamoudra"
+    }, {
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/Janamou"
+    }, {
+        "name": "Blog",
+        "icon": "link",
+        "link": "http://www.moudra.net/"
+    }, {
+        "name": "Facebook",
+        "icon": "app-icons:facebook",
+        "link": "https://www.facebook.com/annakurylo21"
+    }]
+}]

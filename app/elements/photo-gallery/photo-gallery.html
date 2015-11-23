@@ -24,7 +24,7 @@
             .photo {
                 margin: 20px 0;
             }
-            @media (min-width: 768px) {
+            @media (min-width: 601px) {
                 iron-list {
                     width: 80%;
                 }
@@ -54,7 +54,7 @@
             'generateAlbumUrl(userId, albumId)'
         ],
         generateAlbumUrl: function(userId, albumId) {
-            this.albumUrl = 'https://picasaweb.google.com/data/feed/api/user/' + userId + '/albumid/' + albumId + '?alt=json';
+            this.albumUrl = 'https://picasaweb.google.com/data/feed/api/user/' + userId + '/albumid/' + albumId + '?kind=photo&imgmax=800&alt=json';
             this.$.ajax.generateRequest();
         },
         photosLoaded: function(event, response) {

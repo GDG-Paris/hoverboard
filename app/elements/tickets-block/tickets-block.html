@@ -18,10 +18,20 @@
             .ticket-name {
                 margin-bottom: -5px;
                 font-size: 30px;
+                font-weight: 200;
             }
 
             .price-block {
                 margin-bottom: 15px;
+            }
+
+            .sold-out > *:not(.sold-out-text) {
+                opacity: .3;
+            }
+
+            .sold-out-text {
+                font-size: 28px;
+                text-transform: uppercase;
             }
 
             .currency {
@@ -32,6 +42,7 @@
 
             .price {
                 font-size: 70px;
+                font-weight: 200;
             }
 
             .details {
@@ -63,40 +74,76 @@
             }
         </style>
         <div id="pricetable" class="container wrap relative layout vertical text-center">
-            <h4 class="heading">Tickets</h4>
+            <h4 class="heading">
+              <i18n-msg msgid="tickets">Tickets</i18n-msg>
+            </h4>
             <div class="price-block-wrapper flex layout vertical-horizontal">
-                <div class="price-block flex text-center">
-                    <span class="ticket-name block">Student</span>
-                    <span class="price">400</span>
-                    <span class="currency">UAH</span>
-                    <span class="additional-info block">*Before October 23 or 100 tickets.
-                        <br/>Requires valid student ID</span>
-                </div>
-                <div class="price-block flex text-center">
+                <!-- <div class="price-block flex text-center relative sold-out"> -->
+                <div class="price-block flex text-center relative">
                     <span class="ticket-name block">Early Bird</span>
-                    <span class="price">600</span>
-                    <span class="currency">UAH</span>
-                    <span class="additional-info block">*Before September 27 or 150 tickets</span>
+                    <span class="price">10</span>
+                    <span class="currency">€</span>
+                    <span class="additional-info block">
+                        *
+                        <i18n-msg msgid="first-100-tickets">First 100 tickets</i18n-msg>
+                    </span>
+                    <!--
+                    <div class="fit layout vertical center-center sold-out-text"><span>Sold Out</span></div>
+                    -->
+                </div>
+                <div class="price-block flex text-center relative">
+                    <span class="ticket-name block">General Admission</span>
+                    <span class="price">30</span>
+                    <span class="currency">€</span>
+                    <!--
+                    <span class="additional-info block">*First 100 tickets tickets</span>
+                    <div class="fit layout vertical center-center sold-out-text"><span>Sold Out</span></div>
+                    -->
                 </div>
                 <div class="price-block flex text-center">
                     <span class="ticket-name block">Lazy Bird</span>
-                    <span class="price">800</span>
-                    <span class="currency">UAH</span>
+                    <span class="price">60</span>
+                    <span class="currency">€</span>
+                    <!--
                     <span class="additional-info block">*Before October 23</span>
+                    -->
+                </div>
+                <div class="price-block flex text-center">
+                    <span class="ticket-name block">
+                        <i18n-msg msgid="student">
+                            Student
+                        </i18n-msg>
+                    </span>
+                    <span class="price">15</span>
+                    <span class="currency">€</span>
+                    <span class="additional-info block">
+                        <i18n-msg msgid="valid-student-id">
+                            Requires valid student ID
+                        </i18n-msg>
+                    </span>
                 </div>
             </div>
-            <span class="details">Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price.</span>
+            <span class="details">
+                <i18n-msg msgid="tickets-disclaimer">
+                    Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price.
+                </i18n-msg>
+            </span>
+
             <div class="flex">
-                <paper-button class="white border-button open-dialog-button" on-tap="openTicketsDialog">Buy a ticket</paper-button>
+                <paper-button class="white border-button open-dialog-button" on-tap="openTicketsDialog">
+                  <i18n-msg msgid="buy-a-ticket">Buy a ticket</i18n-msg>
+                </paper-button>
             </div>
         </div>
         <paper-dialog id="ticketsDialog" entry-animation="scale-up-animation" exit-animation="fade-out-animation" modal>
-                <div id="2event_tickets_widget" style="width: 640px; height: 300px; background:#fff;"></div>
+            <div class="hidden-xs" id="eventbrite_tickets_widget" style="width: 640px; height: 340px; background:#fff;">
+                <iframe src="//eventbrite.fr/tickets-external?eid=19529320724&ref=etckt" height="340" width="100%"></iframe>
+            </div>
             <div class="buttons">
-                <a href="http://2event.com/events/312113" target="_blank">
-                    <paper-button>Buy on the website</paper-button>
+                <a href="http://www.eventbrite.fr/e/billets-devfest-paris-2016-19529320724" target="_blank">
+                    <paper-button><i18n-msg msgid="buy-on-website">Buy on the website</i18n-msg></paper-button>
                 </a>
-                <paper-button dialog-confirm>Close</paper-button>
+                <paper-button dialog-confirm><i18n-msg msgid="close">Close</i18n-msg></paper-button>
             </div>
         </paper-dialog>
     </template>
@@ -109,13 +156,16 @@
         lang: 'en'
     };
     /* jshint ignore:end */
-    (function() {
+    /*
+    setTimeout(function() {
         var script = document.createElement('script');
         script.type = 'text/javascript';
         script.async = true;
-        script.src = 'http://2event.com/js/widget-tickets.js';
+        // TODO Eventbrite integration
+        script.src = 'https://2event.com/js/widget-tickets.js';
         document.getElementsByTagName('head')[0].appendChild(script);
-    })();
+    },2000);
+    */
 
     Polymer({
         is: 'tickets-block',

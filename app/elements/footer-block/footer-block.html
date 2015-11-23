@@ -61,10 +61,6 @@
                 font-weight: 300;
             }
 
-            .link-block a {
-                font-weight: 100;
-            }
-
             .link-block a:hover {
                 text-decoration: underline;
             }
@@ -81,7 +77,7 @@
                 padding-top: 10px;
             }
 
-            @media (min-width: 768px) {
+            @media (min-width: 961px) {
                 nav {
                     flex-direction: row !important;
                     justify-content: flex-end !important;
@@ -95,7 +91,7 @@
                     margin-bottom: 0;
                 }
                 .footer-content {
-                    padding: 32px 0;
+                    padding: 32px 16px;
                     flex: 1;
                 }
                 .footer-links-container {
@@ -125,63 +121,121 @@
                     <g:plusone size="medium" width="200" annotation="inline" href="http://devfest.gdg.org.ua/"></g:plusone>
                 </div>
                 <paper-button class="footer-backtotop" on-tap="backToTop" noink>
-                    Back to top
+                    <i18n-msg msgid="back-to-top">
+                        Back to top
+                    </i18n-msg>
                     <iron-icon icon="icons:expand-less"></iron-icon>
                 </paper-button>
             </div>
             <div class="footer-content footer-links-container">
                 <nav class="layout vertical-horizontal flex">
                     <div class="flex link-block-wrapper">
-                        <span class="link-block-title block">For visitors</span>
+                        <span class="link-block-title block">
+                            <i18n-msg msgid="for-visitors">
+                                For visitors
+                            </i18n-msg>
+                        </span>
                         <ul class="link-block">
-                            <li><a href="https://developers.google.com/" target="_blank">Google Developers</a></li>
-                            <li><a href="http://gdg-devfest-ua.appspot.com/" target="_blank">GDG DevFest Ukraine 2013</a></li>
-                            <li><a href="/2014" target="_blank">GDG DevFest Ukraine 2014</a></li>
-                            <li><a href="/code-of-conduct">Code of Conduct</a></li>
+                            <li>
+                                <a href="http://www.meetup.com/gdg-paris/" target="_blank">
+                                    Meetup GDG Paris
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://2015.devfest.gdgparis.com" target="_blank">
+                                    DevFest Paris 2015
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/code-of-conduct">
+                                    <i18n-msg msgid="code-of-conduct">
+                                        Code of Conduct
+                                    </i18n-msg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://developers.google.com/" target="_blank">
+                                    Google Developers
+                                </a>
+                            </li>
                         </ul>
                     </div>
                     <div class="flex link-block-wrapper">
-                        <span class="link-block-title block">For partners</span>
+                        <span class="link-block-title block">
+                            <i18n-msg msgid="for-partners">
+                                For partners
+                            </i18n-msg>
+                        </span>
                         <ul class="link-block">
-                            <li><a href="/assets/GDG_DevFest_Ukraine_2015_Partnership_Proposition.pdf" target="_blank">Partnership Proposition</a></li>
-                            <li><a href="http://bit.ly/dfua-media" target="_blank">Media Kit</a></li>
+                            <li>
+                                <a href="/assets/GDG_DevFest_Paris_2016_Sponsor_kit.pdf" target="_blank">
+                                    <i18n-msg msgid="partnership-proposition">
+                                        Partnership Proposition
+                                    </i18n-msg>
+                                </a>
+                            </li>
+                            <!--
+                            <li>
+                                <a href="http://bit.ly/dfua-media" target="_blank">
+                                    <i18n-msg msgid="media-kit">
+                                        Media Kit
+                                    </i18n-msg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.google.com/forms/d/1sOjuv7rv77JXq2jPBdh3tg-O4CV8HpLTED5cjJBxnG8/viewform" target="_blank">
+                                    <i18n-msg msgid="media-accreditation">
+                                        Media Accreditation
+                                    </i18n-msg>
+                                </a>
+                            </li>
+                            -->
                         </ul>
                     </div>
                     <div class="flex link-block-wrapper">
-                        <span class="link-block-title block">Contact us</span>
+                        <span class="link-block-title block">
+                            <i18n-msg msgid="contact-us">
+                                Contact us
+                            </i18n-msg>
+                        </span>
                         <ul class="link-block">
-                            <li><a href="mailto:devfest@gdg.org.ua">devfest@gdg.org.ua</a></li>
+                            <li>
+                                <a href="mailto:contact@gdgparis.com">
+                                    contact@gdgparis.com
+                                </a>
+                            </li>
                         </ul>
                         <div class="icons-wrapper align-pb-block">
-                            <a href="https://plus.google.com/102444623953913144164" target="_blank">
-                                <paper-icon-button icon="app-icons:glus"></paper-icon-button>
+                            <a href="https://plus.google.com/+GDGParis" target="_blank">
+                                <paper-icon-button icon="app-icons:gplus"></paper-icon-button>
                             </a>
-                            <a href="https://www.facebook.com/GDGLviv" target="_blank">
-                                <paper-icon-button icon="app-icons:facebook"></paper-icon-button>
-                            </a>
-                            <a href="https://twitter.com/gdglviv" target="_blank">
+                            <a href="https://twitter.com/gdgparis" target="_blank">
                                 <paper-icon-button icon="app-icons:twitter"></paper-icon-button>
-                            </a>
-                            <a href="https://www.linkedin.com/company/google-developers-group-lviv" target="_blank">
-                                <paper-icon-button icon="app-icons:linkedin"></paper-icon-button>
                             </a>
                         </div>
                     </div>
+                    <!-- TODO Newsletter ?
                     <div class="flex">
                         <span class="link-block-title block">Subscribe</span>
                         <span>No spam, only the latest news and updates!</span>
                         <mailchimp-subscribe url="{{url}}" name="{{name}}"></mailchimp-subscribe>
                     </div>
+                    -->
                 </nav>
             </div>
             <!-- <div class="line full-width"></div> -->
             <div class="footer-content footer-bottom layout vertical-horizontal justified">
                 <span class="flex self-center">
-                    &copy; 2015 Based on <a href="https://github.com/gdg-x/hoverboard" target="_blank">Project Hoverboard</a>. Designed and created by <a href="http://o.zasadnyy.com/" target="_blank">Oleh Zasadnyy</a> &middot;
+                    &copy;&nbsp;2015&nbsp;
+                    <i18n-msg msgid="based-on">Based on</i18n-msg>
+                    <a href="https://github.com/gdg-x/hoverboard" target="_blank">Project Hoverboard</a>.
+                    <i18n-msg msgid="designed-and-created-by">Designed and created by</i18n-msg>
+                    <a href="http://o.zasadnyy.com/" target="_blank">Oleh Zasadnyy</a>
+                    &middot;
                     <a href="http://lviv.gdg.org.ua" target="_blank">GDG Lviv</a>
                 </span>
                 <div class="self-end">
-                    <img class="gdg-logo" src="../../images/gdg-logo.svg" alt="GDG Lviv">
+                    <img class="gdg-logo" src="../../images/gdg-logo.svg" alt="GDG Paris">
                 </div>
             </div>
         </div>
@@ -194,7 +248,7 @@
     Polymer({
         is: 'footer-block',
         ready: function() {
-            this.url = 'http://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe';
+            this.url = 'https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe';
             this.name = 'b_b7e853a79164ddfdbda3ed77b_7993e39fbe';
         },
         backToTop: function() {

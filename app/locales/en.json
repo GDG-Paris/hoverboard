@@ -1,0 +1,150 @@
+{
+  "devfest-description": {
+    "description": "...",
+    "message": "The biggest Google tech conference in Paris carefully crafted for you by GDG community! All about Android, Web and Cloud from the world experts"
+  },
+  "devfest-think": {
+    "description": "...",
+    "message": "Think out of the box. Create what you want!"
+  },
+  "watch-video": {
+    "description": "...",
+    "message": "Watch a video"
+  },
+  "register": {
+    "description": "...",
+    "message": "Register"
+  },
+  "attendees": {
+    "description": "...",
+    "message": "Attendees"
+  },
+  "day": {
+    "description": "...",
+    "message": "Day"
+  },
+  "sessions": {
+    "description": "...",
+    "message": "Sessions"
+  },
+  "parallel-tracks": {
+    "description": "...",
+    "message": "Parallel tracks"
+  },
+  "view-more-pictures": {
+    "description": "...",
+    "message": "Click here to view more pictures"
+  },
+  "student": {
+    "description": "...",
+    "message": "Student"
+  },
+  "valid-student-id": {
+    "description": "...",
+    "message": "Requires valid student ID"
+  },
+  "first-100-tickets": {
+    "description": "...",
+    "message": "First 100 tickets"
+  },
+  "tickets-disclaimer": {
+    "description": "...",
+    "message": "Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price."
+  },
+  "event-date": {
+    "description": "...",
+    "message": "February 5, 2016"
+  },
+  "get-directions": {
+    "description": "...",
+    "message": "Get directions"
+  },
+  "location": {
+    "description": "...",
+    "message": "Location"
+  },
+  "become-a-partner": {
+    "description": "...",
+    "message": "Become a partner"
+  },
+  "partners": {
+    "description": "...",
+    "message": "Partners"
+  },
+  "for-visitors": {
+    "description": "...",
+    "message": "For Visitors"
+  },
+  "for-partners": {
+    "description": "...",
+    "message": "For partners"
+  },
+  "for-partners": {
+    "description": "...",
+    "message": "For partners"
+  },
+  "partnership-proposition": {
+    "description": "...",
+    "message": "Partnership Proposition"
+  },
+  "media-kit": {
+    "description": "...",
+    "message": "Media Kit"
+  },
+  "media-accreditation": {
+    "description": "...",
+    "message": "Media Accreditation"
+  },
+  "contact-us": {
+    "description": "...",
+    "message": "Contact Us"
+  },
+  "based-on": {
+    "description": "...",
+    "message": "Based on"
+  },
+  "designed-and-created-by": {
+    "description": "...",
+    "message": "Designed and created by"
+  },
+  "back-to-top": {
+    "description": "...",
+    "message": "Back to top"
+  },
+  "code-of-conduct": {
+    "description": "...",
+    "message": "Code of Conduct"
+  },
+  "latest-news": {
+    "description": "...",
+    "message": "Latest news"
+  },
+  "tickets": {
+    "description": "...",
+    "message": "Tickets"
+  },
+  "buy-a-ticket": {
+    "description": "...",
+    "message": "Buy a ticket"
+  },
+  "buy-on-website": {
+    "description": "...",
+    "message": "Buy on the Website"
+  },
+  "close": {
+    "description": "...",
+    "message": "Close"
+  },
+  "continue-reading": {
+    "description": "...",
+    "message": "Continue reading"
+  },
+  "read-more": {
+    "description": "...",
+    "message": "Read more"
+  },
+  "posted": {
+    "description": "...",
+    "message": "Posted"
+  }
+}

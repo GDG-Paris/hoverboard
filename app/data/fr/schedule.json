@@ -1,0 +1,44 @@
+[{
+    "date": "2016-02-05",
+    "dateReadable": "February 5",
+    "tracks": [{
+        "title": "Cloud"
+    }, {
+        "title": "Web"
+    }, {
+        "title": "Mobile"
+    }, {
+        "title": "Discovery"
+    }],
+    "timeslots": [{
+        "startTime": "09:00",
+        "endTime": "10:00",
+        "sessions": [
+            [1001]
+        ]
+    }, {
+        "startTime": "10:00",
+        "endTime": "10:15",
+        "sessions": [
+            [1005]
+        ]
+    }, {
+        "startTime": "15:30",
+        "endTime": "16:00",
+        "sessions": [
+            [1003]
+        ]
+    }, {
+        "startTime": "17:40",
+        "endTime": "18:00",
+        "sessions": [
+            [1007]
+        ]
+    }, {
+        "startTime": "18:00",
+        "endTime": "22:00",
+        "sessions": [
+            [1006]
+        ]
+    }]
+}]

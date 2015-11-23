@@ -19,16 +19,36 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         document.querySelector('#caching-complete').show();
     };
 
+    app.playVideo = function() {
+        document.querySelector('#promo-video-dialog').open();
+        document.querySelector('#promo-video').play();
+    };
+    app.closeVideoCard = function() {
+        document.querySelector('#promo-video-dialog').close();
+        document.querySelector('#promo-video').pause();
+        document.querySelector('#promo-video').seekTo(0);
+    };
+
     // Listen for template bound event to know when bindings
     // have resolved and content has been stamped to the page
     app.addEventListener('dom-change', function() {
-        console.log('Hello, folks! It is Hoverboard by GDG Lviv. Contact Oleh Zasadnyy for more details.');
+        console.log('Hello, folks! Welcome to GDG DevFest Paris 2016 website.');
     });
 
     // See https://github.com/Polymer/polymer/issues/1381
     window.addEventListener('WebComponentsReady', function() {
         // imports are loaded and elements have been registered
     });
+    // Done in HTMLImportsLoaded so I18nMsg will be defined by the time you set I18nMsg.lang.
+    // This timing is necessary under the polyfill and is not needed if the browser supports HTML Imports, natively.
+    document.addEventListener('HTMLImportsLoaded', function() {
+      window.I18nMsg.lang = navigator.languages[0].substring(0, 2) || 'en';
+      window.I18nMsg.url = 'locales'; // optionally use custom folder for locales.
+    });
+
+    app.getMarkdownUrl = function(markdownFile){
+      return '../../posts/' + window.I18nMsg.lang + '/' +markdownFile;
+    };
 
     // Close drawer after menu item is selected if drawerPanel is narrow
     app.onMenuSelect = function() {
@@ -46,7 +66,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         }
     };
     /* jshint ignore:end */
-
 
     app.scrollToTop = function() {
         var heros = document.querySelectorAll('#hero');
