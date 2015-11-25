@@ -32,4 +32,11 @@
       "url": "http://www.sfeir.com/",
       "logoUrl": "../images/partners/sfeir.svg"
     }]
+}, {
+    "title": "Media partners",
+    "logos": [{
+        "name": "StartupVillage",
+        "url": "http://www.startupvillage.fr/",
+        "logoUrl": "../images/partners/startupvillage.png"
+    }]
 }]

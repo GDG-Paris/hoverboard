@@ -5,12 +5,14 @@ DevFest Paris 2016 will be held on **February 5** in Paris. You can buy your tic
 
 We have 3 different prices to encourage you to book early:
 
-* Early birds : 10 €
+* Very Early birds : 20 €
   * For the first 100 registered attendees
-* General admission
-  * Standard price : 30 €
-* Lazy birds : 60 €
-  * For the last registered attendees
+* Early birds : 40 €
+  * For the next 300 registered attendees
+* General admission : 60 €
+  * Standard price
+* On site : 80 €
+  * On site registration
 
 ### Students welcome !
 
