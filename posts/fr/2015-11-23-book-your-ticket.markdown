@@ -5,12 +5,15 @@ Le DevFest Paris 2016 aura lieu le **5 février** à Paris. Vous pouvez dès à 
 
 Nous avons 3 prix différents pour vous encourager à réserver au plus tôt :
 
-* Early birds : 10 €
+* Very Early birds : 20 €
   * Pour les 100 premiers inscrits
-* General admission
-  * Prix standard : 30 €
-* Lazy birds : 60 €
-  * Pour les dernières places
+* Early birds : 40 €
+  * Pour les 300 suivants
+* General admission : 60 €
+  * Prix standard
+* On site : 80 €
+  * Achat sur site
+
 
 ### Etudiants bienvenus !
 
