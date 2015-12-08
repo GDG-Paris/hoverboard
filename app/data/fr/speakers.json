@@ -1,44 +1,110 @@
-    "id": 9,
-    "featured": true,
-    "name": "Mandy Waite",
-    "title": "Developer Relations Engineer",
-    "company": "Google",
-    "country": "UK",
-    "photoUrl": "../../images/people/mandy_waite.jpg",
-    "bio": "Based in London, UK, Mandy is a Developer Relations Engineer at Google specializing in Container and Cloud technologies and working to make the world a better place for developers building applications for the Cloud. Before Google Mandy worked at Sun Microsystems on performance and scalability of Java and JavaEE and on porting Open Source apps to OpenSolaris. In her spare time Mandy is learning Japanese and likes to play the guitar.",
-    "tags": ["Cloud", "Firebase", "gRPC", "Kubernetes", "Docker"],
-    "badges": [{
-        "name": "GDE",
-        "description": "Dart Google Developer Expert",
-        "link": "https://developers.google.com/experts/people/jana-moudr"
-    }, {
-        "name": "GDG",
-        "description": "Google Developers Group Prague",
-        "link": "https://developers.google.com/groups/chapter/111919016509847766513/"
-    }, {
-        "name": "WTM",
-        "description": "Women Tech Makers Istanbul",
-        "link": "https://developers.google.com/groups/chapter/100514812580249787371/"
-    }],
-    "socials": [{
-        "name": "Google+",
-        "icon": "app-icons:gplus",
-        "link": "https://plus.google.com/+JanaMoudrá"
-    }, {
-        "name": "LinkedIn",
-        "icon": "app-icons:linkedin",
-        "link": "https://cz.linkedin.com/in/janamoudra"
-    }, {
-        "name": "Twitter",
-        "icon": "app-icons:twitter",
-        "link": "https://twitter.com/Janamou"
-    }, {
-        "name": "Blog",
-        "icon": "link",
-        "link": "http://www.moudra.net/"
-    }, {
-        "name": "Facebook",
-        "icon": "app-icons:facebook",
-        "link": "https://www.facebook.com/annakurylo21"
-    }]
-}]
+[
+    {
+        "id": 1,
+        "featured": true,
+        "name": "David Gageot",
+        "title": "",
+        "company": "Docker",
+        "country": "FR",
+        "photoUrl": "../../images/people/dgageot.jpg",
+        "bio": "What can I say except that I'm born to be a geek. I started with computers being my dad's own static code analyzer. I would seat next to him and spot bugs before he even ran the code. It's been a while and I can proudly state that I'm fully capable of creating my own bugs now. I felt in love at first sight with Docker at CloudConf (now DotScale) conference in Paris in 2013.  Has been using it since. Now I'm proud to be part of the team.",
+        "tags": ["Cloud", "Docker"],
+        "badges": [{
+            "name": "GDE",
+            "description": "Google Developer Expert",
+            "link": "https://developers.google.com/experts/people/david-gageot"
+        }],
+        "socials": [{
+            "name": "Twitter",
+            "icon": "app-icons:twitter",
+            "link": "https://twitter.com/dgageot"
+        }, {
+            "name": "GitHub",
+            "icon": "app-icons:github",
+            "link": "https://github.com/dgageot"
+        }, {
+            "name": "Blog",
+            "icon": "link",
+            "link": "http://blog.javabien.net/"
+        }]
+    },
+    {
+        "id": 2,
+        "featured": true,
+        "name": "Cyril Mottier",
+        "title": "",
+        "company": "Captain Train",
+        "country": "FR",
+        "photoUrl": "../../images/people/cmottier.jpg",
+        "bio": "",
+        "tags": ["Cloud", "Docker"],
+        "badges": [{
+            "name": "GDE",
+            "description": "Google Developer Expert",
+            "link": "https://developers.google.com/experts/people/cyril-mottier"
+        }],
+        "socials": [{
+            "name": "Google+",
+            "icon": "app-icons:gplus",
+            "link": "https://plus.google.com/+CyrilMottier"
+        }, {
+            "name": "Twitter",
+            "icon": "app-icons:twitter",
+            "link": "https://twitter.com/cyrilmottier"
+        }]
+    },
+    {
+        "id": 3,
+        "featured": true,
+        "name": "François Beaufort",
+        "title": "Chromium Evangelist",
+        "company": "Google",
+        "country": "FR",
+        "photoUrl": "../../images/people/fbeaufort.jpg",
+        "bio": "",
+        "tags": ["Chrome", "Web", "Bluetooth"],
+        "badges": [{
+            "name": "Googler",
+            "description": "Chromium Evangelist",
+            "link": "https://developer.chrome.com/home"
+        }],
+        "socials": [{
+            "name": "Google+",
+            "icon": "app-icons:gplus",
+            "link": "https://plus.google.com/+FrancoisBeaufort"
+        }, {
+            "name": "GitHub",
+            "icon": "app-icons:github",
+            "link": "https://github.com/beaufortfrancois/"
+        }]
+    },
+    {
+        "id": 4,
+        "featured": true,
+        "name": "Francesc Campoy",
+        "title": "Cloud Developer Advocate",
+        "company": "Google",
+        "country": "FR",
+        "photoUrl": "../../images/people/fcampoy.jpg",
+        "bio": "",
+        "tags": ["Cloud", "Go"],
+        "badges": [{
+            "name": "Googler",
+            "description": "Cloud Developer Advocate",
+            "link": "https://cloud.google.com/docs/"
+        }],
+        "socials": [{
+            "name": "Google+",
+            "icon": "app-icons:gplus",
+            "link": "https://plus.google.com/+FrancescCampoyFlores"
+        }, {
+            "name": "Twitter",
+            "icon": "app-icons:twitter",
+            "link": "https://twitter.com/francesc"
+        }, {
+            "name": "GitHub",
+            "icon": "app-icons:github",
+            "link": "https://github.com/campoy"
+        }]
+    }
+]
