@@ -31,6 +31,17 @@
       "name": "Sfeir",
       "url": "http://www.sfeir.com/",
       "logoUrl": "../images/partners/sfeir.svg"
+    },{
+      "name": "Zenika",
+      "url": "http://www.zenika.com/",
+      "logoUrl": "../images/partners/zenika.png"
+    }]
+  }, {
+    "title": "Silver sponsors",
+    "logos": [{
+        "name": "D2SI",
+        "url": "http://www.d2-si.fr/",
+        "logoUrl": "../images/partners/d2si.png"
     }]
   }, {
     "title": "Media partners",
