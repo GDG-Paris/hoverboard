@@ -5,6 +5,7 @@ Nous sommes très heureux d'annoncer les 4 premiers speakers séléctionnés pou
 * **François Beaufort**
   * Chromium Evangelist @ Google
 * **Francesco Campoy**
+  * Membre de l'équipe Go
   * Cloud Developer Advocate @ Google
 * **David Gageot**
   * [Google Developer Expert - Cloud Platform](https://developers.google.com/experts/people/david-gageot)
