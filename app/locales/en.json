@@ -67,6 +67,10 @@
     "description": "...",
     "message": "Become a partner"
   },
+  "become-a-speaker": {
+    "description": "...",
+    "message": "Become a speaker"
+  },
   "partners": {
     "description": "...",
     "message": "Partners"
@@ -150,9 +154,5 @@
   "first-speakers": {
     "description": "...",
     "message": "First Speakers"
-  },
-  "more-to-come": {
-    "description": "...",
-    "message": "And much more to come..."
   }
 }
