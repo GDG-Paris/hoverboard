@@ -8,6 +8,10 @@
         "name": "Google",
         "url": "https://www.google.fr/intl/en/about/",
         "logoUrl": "../images/partners/google.svg"
+    },{
+        "name": "Pivotal",
+        "url": "https://pivotal.io/",
+        "logoUrl": "../images/partners/pivotal.png"
     }]
   }, {
     "title": "Gold sponsors",
