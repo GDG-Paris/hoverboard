@@ -5,6 +5,7 @@ We are very happy to announce the first 4 speakers selected for DevFest Paris 20
 * **François Beaufort**
   * Chromium Evangelist @ Google
 * **Francesco Campoy**
+  * Member of the Go team
   * Cloud Developer Advocate @ Google
 * **David Gageot**
   * [Google Developer Expert - Cloud Platform](https://developers.google.com/experts/people/david-gageot)

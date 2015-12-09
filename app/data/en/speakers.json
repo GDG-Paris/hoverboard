@@ -1,9 +1,63 @@
 [
+  {
+      "id": 1,
+      "featured": true,
+      "name": "François Beaufort",
+      "title": "Chromium Evangelist",
+      "company": "Google",
+      "country": "FR",
+      "photoUrl": "../../images/people/fbeaufort.jpg",
+      "bio": "",
+      "tags": ["Chrome", "Web", "Bluetooth"],
+      "badges": [{
+          "name": "Googler",
+          "description": "Chromium Evangelist",
+          "link": "https://developer.chrome.com/home"
+      }],
+      "socials": [{
+          "name": "Google+",
+          "icon": "app-icons:gplus",
+          "link": "https://plus.google.com/+FrancoisBeaufort"
+      }, {
+          "name": "GitHub",
+          "icon": "app-icons:github",
+          "link": "https://github.com/beaufortfrancois/"
+      }]
+  },
+  {
+      "id": 2,
+      "featured": true,
+      "name": "Francesc Campoy",
+      "title": "Cloud Developer Advocate",
+      "company": "Google",
+      "country": "FR",
+      "photoUrl": "../../images/people/fcampoy.jpg",
+      "bio": "",
+      "tags": ["Cloud", "Go"],
+      "badges": [{
+          "name": "Googler",
+          "description": "Cloud Developer Advocate",
+          "link": "https://cloud.google.com/docs/"
+      }],
+      "socials": [{
+          "name": "Google+",
+          "icon": "app-icons:gplus",
+          "link": "https://plus.google.com/+FrancescCampoyFlores"
+      }, {
+          "name": "Twitter",
+          "icon": "app-icons:twitter",
+          "link": "https://twitter.com/francesc"
+      }, {
+          "name": "GitHub",
+          "icon": "app-icons:github",
+          "link": "https://github.com/campoy"
+      }]
+    },
     {
-        "id": 1,
+        "id": 3,
         "featured": true,
         "name": "David Gageot",
-        "title": "",
+        "title": "Goodle Developer Expert Cloud",
         "company": "Docker",
         "country": "FR",
         "photoUrl": "../../images/people/dgageot.jpg",
@@ -29,10 +83,10 @@
         }]
     },
     {
-        "id": 2,
+        "id": 4,
         "featured": true,
         "name": "Cyril Mottier",
-        "title": "",
+        "title": "Goodle Developer Expert Cloud",
         "company": "Captain Train",
         "country": "FR",
         "photoUrl": "../../images/people/cmottier.jpg",
@@ -51,60 +105,6 @@
             "name": "Twitter",
             "icon": "app-icons:twitter",
             "link": "https://twitter.com/cyrilmottier"
-        }]
-    },
-    {
-        "id": 3,
-        "featured": true,
-        "name": "François Beaufort",
-        "title": "Chromium Evangelist",
-        "company": "Google",
-        "country": "FR",
-        "photoUrl": "../../images/people/fbeaufort.jpg",
-        "bio": "",
-        "tags": ["Chrome", "Web", "Bluetooth"],
-        "badges": [{
-            "name": "Googler",
-            "description": "Chromium Evangelist",
-            "link": "https://developer.chrome.com/home"
-        }],
-        "socials": [{
-            "name": "Google+",
-            "icon": "app-icons:gplus",
-            "link": "https://plus.google.com/+FrancoisBeaufort"
-        }, {
-            "name": "GitHub",
-            "icon": "app-icons:github",
-            "link": "https://github.com/beaufortfrancois/"
-        }]
-    },
-    {
-        "id": 4,
-        "featured": true,
-        "name": "Francesc Campoy",
-        "title": "Cloud Developer Advocate",
-        "company": "Google",
-        "country": "FR",
-        "photoUrl": "../../images/people/fcampoy.jpg",
-        "bio": "",
-        "tags": ["Cloud", "Go"],
-        "badges": [{
-            "name": "Googler",
-            "description": "Cloud Developer Advocate",
-            "link": "https://cloud.google.com/docs/"
-        }],
-        "socials": [{
-            "name": "Google+",
-            "icon": "app-icons:gplus",
-            "link": "https://plus.google.com/+FrancescCampoyFlores"
-        }, {
-            "name": "Twitter",
-            "icon": "app-icons:twitter",
-            "link": "https://twitter.com/francesc"
-        }, {
-            "name": "GitHub",
-            "icon": "app-icons:github",
-            "link": "https://github.com/campoy"
         }]
     }
 ]
