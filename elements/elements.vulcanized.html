@@ -9335,7 +9335,7 @@ A complete [guide](https://elements.polymer-project.org/guides/flex-layout) to `
     --layout-fullbleed: {
       margin: 0;
       height: 100vh;
-    };
+    }
 
     /* fixed position */
 
@@ -35218,10 +35218,17 @@ Polymer({
                 </template>
             </div>
             <div>
+                <i18n-msg msgid="more-to-come">
+                    And much more to come...
+                </i18n-msg>
+            </div>
+            <!--
+            <div>
                 <a data-route="speakers" href="#!/speakers" class="block-link">
                     <paper-button>View all speakers</paper-button>
                 </a>
             </div>
+            -->
         </div>
     </template>
 </dom-module>
@@ -36706,7 +36713,10 @@ Polymer({
                 <div id="title" class="bottom title">[[meta.title]]</div>
             </paper-toolbar>
             <div class="content">
-                <span class="posted">Posted:
+                <span class="posted">
+                    <i18n-msg msgid="posted">
+                        Posted
+                    </i18n-msg>
                     <span>[[meta.posted]]</span>
                 </span>
                 <div class="card-content people-description">

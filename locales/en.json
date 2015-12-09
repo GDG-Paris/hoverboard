@@ -146,5 +146,13 @@
   "posted": {
     "description": "...",
     "message": "Posted"
+  },
+  "first-speakers": {
+    "description": "...",
+    "message": "First Speakers"
+  },
+  "more-to-come": {
+    "description": "...",
+    "message": "And much more to come..."
   }
 }
