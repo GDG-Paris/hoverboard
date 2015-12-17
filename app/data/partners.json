@@ -50,6 +50,14 @@
   }, {
     "title": "Media partners",
     "logos": [{
+        "name": "Maddyness",
+        "url": "http://www.startupvillage.fr/",
+        "logoUrl": "../images/partners/maddyness.jpg"
+    }, {
+        "name": "Programmez",
+        "url": "http://www.startupvillage.fr/",
+        "logoUrl": "../images/partners/programmez.png"
+    }, {
         "name": "StartupVillage",
         "url": "http://www.startupvillage.fr/",
         "logoUrl": "../images/partners/startupvillage.png"
