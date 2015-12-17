@@ -51,11 +51,11 @@
     "title": "Media partners",
     "logos": [{
         "name": "Maddyness",
-        "url": "http://www.startupvillage.fr/",
+        "url": "http://www.maddyness.com/",
         "logoUrl": "../images/partners/maddyness.jpg"
     }, {
         "name": "Programmez",
-        "url": "http://www.startupvillage.fr/",
+        "url": "http://www.programmez.com/",
         "logoUrl": "../images/partners/programmez.png"
     }, {
         "name": "StartupVillage",
