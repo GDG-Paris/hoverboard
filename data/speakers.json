@@ -7,7 +7,7 @@
         "company": "Google",
         "country": "FR",
         "photoUrl": "../../images/people/fbeaufort.jpg",
-        "bio": "",
+        "bio": "François travaille à Google sur le projet Chromium et t'aime énormément.",
         "tags": [
             "Chrome",
             "Web",
@@ -117,7 +117,7 @@
         "company": "Captain Train",
         "country": "FR",
         "photoUrl": "../../images/people/cmottier.jpg",
-        "bio": "",
+        "bio": "Cyril is a dedicated Android developer, designer and writer. He's worked on a huge variety of mobile projects across UI, UX, software architecture, and many more. Cyril is also passionate about technology and design and can turn his diverse engineering and Android skills to any problem that needs solving.<br>He's actively involved in the Android community too – writing blog posts, creating open source libraries, and giving talks around the word.<br>Cyril's motto is “Do less, but do it insanely great”. He is often considered a perfectionist, but prefers seeing himself as a pixel lover!",
         "tags": [
             "Android"
         ],
