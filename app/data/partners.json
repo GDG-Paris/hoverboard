@@ -4,11 +4,11 @@
         "name": "Cirruseo",
         "url": "http://www.cirruseo.com/",
         "logoUrl": "../images/partners/cirruseo.png"
-    },{
+    }, {
         "name": "Google",
         "url": "https://www.google.fr/intl/en/about/",
         "logoUrl": "../images/partners/google.svg"
-    },{
+    }, {
         "name": "Pivotal",
         "url": "https://pivotal.io/",
         "logoUrl": "../images/partners/pivotal.png"
@@ -19,23 +19,27 @@
         "name": "Genymobile",
         "url": "http://www.genymobile.com/",
         "logoUrl": "../images/partners/genymobile.png"
-    },{
+    }, {
         "name": "gPartner",
         "url": "http://gpartner.eu/",
         "logoUrl": "../images/partners/gPartner.png"
-    },{
+    }, {
         "name": "Intel",
         "url": "http://www.intel.com/",
         "logoUrl": "../images/partners/intel.png"
-    },{
+    }, {
         "name": "Octo",
         "url": "http://www.octo.com/",
         "logoUrl": "../images/partners/octo.png"
-    },{
+    }, {
       "name": "Sfeir",
       "url": "http://www.sfeir.com/",
       "logoUrl": "../images/partners/sfeir.svg"
-    },{
+    }, {
+        "name": "Viseo",
+        "url": "http://www.viseo.com/",
+        "logoUrl": "../images/partners/viseo.png"
+    }, {
       "name": "Zenika",
       "url": "http://www.zenika.com/",
       "logoUrl": "../images/partners/zenika.png"
@@ -50,6 +54,18 @@
   }, {
     "title": "Media partners",
     "logos": [{
+        "name": "Geeek.org",
+        "url": "http://www.geeek.org/",
+        "logoUrl": "../images/partners/geeek.png"
+    }, {
+        "name": "Maddyness",
+        "url": "http://www.maddyness.com/",
+        "logoUrl": "../images/partners/maddyness.jpg"
+    }, {
+        "name": "Programmez",
+        "url": "http://www.programmez.com/",
+        "logoUrl": "../images/partners/programmez.png"
+    }, {
         "name": "StartupVillage",
         "url": "http://www.startupvillage.fr/",
         "logoUrl": "../images/partners/startupvillage.png"
