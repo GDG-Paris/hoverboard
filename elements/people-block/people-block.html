@@ -411,11 +411,7 @@
             for (var k = 0; k < this.people.length; k++) {
                 this.people[k].hide = this._matchesFilters(this.people[k]);
             }
-            if (window.I18nMsg.lang === 'fr') {
-              this.set('toggleFiltersButton.title', this.toggleFiltersButton.selectAll ? 'Tout effacer' : 'Tout séléctionner');
-            } else {
-                this.set('toggleFiltersButton.title', this.toggleFiltersButton.selectAll ? 'Clear All' : 'Select All');
-            }
+            this.set('toggleFiltersButton.title', this.toggleFiltersButton.selectAll ? 'Clear All' : 'Select All');
             this.toggleFiltersButton.selectAll = !this.toggleFiltersButton.selectAll;
             this.$.peopleList.render();
         },
