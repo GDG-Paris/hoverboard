@@ -143,7 +143,7 @@
     },
     {
         "id": 5,
-        "featured": false,
+        "featured": true,
         "name": "Xavier Hallade",
         "title": "Application Engineer",
         "company": "Intel",
@@ -180,7 +180,7 @@
     },
     {
         "id": 6,
-        "featured": false,
+        "featured": true,
         "name": "Romain Vialard",
         "title": "Product manager",
         "company": "Revevol",
@@ -212,7 +212,7 @@
     },
     {
         "id": 7,
-        "featured": false,
+        "featured": true,
         "name": "Didier Girard",
         "title": "Directeur Général",
         "company": "Sfeir",
@@ -244,7 +244,7 @@
     },
     {
         "id": 8,
-        "featured": false,
+        "featured": true,
         "name": "Alexis Moussine-Pouchkine",
         "title": "Google Cloud Developer Relations",
         "company": "Sfeir",
