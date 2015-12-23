@@ -34591,7 +34591,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             speakersSource: {
                 type: String,
                 value: function(){
-                    return '../../data/' + window.I18nMsg.lang + '/speakers.json';
+                    return '../../data/speakers.json';
                 }
             },
             sessionsSource: {
@@ -34826,6 +34826,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                             </a>
                         </paper-tab>
                         <paper-tab class="text-u-c" link="">
+                            <a data-route="speakers" href="#!/speakers" class="nav-link horizontal center-center layout">
+                                Speakers
+                            </a>
+                        </paper-tab>
+                        <paper-tab class="text-u-c" link="">
                             <a data-route="home" href="/" onclick="window.I18nMsg.lang='en'" class="nav-link horizontal center-center layout">
                                 English
                             </a>
@@ -34841,11 +34846,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                                 Schedule
                             </a>
                         </paper-tab>
-                        <paper-tab class="text-u-c" link>
-                            <a data-route="speakers" href="#!/speakers" class="nav-link horizontal center-center layout">
-                                Speakers
-                            </a>
-                        </paper-tab>
+                        -->
+                        <!--
                         <paper-tab class="text-u-c">
                             <a data-route="contact" href="#!/contact" class="nav-link horizontal center-center layout">Contact</a>
                         </paper-tab>
@@ -35217,22 +35219,26 @@ Polymer({
                     </div>
                 </template>
             </div>
+            <!--
             <div>
                 <a data-route="blog/first-speakers" href="#!/blog/first-speakers" class="block-link">
-                    <paper-button class="colorful" raised="">
+                    <paper-button class="colorful" raised>
                         <i18n-msg msgid="become-a-speaker">
                             Become a speaker
                         </i18n-msg>
                     </paper-button>
                 </a>
             </div>
-            <!--
+            -->
             <div>
                 <a data-route="speakers" href="#!/speakers" class="block-link">
-                    <paper-button>View all speakers</paper-button>
+                    <paper-button>
+                        <i18n-msg msgid="view-all-speakers">
+                            View all speakers
+                        </i18n-msg>
+                    </paper-button>
                 </a>
             </div>
-            -->
         </div>
     </template>
 </dom-module>
