@@ -37400,7 +37400,11 @@ Polymer({
                 <div id="sideMenu" class="side-menu layout vertical">
                     <paper-card class="filters">
                         <div class="card-content header">
-                            <div class="title-text">Filters</div>
+                            <div class="title-text">
+                                <i18n-msg msgid="filters">
+                                    Filters
+                                </i18n-msg>
+                            </div>
                         </div>
                         <div class="card-content">
                             <div id="tagFilter" class="selector-group layout horizontal-vertical wrap">
@@ -37576,7 +37580,11 @@ Polymer({
             for (var k = 0; k < this.people.length; k++) {
                 this.people[k].hide = this._matchesFilters(this.people[k]);
             }
-            this.set('toggleFiltersButton.title', this.toggleFiltersButton.selectAll ? 'Clear All' : 'Select All');
+            if (window.I18nMsg.lang === 'fr') {
+              this.set('toggleFiltersButton.title', this.toggleFiltersButton.selectAll ? 'Tout effacer' : 'Tout séléctionner');
+            } else {
+                this.set('toggleFiltersButton.title', this.toggleFiltersButton.selectAll ? 'Clear All' : 'Select All');
+            }
             this.toggleFiltersButton.selectAll = !this.toggleFiltersButton.selectAll;
             this.$.peopleList.render();
         },
