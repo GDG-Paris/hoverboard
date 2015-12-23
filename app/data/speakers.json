@@ -11,7 +11,7 @@
         "tags": [
             "Chrome",
             "Web",
-            "Bluetooth"
+            "IoT"
         ],
         "badges": [
             {
@@ -39,7 +39,7 @@
         "name": "Francesc Campoy",
         "title": "Cloud Developer Advocate",
         "company": "Google",
-        "country": "FR",
+        "country": "US",
         "photoUrl": "../../images/people/fcampoy.jpg",
         "bio": "",
         "tags": [
@@ -220,7 +220,10 @@
         "photoUrl": "../../images/people/dgirard.jpg",
         "bio": "I am a software engineer with experience in: Cloud Technologies, BigData, Machine Learning, Java and Go.",
         "tags": [
-            "Cloud"
+            "Cloud",
+            "BigData",
+            "Machine Learning",
+            "Go"
         ],
         "badges": [
             {
@@ -246,8 +249,8 @@
         "id": 8,
         "featured": true,
         "name": "Alexis Moussine-Pouchkine",
-        "title": "Google Cloud Developer Relations",
-        "company": "Sfeir",
+        "title": "Cloud Developer Relations",
+        "company": "Google",
         "country": "FR",
         "photoUrl": "../../images/people/alexismp.jpg",
         "bio": "",
@@ -257,7 +260,7 @@
         "badges": [
             {
                 "name": "Googler",
-                "description": "Google Cloud Developer Relations",
+                "description": "Cloud Developer Relations",
                 "link": "https://cloud.google.com/docs/"
             }
         ],
