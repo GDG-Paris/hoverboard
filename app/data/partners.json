@@ -28,6 +28,10 @@
         "url": "http://www.intel.com/",
         "logoUrl": "../images/partners/intel.png"
     }, {
+        "name": "JFrog",
+        "url": "http://www.jfrog.com/",
+        "logoUrl": "../images/partners/jfrog.png"
+    }, {
         "name": "Octo",
         "url": "http://www.octo.com/",
         "logoUrl": "../images/partners/octo.png"
