@@ -37597,7 +37597,7 @@ Polymer({
         },
         _filter: function(event) {
             var filterName = event.model.filter.name,
-                filterStatus = event.srcElement.checked,
+                filterStatus = (event.srcElement || event.originalTarget).checked,
                 filterIndex = this.filters.indexOf(filterName);
             if (filterStatus && filterIndex < 0) {
                 this.filters.push(filterName);
