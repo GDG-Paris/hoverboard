@@ -54,6 +54,10 @@
         "name": "D2SI",
         "url": "http://www.d2-si.fr/",
         "logoUrl": "../images/partners/d2si.png"
+    }, {
+        "name": "SII",
+        "url": "http://www.groupe-sii.com/",
+        "logoUrl": "../images/partners/sii.png"
     }]
   }, {
     "title": "Media partners",
