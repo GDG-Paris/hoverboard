@@ -55,6 +55,10 @@
         "url": "http://www.d2-si.fr/",
         "logoUrl": "../images/partners/d2si.png"
     }, {
+        "name": "Open",
+        "url": "http://www.open-groupe.com/",
+        "logoUrl": "../images/partners/open.png"
+    }, {
         "name": "SII",
         "url": "http://www.groupe-sii.com/",
         "logoUrl": "../images/partners/sii.png"
