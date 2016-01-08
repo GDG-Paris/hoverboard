@@ -55,6 +55,10 @@
         "url": "http://www.d2-si.fr/",
         "logoUrl": "../images/partners/d2si.png"
     }, {
+        "name": "iAdvize",
+        "url": "http://www.iadvize.com/",
+        "logoUrl": "../images/partners/iAdvize.png"
+    },, {
         "name": "Open",
         "url": "http://www.open-groupe.com/",
         "logoUrl": "../images/partners/open.png"
@@ -72,7 +76,7 @@
     }, {
         "name": "Maddyness",
         "url": "http://www.maddyness.com/",
-        "logoUrl": "../images/partners/maddyness.jpg"
+        "logoUrl": "../images/partners/maddyness.png"
     }, {
         "name": "Programmez",
         "url": "http://www.programmez.com/",
