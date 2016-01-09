@@ -698,5 +698,40 @@
                 "link": "https://github.com/jollivetc"
             }
         ]
+    },
+    {
+        "id": 23,
+        "featured": false,
+        "name": "Turhan Oz",
+        "title": "Entrepreneur & Developer",
+        "company": "Socosmoz",
+        "country": "FR",
+        "photoUrl": "../../images/people/toz.jpg",
+        "bio": "Android Developer, interested in clean coding, lean startuping, knowledge sharing.<br>staff @ParisAndroidUG",
+        "tags": [
+            "Web", "Chrome"
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/u/0/108342574058924181125"
+            },
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/turhanoz"
+            },
+            {
+                "name": "GitHub",
+                "icon": "app-icons:github",
+                "link": "https://github.com/TurhanOz"
+            },
+            {
+                "name": "Blog",
+                "icon": "link",
+                "link": "http://turhanoz.com"
+            }
+        ]
     }
 ]
