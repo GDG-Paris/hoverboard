@@ -354,7 +354,7 @@
         "photoUrl": "../../images/people/tlefevre.jpg",
         "bio": "10 years data addict.",
         "tags": [
-            "Data", "Google Cloud Platform", "Neo4J"
+            "Data", "Cloud", "Neo4J"
         ],
         "socials": [
             {
@@ -374,7 +374,7 @@
         "photoUrl": "../../images/people/ckadaoui.jpg",
         "bio": "",
         "tags": [
-            "Data", "Google Cloud Platform", "Neo4J"
+            "Data", "Cloud", "Neo4J"
         ],
         "socials": [
             {
@@ -636,6 +636,41 @@
                 "name": "Blog",
                 "icon": "link",
                 "link": "http://padewitte.tumblr.com"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "featured": false,
+        "name": "Ray Tsang",
+        "title": "Developer Advocate",
+        "company": "Google",
+        "country": "FR",
+        "photoUrl": "../../images/people/rtsang.jpeg",
+        "bio": "Ray is a Developer Advocate for the Google Cloud Platform. Ray had extensive hands on cross-industry enterprise systems integration delivery and management experiences during his time at Accenture, managed full stack application development, DevOps, and ITOps. Ray specialized in middleware, big data, and PaaS products during his time at Red Hat while contributing to open source projects, such as Infinispan. Aside from technology, Ray enjoys traveling and adventures.<br><br>Follow Ray on Twitter @saturnism (https://twitter.com/saturnism)",
+        "tags": [
+            "Cloud", "Kubernetes"
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/+RayTsang"
+            },
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/saturnism"
+            },
+            {
+                "name": "GitHub",
+                "icon": "app-icons:github",
+                "link": "https://github.com/saturnism"
+            },
+            {
+                "name": "Blog",
+                "icon": "link",
+                "link": "https://medium.com/@saturnism"
             }
         ]
     }
