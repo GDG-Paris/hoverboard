@@ -363,5 +363,25 @@
                 "link": "https://plus.google.com/104231756250263470437"
             }
         ]
+    },
+    {
+        "id": 12,
+        "featured": false,
+        "name": "Chaïmaa Kadaoui",
+        "title": "Data Intern",
+        "company": "Cirruseo",
+        "country": "FR",
+        "photoUrl": "../../images/people/ckadaoui.jpg",
+        "bio": "",
+        "tags": [
+            "Data", "Google Cloud Platform", "Neo4J"
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/105203426639627151416"
+            }
+        ]
     }
 ]
