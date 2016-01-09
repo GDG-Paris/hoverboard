@@ -343,5 +343,25 @@
                 "link": "https://plus.google.com/+SimonLebrungPartner"
             }
         ]
+    },
+    {
+        "id": 11,
+        "featured": false,
+        "name": "Thibault Lefevre",
+        "title": "Big Data Lead",
+        "company": "Cirruseo",
+        "country": "FR",
+        "photoUrl": "../../images/people/tlefevre.jpg",
+        "bio": "10 years data addict.",
+        "tags": [
+            "Data", "Google Cloud Platform", "Neo4J"
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/104231756250263470437"
+            }
+        ]
     }
 ]
