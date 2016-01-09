@@ -418,5 +418,40 @@
                 "link": "https://lanyrd.com/profile/snicoll"
             }
         ]
+    },
+    {
+        "id": 14,
+        "featured": false,
+        "name": "Brian Clozel",
+        "title": "Spring Framework committer",
+        "company": "Pivotal",
+        "country": "FR",
+        "photoUrl": "../../images/people/bclozel.png",
+        "bio": "Spring Framework core committer, focusing on web and messaging. Lead developer of Sagan, the Spring reference app that powers http://spring.io",
+        "tags": [
+            "Java", "Spring", "Cloud"
+        ],
+        "socials": [
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/brianclozel"
+            },
+            {
+                "name": "GitHub",
+                "icon": "app-icons:github",
+                "link": "https://github.com/spring-projects/"
+            },
+            {
+                "name": "Blog",
+                "icon": "link",
+                "link": "https://spring.io/blog"
+            },
+            {
+                "name": "Lanyard",
+                "icon": "link",
+                "link": "https://lanyrd.com/profile/bclozel"
+            }
+        ]
     }
 ]
