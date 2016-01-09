@@ -866,5 +866,42 @@
         "tags": [
             "Android", "Doze"
         ]
+    },
+    {
+        "id": 28,
+        "featured": false,
+        "name": "Thierry Chatel",
+        "title": "MethoTIC Conseil",
+        "company": "Orange Labs",
+        "country": "FR",
+        "photoUrl": "../../images/people/tchattel.jpg",
+        "bio": "Je suis consultant et formateur, passionné par l'achitecture des applications web, et spécialiste de JavaScript et du framework AngularJS. Et Google Developer Expert sur AngularJS depuis 2014.",
+        "tags": [
+            "Android", "Doze"
+        ],
+        "badges": [
+            {
+                "name": "GDE",
+                "description": "Google Developer Expert",
+                "link": "https://developers.google.com/experts/people/david-gageot"
+            }
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/+ThierryChatel"
+            },
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/ThierryChatel"
+            },
+            {
+                "name": "GitHub",
+                "icon": "app-icons:github",
+                "link": "https://github.com/tchatel"
+            }
+        ]
     }
 ]
