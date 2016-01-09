@@ -853,5 +853,18 @@
                 "link": "https://github.com/marcpoppleton"
             }
         ]
+    },
+    {
+        "id": 28,
+        "featured": false,
+        "name": "Pierre Crépieux",
+        "title": "Solution Engineer",
+        "company": "Orange Labs",
+        "country": "FR",
+        "photoUrl": "../../images/people/pcrepieux.jpg",
+        "bio": "Après plusieurs années passées du coté des infrastructures réseau (Réseau Intelligent, H.323, IMS), je suis aujourd'hui développeur senior sur Android. Mon sujet de prédilection du moment: l’impact que peuvent avoir les applications sur le terminal mobile et le réseau.",
+        "tags": [
+            "Android", "Doze"
+        ]
     }
 ]
