@@ -573,5 +573,35 @@
                 "link": "http://blogs.msdn.com/b/jdupuy"
             }
         ]
+    },
+    {
+        "id": 19,
+        "featured": false,
+        "name": "Julien Landuré",
+        "title": "CTO Zenika Nantes",
+        "company": "Zenika",
+        "country": "FR",
+        "photoUrl": "../../images/people/jlandure.jpg",
+        "bio": "CTO de Zenika Nantes, Julien navigue entre des missions de formation (AngularJS, AppEngine) et d'architecture. Issu de la génération Google, il a co-fondé en Janvier 2011 le GDG Nantes, participe depuis 5 ans au Google I/O et organise le DevFest Nantes.",
+        "tags": [
+            "Web", "HTTP2"
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/+julienlanduré"
+            },
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/jlandure"
+            },
+            {
+                "name": "GitHub",
+                "icon": "app-icons:github",
+                "link": "https://github.com/jlandure"
+            }
+        ]
     }
 ]
