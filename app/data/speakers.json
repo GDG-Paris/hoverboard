@@ -798,5 +798,30 @@
                 "link": "http://www.designedforwork.com/"
             }
         ]
+    },
+    {
+        "id": 26,
+        "featured": false,
+        "name": "Alexis Tual",
+        "title": "Solution Engineer",
+        "company": "JFrog",
+        "country": "FR",
+        "photoUrl": "../../images/people/atual.jpg",
+        "bio": "Alexis is a versatile Solution Engineeer, he's passionate about technology and likes to work with a wide range of language and tools from Java to Docker, through web technologies. But since he fell in love with Groovy, he works on Gradle plugins at JFrog.",
+        "tags": [
+            "Cloud", "Microservices"
+        ],
+        "socials": [
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/alex_tual"
+            },
+            {
+                "name": "GitHub",
+                "icon": "app-icons:github",
+                "link": "https://github.com/alextu"
+            }
+        ]
     }
 ]
