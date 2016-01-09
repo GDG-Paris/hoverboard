@@ -323,5 +323,25 @@
                 "link": "https://http://jef.binomed.fr"
             }
         ]
+    },
+    {
+        "id": 10,
+        "featured": false,
+        "name": "Simon Lebrun",
+        "title": "Responsable Digital Lab",
+        "company": "gPartner",
+        "country": "FR",
+        "photoUrl": "../../images/people/jfgarreau.jpg",
+        "bio": "I have been working for gPartner for the last 4 years. I created the Digital Lab to answer our clients needs to create innovative web experience around Google Maps ans Street View. Last year I presented \"WebGL meets Google Street View\" @Devfest2015, this year I want to show you again how to merge 2 worlds. With Quentin Veyret from my team, we will demonstrate how to integrate a real time framework like Firebase into a Google Maps experiment.",
+        "tags": [
+            "Web", "Firebase", "Google Maps"
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/+SimonLebrungPartner"
+            }
+        ]
     }
 ]
