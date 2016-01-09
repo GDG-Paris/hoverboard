@@ -768,5 +768,35 @@
                 "link": "http://matparisot.fr/"
             }
         ]
+    },
+    {
+        "id": 25,
+        "featured": false,
+        "name": "Corentin Leclerc",
+        "title": "Software Engineer",
+        "company": "Cirruseo / Designed For Work",
+        "country": "FR",
+        "photoUrl": "../../images/people/cleclerc.jpg",
+        "bio": "Développeur Python depuis toujours chez Cirruseo / Designed For Work. Responsable d'intégration des produits de Designed For Work / Apprenti DevOps",
+        "tags": [
+            "Web", "CSS3"
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/+CorentinLeclerc"
+            },
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/corentin_l"
+            },
+            {
+                "name": "Blog",
+                "icon": "link",
+                "link": "http://www.designedforwork.com/"
+            }
+        ]
     }
 ]
