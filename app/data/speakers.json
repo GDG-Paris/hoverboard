@@ -528,5 +528,25 @@
                 "link": "https://twitter.com/sniark"
             }
         ]
+    },
+    {
+        "id": 18,
+        "featured": false,
+        "name": "Antoine Duplouy",
+        "title": "",
+        "company": "UX-Republic",
+        "country": "FR",
+        "photoUrl": "../../images/people/aduplouy.jpg",
+        "bio": "",
+        "tags": [
+            "Design", "UX"
+        ],
+        "socials": [
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/antoine59470"
+            }
+        ]
     }
 ]
