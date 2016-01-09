@@ -823,5 +823,35 @@
                 "link": "https://github.com/alextu"
             }
         ]
+    },
+    {
+        "id": 27,
+        "featured": false,
+        "name": "Marc Poppleton",
+        "title": "Developer",
+        "company": "Orange Labs",
+        "country": "FR",
+        "photoUrl": "../../images/people/mpoppleton.jpg",
+        "bio": "I'm a Software Engineer at Orange Labs and tinker with code for Android since version 1.0 Apple Pie. <br>I'm also the leader of the GDG Code d'Armor.<br>The rest of the time, I'm Robopop, cyber-father and husband, half flesh and bones, half carbon fiber and steel.",
+        "tags": [
+            "Android", "Doze"
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/+MarcPoppleton"
+            },
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/marcpoppleton"
+            },
+            {
+                "name": "GitHub",
+                "icon": "app-icons:github",
+                "link": "https://github.com/marcpoppleton"
+            }
+        ]
     }
 ]
