@@ -871,8 +871,8 @@
         "id": 29,
         "featured": false,
         "name": "Thierry Chatel",
-        "title": "MethoTIC Conseil",
-        "company": "Orange Labs",
+        "title": "",
+        "company": "MethoTIC Conseil",
         "country": "FR",
         "photoUrl": "../../images/people/tchattel.jpg",
         "bio": "Je suis consultant et formateur, passionné par l'achitecture des applications web, et spécialiste de JavaScript et du framework AngularJS. Et Google Developer Expert sur AngularJS depuis 2014.",
@@ -883,7 +883,7 @@
             {
                 "name": "GDE",
                 "description": "Google Developer Expert",
-                "link": "https://developers.google.com/experts/people/david-gageot"
+                "link": "https://developers.google.com/experts/people/thierry-chatel"
             }
         ],
         "socials": [
@@ -901,6 +901,43 @@
                 "name": "GitHub",
                 "icon": "app-icons:github",
                 "link": "https://github.com/tchatel"
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "featured": false,
+        "name": "Scott Jenson",
+        "title": "Project Lead for Physical Web",
+        "company": "Google",
+        "country": "FR",
+        "photoUrl": "../../images/people/sjenson.jpg",
+        "bio": "Scott Jenson has been doing user interface design and strategic planning for over 20 years. He worked at Apple on System 7, Newton, and the Apple Human Interface guidelines. He was the director of Symbian’s DesignLab, VP of product design for Cognima, a manager of mobile UX for Google for 5 years, and a creative director at frog design in San Francisco.<br><br>Scott returned to Google working on the Chrome team in November 2013<br><br>As a battle-scarred veteran of the software industry, Scott has shipped a consumer spreadsheet, been a part of 2 Mac OS releases, 5 Newton product cycles, 4 commercial web site revisions, designed 3 different mobile phone UIs, sworn at innumerable mobile browsers, and has over 20 patents.",
+        "tags": [
+            "Web", "IoT"
+        ],
+        "badges": [
+            {
+                "name": "Googler",
+                "description": "Googler",
+                "link": "https://google.github.io/physical-web/"
+            }
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/+ScottJenson"
+            },
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/scottjenson"
+            },
+            {
+                "name": "Blog",
+                "icon": "link",
+                "link": "https://jenson.org//"
             }
         ]
     }
