@@ -453,5 +453,30 @@
                 "link": "https://lanyrd.com/profile/bclozel"
             }
         ]
+    },
+    {
+        "id": 15,
+        "featured": false,
+        "name": "Cyril Balit",
+        "title": "Front end CTO",
+        "company": "Sfeir",
+        "country": "FR",
+        "photoUrl": "../../images/people/cbalit.jpeg",
+        "bio": "Cyril Balit est directeur technique front dans la société Sfeir. Il encadre une équipe de développeurs frontend spécialisés dans le développement d’applications RIA (Node, Angular, Backbone) et les problématiques d’industrialisation (usine de développement, intégration continue, cloud)",
+        "tags": [
+            "Web", "Polymer"
+        ],
+        "socials": [
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/cbalit"
+            },
+            {
+                "name": "GitHub",
+                "icon": "app-icons:github",
+                "link": "https://github.com/cbalit"
+            }
+        ]
     }
 ]
