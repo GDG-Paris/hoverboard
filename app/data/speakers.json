@@ -234,7 +234,7 @@
         ],
         "socials": [
             {
-                "name": "Twitter+",
+                "name": "Twitter",
                 "icon": "app-icons:twitter",
                 "link": "https://twitter.com/DidierGirard"
             },
@@ -279,6 +279,48 @@
                 "name": "Blog",
                 "icon": "link",
                 "link": "https://alexismp.wordpress.com"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "featured": true,
+        "name": "Jean-François Garreau",
+        "title": "Innovateur curieux",
+        "company": "SQLI",
+        "country": "FR",
+        "photoUrl": "../../images/people/jfgarreau.jpg",
+        "bio": "",
+        "tags": [
+            "Web"
+        ],
+        "badges": [
+            {
+                "name": "GDG",
+                "description": "GDG Nantes organizer",
+                "link": "http://www.meetup.com/fr-FR/GDG-Nantes"
+            }
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/+JeanFrancoisGarreau"
+            },
+            {
+                "name": "Twitter+",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/jefbinomed"
+            },
+            {
+                "name": "GitHub",
+                "icon": "app-icons:github",
+                "link": "https://github.com/jefBinomed"
+            },
+            {
+                "name": "Blog",
+                "icon": "link",
+                "link": "https://http://jef.binomed.fr"
             }
         ]
     }
