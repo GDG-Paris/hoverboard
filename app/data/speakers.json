@@ -508,5 +508,25 @@
                 "link": "http://lanyrd.com/profile/hsablonniere"
             }
         ]
+    },
+    {
+        "id": 17,
+        "featured": false,
+        "name": "Yann Cadoret",
+        "title": "",
+        "company": "UX-Republic",
+        "country": "FR",
+        "photoUrl": "../../images/people/ycadoret.png",
+        "bio": "",
+        "tags": [
+            "Design", "UX"
+        ],
+        "socials": [
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/sniark"
+            }
+        ]
     }
 ]
