@@ -673,5 +673,30 @@
                 "link": "https://medium.com/@saturnism"
             }
         ]
+    },
+    {
+        "id": 22,
+        "featured": false,
+        "name": "Christophe Jollivet",
+        "title": "Agitateur technique",
+        "company": "Apside",
+        "country": "FR",
+        "photoUrl": "../../images/people/cjollivet.jpg",
+        "bio": "Agitateur technique chez Apside, Christophe prêche les bonnes pratiques sur divers projets informatiques et universités en région tourangelle. Reconverti à l’informatique il y a 12 ans suite à un doctorat de neurobiologie, il contribue activement dans les communautés Java en ayant été co-responsable de la rubrique Java du site developpez.com mais aussi en participant à des conférences et en animant depuis 2008 le Tours JUG.",
+        "tags": [
+            "Web", "Chrome"
+        ],
+        "socials": [
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/jollivetc"
+            },
+            {
+                "name": "GitHub",
+                "icon": "app-icons:github",
+                "link": "https://github.com/jollivetc"
+            }
+        ]
     }
 ]
