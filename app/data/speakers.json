@@ -603,5 +603,40 @@
                 "link": "https://github.com/jlandure"
             }
         ]
+    },
+    {
+        "id": 20,
+        "featured": false,
+        "name": "Pierre-Alban Dewitte",
+        "title": "Cloud dev team leader",
+        "company": "MyScript",
+        "country": "FR",
+        "photoUrl": "../../images/people/padewitte.jpeg",
+        "bio": "Passioné de nouvelles technologies avec un soucis de leur bon usage. Intéressé par toutes les solutions permettant de faire mieux et simplement.",
+        "tags": [
+            "Web", "Polymer"
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/+DewittePierreAlban"
+            },
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/padewitte"
+            },
+            {
+                "name": "GitHub",
+                "icon": "app-icons:github",
+                "link": "https://github.com/padewitte"
+            },
+            {
+                "name": "Blog",
+                "icon": "link",
+                "link": "http://padewitte.tumblr.com"
+            }
+        ]
     }
 ]
