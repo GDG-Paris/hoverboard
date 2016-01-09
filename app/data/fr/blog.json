@@ -4,7 +4,7 @@
     "titleUrl": "devfest-paris-2016-announced",
     "posted": "22 octobre 2015",
     "file": "fr/2015-10-22-devfest-paris-2016-announced.markdown",
-    "brief": "Le GDG Paris est fier d'annoncer cette nouvelle édition du DevFest Paris - la plus grande conférence autour des technologies Google related à Paris. Réservez votre journée."
+    "brief": "Le GDG Paris est fier d'annoncer cette nouvelle édition du DevFest Paris - la plus grande conférence autour des technologies Google à Paris. Réservez votre journée !"
 }, {
     "id": 2,
     "title": "Call for Papers",
@@ -19,4 +19,11 @@
     "posted": "23 novembre 2015",
     "file": "fr/2015-11-23-book-your-ticket.markdown",
     "brief": "A partir d'aujourd'hui, vous pouvez réserver <a href='http://www.eventbrite.fr/e/billets-devfest-paris-2016-19529320724'>votre place</a> pour le DevFest Paris 2016. Dépêchez-vous : nous proposons un prix spécial pour les premiers inscrits !"
+}, {
+    "id": 4,
+    "title": "Annonce des premiers speakers",
+    "titleUrl": "first-speakers",
+    "posted": "9 décembre 2015",
+    "file": "fr/2015-12-09-first-speakers.markdown",
+    "brief": "Nous sommes très heureux d'annoncer les 4 premiers speakers séléctionnés pour le DevFest Paris 2016. Si vous souhaitez aussi être speaker, n'oubliez pas de de soumettre votre proposition avant le 15 décembre."
 }]

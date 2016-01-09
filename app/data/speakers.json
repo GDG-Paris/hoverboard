@@ -1,0 +1,285 @@
+[
+    {
+        "id": 1,
+        "featured": true,
+        "name": "François Beaufort",
+        "title": "Chromium Evangelist",
+        "company": "Google",
+        "country": "FR",
+        "photoUrl": "../../images/people/fbeaufort.jpg",
+        "bio": "François travaille à Google sur le projet Chromium et t'aime énormément.",
+        "tags": [
+            "Chrome",
+            "Web",
+            "IoT"
+        ],
+        "badges": [
+            {
+                "name": "Googler",
+                "description": "Chromium Evangelist",
+                "link": "https://developer.chrome.com/home"
+            }
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/+FrancoisBeaufort"
+            },
+            {
+                "name": "GitHub",
+                "icon": "app-icons:github",
+                "link": "https://github.com/beaufortfrancois/"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "featured": true,
+        "name": "Francesc Campoy",
+        "title": "Cloud Developer Advocate",
+        "company": "Google",
+        "country": "US",
+        "photoUrl": "../../images/people/fcampoy.jpg",
+        "bio": "",
+        "tags": [
+            "Cloud",
+            "Go"
+        ],
+        "badges": [
+            {
+                "name": "Googler",
+                "description": "Cloud Developer Advocate",
+                "link": "https://cloud.google.com/docs/"
+            }
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/+FrancescCampoyFlores"
+            },
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/francesc"
+            },
+            {
+                "name": "GitHub",
+                "icon": "app-icons:github",
+                "link": "https://github.com/campoy"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "featured": true,
+        "name": "David Gageot",
+        "title": "",
+        "company": "Docker",
+        "country": "FR",
+        "photoUrl": "../../images/people/dgageot.jpg",
+        "bio": "What can I say except that I'm born to be a geek. I started with computers being my dad's own static code analyzer. I would seat next to him and spot bugs before he even ran the code. It's been a while and I can proudly state that I'm fully capable of creating my own bugs now. I felt in love at first sight with Docker at CloudConf (now DotScale) conference in Paris in 2013.  Has been using it since. Now I'm proud to be part of the team.",
+        "tags": [
+            "Cloud",
+            "Docker"
+        ],
+        "badges": [
+            {
+                "name": "GDE",
+                "description": "Google Developer Expert",
+                "link": "https://developers.google.com/experts/people/david-gageot"
+            }
+        ],
+        "socials": [
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/dgageot"
+            },
+            {
+                "name": "GitHub",
+                "icon": "app-icons:github",
+                "link": "https://github.com/dgageot"
+            },
+            {
+                "name": "Blog",
+                "icon": "link",
+                "link": "http://blog.javabien.net/"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "featured": true,
+        "name": "Cyril Mottier",
+        "title": "Lead Android Devsigner",
+        "company": "Captain Train",
+        "country": "FR",
+        "photoUrl": "../../images/people/cmottier.jpg",
+        "bio": "Cyril is a dedicated Android developer, designer and writer. He's worked on a huge variety of mobile projects across UI, UX, software architecture, and many more. Cyril is also passionate about technology and design and can turn his diverse engineering and Android skills to any problem that needs solving.<br>He's actively involved in the Android community too – writing blog posts, creating open source libraries, and giving talks around the word.<br>Cyril's motto is “Do less, but do it insanely great”. He is often considered a perfectionist, but prefers seeing himself as a pixel lover!",
+        "tags": [
+            "Android"
+        ],
+        "badges": [
+            {
+                "name": "GDE",
+                "description": "Google Developer Expert",
+                "link": "https://developers.google.com/experts/people/cyril-mottier"
+            }
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/+CyrilMottier"
+            },
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/cyrilmottier"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "featured": true,
+        "name": "Xavier Hallade",
+        "title": "Application Engineer",
+        "company": "Intel",
+        "country": "FR",
+        "photoUrl": "../../images/people/xhallade.jpg",
+        "bio": "Xavier Hallade is a software engineer at Intel Software and Services Group in Paris, France, where he works on a wide range of Android frameworks, libraries and applications, helping developers to improve their support for new hardware and technologies. <br> He's a Google Developer Expert in Android, with a focus on the Android NDK and Android TV.",
+        "tags": [
+            "Android"
+        ],
+        "badges": [
+            {
+                "name": "GDE",
+                "description": "Google Developer Expert",
+                "link": "https://developers.google.com/experts/people/xavier-hallade"
+            }
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/+XavierHallade"
+            },
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/ph0b"
+            },
+            {
+                "name": "Blog",
+                "icon": "link",
+                "link": "http://ph0b.com/"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "featured": true,
+        "name": "Romain Vialard",
+        "title": "Product manager",
+        "company": "Revevol",
+        "country": "FR",
+        "photoUrl": "../../images/people/rvialard.jpg",
+        "bio": "Romain Vialard is a Google Developer Expert. After some years spent as a Google Apps consultant, he is now focused on products for Google Apps users, including add-ons such as Yet Another Mail Merge and Form Publisher.",
+        "tags": [
+            "Apps Script"
+        ],
+        "badges": [
+            {
+                "name": "GDE",
+                "description": "Google Developer Expert",
+                "link": "https://developers.google.com/experts/people/romain-vialard"
+            }
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/+RomainVialard-public"
+            },
+            {
+                "name": "Blog",
+                "icon": "link",
+                "link": "https://sites.google.com/site/scriptsexamples/"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "featured": true,
+        "name": "Didier Girard",
+        "title": "Directeur Général",
+        "company": "Sfeir",
+        "country": "FR",
+        "photoUrl": "../../images/people/dgirard.jpg",
+        "bio": "I am a software engineer with experience in: Cloud Technologies, BigData, Machine Learning, Java and Go.",
+        "tags": [
+            "Cloud",
+            "BigData",
+            "Machine Learning",
+            "Go"
+        ],
+        "badges": [
+            {
+                "name": "GDE",
+                "description": "Google Developer Expert",
+                "link": "https://developers.google.com/experts/people/didier-girard"
+            }
+        ],
+        "socials": [
+            {
+                "name": "Twitter+",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/DidierGirard"
+            },
+            {
+                "name": "Blog",
+                "icon": "link",
+                "link": "https://sites.google.com/site/scriptsexamples/"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "featured": true,
+        "name": "Alexis Moussine-Pouchkine",
+        "title": "Cloud Developer Relations",
+        "company": "Google",
+        "country": "FR",
+        "photoUrl": "../../images/people/alexismp.jpg",
+        "bio": "",
+        "tags": [
+            "Cloud"
+        ],
+        "badges": [
+            {
+                "name": "Googler",
+                "description": "Cloud Developer Relations",
+                "link": "https://cloud.google.com/docs/"
+            }
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/+AlexisMP"
+            },
+            {
+                "name": "Twitter+",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/alexismp"
+            },
+            {
+                "name": "Blog",
+                "icon": "link",
+                "link": "https://alexismp.wordpress.com"
+            }
+        ]
+    }
+]

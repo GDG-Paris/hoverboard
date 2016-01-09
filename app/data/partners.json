@@ -4,32 +4,93 @@
         "name": "Cirruseo",
         "url": "http://www.cirruseo.com/",
         "logoUrl": "../images/partners/cirruseo.png"
-    },{
+    }, {
         "name": "Google",
         "url": "https://www.google.fr/intl/en/about/",
         "logoUrl": "../images/partners/google.svg"
+    }, {
+        "name": "Pivotal",
+        "url": "https://pivotal.io/",
+        "logoUrl": "../images/partners/pivotal.png"
     }]
-}, {
+  }, {
     "title": "Gold sponsors",
     "logos": [{
         "name": "Genymobile",
         "url": "http://www.genymobile.com/",
         "logoUrl": "../images/partners/genymobile.png"
-    },{
+    }, {
         "name": "gPartner",
         "url": "http://gpartner.eu/",
         "logoUrl": "../images/partners/gPartner.png"
-    },{
+    }, {
         "name": "Intel",
         "url": "http://www.intel.com/",
         "logoUrl": "../images/partners/intel.png"
-    },{
+    }, {
+        "name": "JFrog",
+        "url": "http://www.jfrog.com/",
+        "logoUrl": "../images/partners/jfrog.png"
+    }, {
         "name": "Octo",
         "url": "http://www.octo.com/",
         "logoUrl": "../images/partners/octo.png"
-    },{
+    }, {
       "name": "Sfeir",
       "url": "http://www.sfeir.com/",
       "logoUrl": "../images/partners/sfeir.svg"
+    }, {
+        "name": "Viseo",
+        "url": "http://www.viseo.com/",
+        "logoUrl": "../images/partners/viseo.png"
+    }, {
+      "name": "Zenika",
+      "url": "http://www.zenika.com/",
+      "logoUrl": "../images/partners/zenika.png"
     }]
+  }, {
+    "title": "Silver sponsors",
+    "logos": [{
+        "name": "D2SI",
+        "url": "http://www.d2-si.fr/",
+        "logoUrl": "../images/partners/d2si.png"
+    }, {
+        "name": "iAdvize",
+        "url": "http://www.iadvize.com/",
+        "logoUrl": "../images/partners/iAdvize.png"
+    }, {
+        "name": "Open",
+        "url": "http://www.open-groupe.com/",
+        "logoUrl": "../images/partners/open.png"
+    }, {
+        "name": "SII",
+        "url": "http://www.groupe-sii.com/",
+        "logoUrl": "../images/partners/sii.png"
+    }]
+  }, {
+    "title": "Media partners",
+    "logos": [{
+        "name": "Geeek.org",
+        "url": "http://www.geeek.org/",
+        "logoUrl": "../images/partners/geeek.png"
+    }, {
+        "name": "Maddyness",
+        "url": "http://www.maddyness.com/",
+        "logoUrl": "../images/partners/maddyness.png"
+    }, {
+        "name": "Programmez",
+        "url": "http://www.programmez.com/",
+        "logoUrl": "../images/partners/programmez.png"
+    }, {
+        "name": "StartupVillage",
+        "url": "http://www.startupvillage.fr/",
+        "logoUrl": "../images/partners/startupvillage.png"
+    }]
+  }, {
+    "title": "Community partners",
+    "logos": [{
+        "name": "PAUG",
+        "url": "http://www.paug.fr/",
+        "logoUrl": "../images/partners/paug.jpg"
+  }]
 }]
