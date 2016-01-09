@@ -709,7 +709,7 @@
         "photoUrl": "../../images/people/toz.jpg",
         "bio": "Android Developer, interested in clean coding, lean startuping, knowledge sharing.<br>staff @ParisAndroidUG",
         "tags": [
-            "Web", "Chrome"
+            "Android"
         ],
         "socials": [
             {
@@ -731,6 +731,41 @@
                 "name": "Blog",
                 "icon": "link",
                 "link": "http://turhanoz.com"
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "featured": false,
+        "name": "Mathieu Parisot",
+        "title": "Développeur web",
+        "company": "Freelance",
+        "country": "FR",
+        "photoUrl": "../../images/people/mparisot.jpg",
+        "bio": "Développeur passionné, formateur et co-organisateur des HumanTalks Paris",
+        "tags": [
+            "Web", "CSS3"
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://www.google.com/+ParisotMathieu"
+            },
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/matparisot"
+            },
+            {
+                "name": "GitHub",
+                "icon": "app-icons:github",
+                "link": "https://github.com/mparisot"
+            },
+            {
+                "name": "Blog",
+                "icon": "link",
+                "link": "http://matparisot.fr/"
             }
         ]
     }
