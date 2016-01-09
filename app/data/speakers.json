@@ -383,5 +383,40 @@
                 "link": "https://plus.google.com/105203426639627151416"
             }
         ]
+    },
+    {
+        "id": 13,
+        "featured": false,
+        "name": "Stéphane Nicoll",
+        "title": "Spring Framework committer",
+        "company": "Pivotal",
+        "country": "FR",
+        "photoUrl": "../../images/people/snicoll.jpg",
+        "bio": "Stéphane has a thing for code quality and robustness. He's been spreading the word for more than ten years while developing large scale Java enterprise applications in the geospatial, financial, or logistics sectors. An Apache Maven PMC member since 2006, he joined the core Spring Framework development team early 2014, being one of the main contributors to both Spring Framework and Spring Boot since. During his free time, he loves traveling around the world.",
+        "tags": [
+            "Java", "Spring", "Cloud"
+        ],
+        "socials": [
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/snicoll"
+            },
+            {
+                "name": "GitHub",
+                "icon": "app-icons:github",
+                "link": "https://github.com/spring-projects/"
+            },
+            {
+                "name": "Blog",
+                "icon": "link",
+                "link": "https://spring.io/blog"
+            },
+            {
+                "name": "Lanyard",
+                "icon": "link",
+                "link": "https://lanyrd.com/profile/snicoll"
+            }
+        ]
     }
 ]
