@@ -413,7 +413,7 @@
                 "link": "https://spring.io/blog"
             },
             {
-                "name": "Lanyard",
+                "name": "Lanyrd",
                 "icon": "link",
                 "link": "https://lanyrd.com/profile/snicoll"
             }
@@ -448,7 +448,7 @@
                 "link": "https://spring.io/blog"
             },
             {
-                "name": "Lanyard",
+                "name": "Lanyrd",
                 "icon": "link",
                 "link": "https://lanyrd.com/profile/bclozel"
             }
@@ -476,6 +476,36 @@
                 "name": "GitHub",
                 "icon": "app-icons:github",
                 "link": "https://github.com/cbalit"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "featured": false,
+        "name": "Hubert Sablonnière",
+        "title": "Software Engineer",
+        "company": "INEAT Conseil",
+        "country": "FR",
+        "photoUrl": "../../images/people/hsablonniere.png",
+        "bio": "Hubert est développeur Web et passionné d’HTML, CSS et JavaScript. Il travaille depuis 7 ans chez INEAT Conseil et partage son temps entre des missions de développement sur des projets et des missions de conseil d'audit. Il est familier avec PHP et Java mais sa spécialité reste le JavaScript et la plateforme du Web en général.<br><br>Après avoir donné des cours pendant 2 ans, il participe maintenant à plusieurs conférences en tant qu'orateur. Il parle des dernières technologies et a toujours à cœur de trouver des nouveaux usages pour ses utilisateurs et des facilités pour les développeurs.",
+        "tags": [
+            "Web"
+        ],
+        "socials": [
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/hsablonniere"
+            },
+            {
+                "name": "Blog",
+                "icon": "link",
+                "link": "http://hsablonniere.com"
+            },
+            {
+                "name": "Lanyrd",
+                "icon": "link",
+                "link": "http://lanyrd.com/profile/hsablonniere"
             }
         ]
     }
