@@ -912,7 +912,7 @@
             {
                 "name": "Blog",
                 "icon": "link",
-                "link": "https://jenson.org//"
+                "link": "https://jenson.org/"
             }
         ]
     },
@@ -943,6 +943,41 @@
                 "name": "GitHub",
                 "icon": "app-icons:github",
                 "link": "https://github.com/jlandure"
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "featured": false,
+        "name": "Wajdi Ben Rabah",
+        "title": "Software Engineer",
+        "company": "Sfeir",
+        "country": "FR",
+        "photoUrl": "../../images/people/wbenrabah.jpg",
+        "bio": "Software engineer, native and cross platform developer.",
+        "tags": [
+            "Web", "HTTP2"
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/u/0/+WajdiBenRabah/posts"
+            },
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/WajdiBenRabah"
+            },
+            {
+                "name": "GitHub",
+                "icon": "app-icons:github",
+                "link": "https://github.com/wajdibr"
+            },
+            {
+                "name": "Blog",
+                "icon": "link",
+                "link": "http://wajdibr.com/"
             }
         ]
     }

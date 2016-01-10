@@ -14,13 +14,13 @@
         properties: {
             speakersSource: {
                 type: String,
-                value: function(){
-                    return '../../data/speakers.json';
-                }
+                value: '../../data/speakers.json'
             },
             sessionsSource: {
                 type: String,
-                value: '../../data/sessions.json'
+                value: function(){
+                    return '../../data/' + window.I18nMsg.lang + '/sessions.json';
+                }
             },
             postsSource: {
                 type: String,
