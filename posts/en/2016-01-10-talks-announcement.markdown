@@ -1,23 +1,6 @@
-### First speakers selected
+### Talks list
 
-We are very happy to announce the first 4 speakers selected for DevFest Paris 2016:
+After a long wait, we are proud to present you the list of talks for DevFest Paris 2016.
+We will have a total of **28 talks** chosen from the **85 Call for Papers proposals**.
 
-* **François Beaufort**
-  * Chromium Evangelist @ Google
-* **Francesco Campoy**
-  * Member of the Go team
-  * Cloud Developer Advocate @ Google
-* **David Gageot**
-  * [Google Developer Expert - Cloud Platform](https://developers.google.com/experts/people/david-gageot)
-  * Docker France
-* **Cyril Mottier**
-  * [Google Developer Expert - Android](https://developers.google.com/experts/people/cyril-mottier)
-  * Captain Train
-
-
-### Be a speaker
-
-If you are interested in speaking during the DevFest Paris conference, please check our previous Call for Papers post for additional information on who should speak and on the topics.
-
-Please fill the [Call for Papers form](http://goo.gl/forms/2deMLNSjPu) to submit your proposals.
-**Deadline** is December 15, 2015
+Please go to the [speaker page](http://devfest.gdg.org.ua/#!/speakers/) to access the list of speakers and talks !
