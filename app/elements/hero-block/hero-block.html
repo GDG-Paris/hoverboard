@@ -117,6 +117,7 @@
                         </a>
                     </div>
 
+                    <!--
                     <paper-dropdown-menu label="Your favourite pastry">
                       <paper-listbox class="dropdown-content" attr-for-selected="lang" selected="{{selectedLanguage}}">
                           <template is="dom-repeat" items="[[languages]]" as="language" >
@@ -124,6 +125,7 @@
                           </template>
                       </paper-listbox>
                     </paper-dropdown-menu>
+                    -->
 
                     <paper-tabs class="hidden-xs" attr-for-selected="data-route" selected="{{route}}">
                       <paper-tab class="text-u-c" link>
@@ -142,6 +144,11 @@
                             </a>
                         </paper-tab>
                         <paper-tab class="text-u-c" link>
+                            <a data-route="schedule" href="#!/schedule" class="nav-link horizontal center-center layout">
+                                Schedule
+                            </a>
+                        </paper-tab>
+                        <paper-tab class="text-u-c" link>
                             <a data-route="home" href="/" onclick="window.I18nMsg.lang='en'" class="nav-link horizontal center-center layout">
                                 English
                             </a>
@@ -151,13 +158,6 @@
                                 Français
                             </a>
                         </paper-tab>
-                        <!-- TODO Add links back when we publish those parts
-                        <paper-tab class="text-u-c" link>
-                            <a data-route="schedule" href="#!/schedule" class="nav-link horizontal center-center layout">
-                                Schedule
-                            </a>
-                        </paper-tab>
-                        -->
                         <!--
                         <paper-tab class="text-u-c">
                             <a data-route="contact" href="#!/contact" class="nav-link horizontal center-center layout">Contact</a>

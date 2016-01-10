@@ -188,7 +188,7 @@
         "photoUrl": "../../images/people/rvialard.jpg",
         "bio": "Romain Vialard is a Google Developer Expert. After some years spent as a Google Apps consultant, he is now focused on products for Google Apps users, including add-ons such as Yet Another Mail Merge and Form Publisher.",
         "tags": [
-            "Apps Script"
+            "Apps Script", "Analytics"
         ],
         "badges": [
             {
@@ -368,7 +368,7 @@
         "id": 12,
         "featured": false,
         "name": "Chaïmaa Kadaoui",
-        "title": "Data Intern",
+        "title": "Data enthusiast",
         "company": "Cirruseo",
         "country": "FR",
         "photoUrl": "../../images/people/ckadaoui.jpg",
@@ -391,10 +391,10 @@
         "title": "Spring Framework committer",
         "company": "Pivotal",
         "country": "FR",
-        "photoUrl": "../../images/people/snicoll.jpg",
+        "photoUrl": "../../images/people/snicoll.png",
         "bio": "Stéphane has a thing for code quality and robustness. He's been spreading the word for more than ten years while developing large scale Java enterprise applications in the geospatial, financial, or logistics sectors. An Apache Maven PMC member since 2006, he joined the core Spring Framework development team early 2014, being one of the main contributors to both Spring Framework and Spring Boot since. During his free time, he loves traveling around the world.",
         "tags": [
-            "Java", "Spring", "Cloud"
+            "Java", "Spring", "Web"
         ],
         "socials": [
             {
@@ -426,7 +426,7 @@
         "title": "Spring Framework committer",
         "company": "Pivotal",
         "country": "FR",
-        "photoUrl": "../../images/people/bclozel.png",
+        "photoUrl": "../../images/people/bclozel.jpeg",
         "bio": "Spring Framework core committer, focusing on web and messaging. Lead developer of Sagan, the Spring reference app that powers http://spring.io",
         "tags": [
             "Java", "Spring", "Cloud"
@@ -575,36 +575,6 @@
         ]
     },
     {
-        "id": 19,
-        "featured": false,
-        "name": "Julien Landuré",
-        "title": "CTO Zenika Nantes",
-        "company": "Zenika",
-        "country": "FR",
-        "photoUrl": "../../images/people/jlandure.jpg",
-        "bio": "CTO de Zenika Nantes, Julien navigue entre des missions de formation (AngularJS, AppEngine) et d'architecture. Issu de la génération Google, il a co-fondé en Janvier 2011 le GDG Nantes, participe depuis 5 ans au Google I/O et organise le DevFest Nantes.",
-        "tags": [
-            "Web", "HTTP2"
-        ],
-        "socials": [
-            {
-                "name": "Google+",
-                "icon": "app-icons:gplus",
-                "link": "https://plus.google.com/+julienlanduré"
-            },
-            {
-                "name": "Twitter",
-                "icon": "app-icons:twitter",
-                "link": "https://twitter.com/jlandure"
-            },
-            {
-                "name": "GitHub",
-                "icon": "app-icons:github",
-                "link": "https://github.com/jlandure"
-            }
-        ]
-    },
-    {
         "id": 20,
         "featured": false,
         "name": "Pierre-Alban Dewitte",
@@ -709,7 +679,7 @@
         "photoUrl": "../../images/people/toz.jpg",
         "bio": "Android Developer, interested in clean coding, lean startuping, knowledge sharing.<br>staff @ParisAndroidUG",
         "tags": [
-            "Android"
+            "IoT"
         ],
         "socials": [
             {
@@ -779,7 +749,7 @@
         "photoUrl": "../../images/people/cleclerc.jpg",
         "bio": "Développeur Python depuis toujours chez Cirruseo / Designed For Work. Responsable d'intégration des produits de Designed For Work / Apprenti DevOps",
         "tags": [
-            "Web", "CSS3"
+            "Cloud"
         ],
         "socials": [
             {
@@ -874,7 +844,7 @@
         "title": "",
         "company": "MethoTIC Conseil",
         "country": "FR",
-        "photoUrl": "../../images/people/tchattel.jpg",
+        "photoUrl": "../../images/people/tchatel.jpg",
         "bio": "Je suis consultant et formateur, passionné par l'achitecture des applications web, et spécialiste de JavaScript et du framework AngularJS. Et Google Developer Expert sur AngularJS depuis 2014.",
         "tags": [
             "Android", "Doze"
@@ -938,6 +908,36 @@
                 "name": "Blog",
                 "icon": "link",
                 "link": "https://jenson.org//"
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "featured": false,
+        "name": "Julien Landuré",
+        "title": "CTO Zenika Nantes",
+        "company": "Zenika",
+        "country": "FR",
+        "photoUrl": "../../images/people/jlandure.jpg",
+        "bio": "CTO de Zenika Nantes, Julien navigue entre des missions de formation (AngularJS, AppEngine) et d'architecture. Issu de la génération Google, il a co-fondé en Janvier 2011 le GDG Nantes, participe depuis 5 ans au Google I/O et organise le DevFest Nantes.",
+        "tags": [
+            "Web", "HTTP2"
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/+julienlanduré"
+            },
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/jlandure"
+            },
+            {
+                "name": "GitHub",
+                "icon": "app-icons:github",
+                "link": "https://github.com/jlandure"
             }
         ]
     }
