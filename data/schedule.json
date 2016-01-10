@@ -1,0 +1,92 @@
+[{
+    "date": "2016-02-05",
+    "dateReadable": "February 5",
+    "tracks": [{
+        "title": "Salle Poincaré"
+    }, {
+        "title": "Salle Boissière"
+    }, {
+        "title": "Salle Point d'HO"
+    }, {
+        "title": "Salle"
+    }],
+    "timeslots": [{
+        "startTime": "08:00",
+        "endTime": "09:00",
+        "sessions": [
+            [1001]
+        ]
+    }, {
+        "startTime": "09:00",
+        "endTime": "10:00",
+        "sessions": [
+            [1005]
+        ]
+    }, {
+        "startTime": "10:00",
+        "endTime": "10:30",
+        "sessions": [
+            [1004]
+        ]
+    }, {
+        "startTime": "10:30",
+        "endTime": "11:20",
+        "sessions": [
+            [101], [105], [112], [119]
+        ]
+    }, {
+        "startTime": "11:30",
+        "endTime": "12:20",
+        "sessions": [
+            [102], [106], [113], [125]
+        ]
+    }, {
+        "startTime": "12:30",
+        "endTime": "13:30",
+        "sessions": [
+            [1002]
+        ]
+    }, {
+        "startTime": "13:30",
+        "endTime": "13:50",
+        "sessions": [
+            [126], [107], [114], [120]
+        ]
+    }, {
+        "startTime": "14:00",
+        "endTime": "14:50",
+        "sessions": [
+            [127], [108], [115], [121]
+        ]
+    },{
+        "startTime": "14:30",
+        "endTime": "14:50",
+        "sessions": [
+            [], [109], [116], []
+        ]
+    },{
+        "startTime": "15:00",
+        "endTime": "15:50",
+        "sessions": [
+            [103], [110], [117], [122]
+        ]
+    },{
+        "startTime": "16:00",
+        "endTime": "16:30",
+        "sessions": [
+            [1003]
+        ]
+    },{
+        "startTime": "16:30",
+        "endTime": "17:20",
+        "sessions": [
+            [104], [101], [118], [123]
+        ]
+    }, {
+        "startTime": "17:30",
+        "endTime": "18:30",
+        "sessions": [
+            [1006]
+        ]
+    }]
+}]

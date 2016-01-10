@@ -188,7 +188,7 @@
         "photoUrl": "../../images/people/rvialard.jpg",
         "bio": "Romain Vialard is a Google Developer Expert. After some years spent as a Google Apps consultant, he is now focused on products for Google Apps users, including add-ons such as Yet Another Mail Merge and Form Publisher.",
         "tags": [
-            "Apps Script"
+            "Apps Script", "Analytics"
         ],
         "badges": [
             {
@@ -221,9 +221,7 @@
         "bio": "I am a software engineer with experience in: Cloud Technologies, BigData, Machine Learning, Java and Go.",
         "tags": [
             "Cloud",
-            "BigData",
-            "Machine Learning",
-            "Go"
+            "BigData"
         ],
         "badges": [
             {
@@ -234,7 +232,7 @@
         ],
         "socials": [
             {
-                "name": "Twitter+",
+                "name": "Twitter",
                 "icon": "app-icons:twitter",
                 "link": "https://twitter.com/DidierGirard"
             },
@@ -271,7 +269,7 @@
                 "link": "https://plus.google.com/+AlexisMP"
             },
             {
-                "name": "Twitter+",
+                "name": "Twitter",
                 "icon": "app-icons:twitter",
                 "link": "https://twitter.com/alexismp"
             },
@@ -279,6 +277,672 @@
                 "name": "Blog",
                 "icon": "link",
                 "link": "https://alexismp.wordpress.com"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "featured": false,
+        "name": "Jean-François Garreau",
+        "title": "Innovateur curieux",
+        "company": "SQLI",
+        "country": "FR",
+        "photoUrl": "../../images/people/jfgarreau.jpg",
+        "bio": "Je suis développeur depuis maintenant 10 ans. J'ai toujours évolué dans un monde java et j'ai découvert Android en 2009 avec la version 1.1. Depuis, je continue de suivre les évolutions de la plateforme. Depuis maintenant an et demi j'ai commencé à m'interesser plus en profondeur au Web avec des sujets comme AngularJS / WebRTC / WebSockets.<br><br>Chez SQLI depuis 2012, je suis présent pour développer l'offre mobile au sein de l'agence de Nantes.<br><br>En dehors du travail, je suis co-fondateur du GDG Nantes, organisateur du DevFest Nantes et est aussi le créateur d'applications Android<br><br>Retrouvez l'ensemble de mes contributions sur github.com/jefBinomed",
+        "tags": [
+            "Web"
+        ],
+        "badges": [
+            {
+                "name": "GDG",
+                "description": "GDG Nantes organizer",
+                "link": "http://www.meetup.com/fr-FR/GDG-Nantes"
+            }
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/+JeanFrancoisGarreau"
+            },
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/jefbinomed"
+            },
+            {
+                "name": "GitHub",
+                "icon": "app-icons:github",
+                "link": "https://github.com/jefBinomed"
+            },
+            {
+                "name": "Blog",
+                "icon": "link",
+                "link": "https://http://jef.binomed.fr"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "featured": false,
+        "name": "Simon Lebrun",
+        "title": "Responsable Digital Lab",
+        "company": "gPartner",
+        "country": "FR",
+        "photoUrl": "../../images/people/slebrun.jpg",
+        "bio": "I have been working for gPartner for the last 4 years. I created the Digital Lab to answer our clients needs to create innovative web experience around Google Maps ans Street View. Last year I presented \"WebGL meets Google Street View\" @Devfest2015, this year I want to show you again how to merge 2 worlds. With Quentin Veyret from my team, we will demonstrate how to integrate a real time framework like Firebase into a Google Maps experiment.",
+        "tags": [
+            "Web", "Firebase", "Google Maps"
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/+SimonLebrungPartner"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "featured": false,
+        "name": "Thibault Lefevre",
+        "title": "Big Data Lead",
+        "company": "Cirruseo",
+        "country": "FR",
+        "photoUrl": "../../images/people/tlefevre.jpg",
+        "bio": "10 years data addict.",
+        "tags": [
+            "Data", "Cloud", "Neo4J"
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/104231756250263470437"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "featured": false,
+        "name": "Chaïmaa Kadaoui",
+        "title": "Data enthusiast",
+        "company": "Cirruseo",
+        "country": "FR",
+        "photoUrl": "../../images/people/ckadaoui.jpg",
+        "bio": "",
+        "tags": [
+            "Data", "Cloud", "Neo4J"
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/105203426639627151416"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "featured": false,
+        "name": "Stéphane Nicoll",
+        "title": "Spring Framework committer",
+        "company": "Pivotal",
+        "country": "FR",
+        "photoUrl": "../../images/people/snicoll.png",
+        "bio": "Stéphane has a thing for code quality and robustness. He's been spreading the word for more than ten years while developing large scale Java enterprise applications in the geospatial, financial, or logistics sectors. An Apache Maven PMC member since 2006, he joined the core Spring Framework development team early 2014, being one of the main contributors to both Spring Framework and Spring Boot since. During his free time, he loves traveling around the world.",
+        "tags": [
+            "Java", "Spring", "Web"
+        ],
+        "socials": [
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/snicoll"
+            },
+            {
+                "name": "GitHub",
+                "icon": "app-icons:github",
+                "link": "https://github.com/spring-projects/"
+            },
+            {
+                "name": "Blog",
+                "icon": "link",
+                "link": "https://spring.io/blog"
+            },
+            {
+                "name": "Lanyrd",
+                "icon": "link",
+                "link": "https://lanyrd.com/profile/snicoll"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "featured": false,
+        "name": "Brian Clozel",
+        "title": "Spring Framework committer",
+        "company": "Pivotal",
+        "country": "FR",
+        "photoUrl": "../../images/people/bclozel.jpeg",
+        "bio": "Spring Framework core committer, focusing on web and messaging. Lead developer of Sagan, the Spring reference app that powers http://spring.io",
+        "tags": [
+            "Java", "Spring", "Cloud"
+        ],
+        "socials": [
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/brianclozel"
+            },
+            {
+                "name": "GitHub",
+                "icon": "app-icons:github",
+                "link": "https://github.com/spring-projects/"
+            },
+            {
+                "name": "Blog",
+                "icon": "link",
+                "link": "https://spring.io/blog"
+            },
+            {
+                "name": "Lanyrd",
+                "icon": "link",
+                "link": "https://lanyrd.com/profile/bclozel"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "featured": false,
+        "name": "Cyril Balit",
+        "title": "Front end CTO",
+        "company": "Sfeir",
+        "country": "FR",
+        "photoUrl": "../../images/people/cbalit.jpeg",
+        "bio": "Cyril Balit est directeur technique front dans la société Sfeir. Il encadre une équipe de développeurs frontend spécialisés dans le développement d’applications RIA (Node, Angular, Backbone) et les problématiques d’industrialisation (usine de développement, intégration continue, cloud)",
+        "tags": [
+            "Web", "Polymer"
+        ],
+        "socials": [
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/cbalit"
+            },
+            {
+                "name": "GitHub",
+                "icon": "app-icons:github",
+                "link": "https://github.com/cbalit"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "featured": false,
+        "name": "Hubert Sablonnière",
+        "title": "Software Engineer",
+        "company": "INEAT Conseil",
+        "country": "FR",
+        "photoUrl": "../../images/people/hsablonniere.png",
+        "bio": "Hubert est développeur Web et passionné d’HTML, CSS et JavaScript. Il travaille depuis 7 ans chez INEAT Conseil et partage son temps entre des missions de développement sur des projets et des missions de conseil d'audit. Il est familier avec PHP et Java mais sa spécialité reste le JavaScript et la plateforme du Web en général.<br><br>Après avoir donné des cours pendant 2 ans, il participe maintenant à plusieurs conférences en tant qu'orateur. Il parle des dernières technologies et a toujours à cœur de trouver des nouveaux usages pour ses utilisateurs et des facilités pour les développeurs.",
+        "tags": [
+            "Web"
+        ],
+        "socials": [
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/hsablonniere"
+            },
+            {
+                "name": "Blog",
+                "icon": "link",
+                "link": "http://hsablonniere.com"
+            },
+            {
+                "name": "Lanyrd",
+                "icon": "link",
+                "link": "http://lanyrd.com/profile/hsablonniere"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "featured": false,
+        "name": "Yann Cadoret",
+        "title": "",
+        "company": "UX-Republic",
+        "country": "FR",
+        "photoUrl": "../../images/people/ycadoret.png",
+        "bio": "",
+        "tags": [
+            "Design", "UX"
+        ],
+        "socials": [
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/sniark"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "featured": false,
+        "name": "Antoine Duplouy",
+        "title": "",
+        "company": "UX-Republic",
+        "country": "FR",
+        "photoUrl": "../../images/people/aduplouy.jpg",
+        "bio": "",
+        "tags": [
+            "Design", "UX"
+        ],
+        "socials": [
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/antoine59470"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "featured": false,
+        "name": "Jean-Sébastien Dupuy",
+        "title": "Technical Evangelist",
+        "company": "Microsoft France",
+        "country": "FR",
+        "photoUrl": "../../images/people/jsdupuy.jpeg",
+        "bio": "Evangéliste développeur chez Microsoft France. Passionné par le développement d’applications mobiles et les objets connectés, Jean-Sébastien anime les relations techniques avec les développeurs depuis plusieurs années. Vous pouvez suivre son actualité et le contacter sur twitter @dupuyjs ou sur son blog http://blogs.msdn.com/b/jdupuy.",
+        "tags": [
+            "Cloud", "Machine Learning"
+        ],
+        "socials": [
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/dupuyjs"
+            },
+            {
+                "name": "Blog",
+                "icon": "link",
+                "link": "http://blogs.msdn.com/b/jdupuy"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "featured": false,
+        "name": "Pierre-Alban Dewitte",
+        "title": "Cloud dev team leader",
+        "company": "MyScript",
+        "country": "FR",
+        "photoUrl": "../../images/people/padewitte.jpeg",
+        "bio": "Passioné de nouvelles technologies avec un soucis de leur bon usage. Intéressé par toutes les solutions permettant de faire mieux et simplement.",
+        "tags": [
+            "Web", "Polymer"
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/+DewittePierreAlban"
+            },
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/padewitte"
+            },
+            {
+                "name": "GitHub",
+                "icon": "app-icons:github",
+                "link": "https://github.com/padewitte"
+            },
+            {
+                "name": "Blog",
+                "icon": "link",
+                "link": "http://padewitte.tumblr.com"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "featured": false,
+        "name": "Ray Tsang",
+        "title": "Developer Advocate",
+        "company": "Google",
+        "country": "FR",
+        "photoUrl": "../../images/people/rtsang.jpeg",
+        "bio": "Ray is a Developer Advocate for the Google Cloud Platform. Ray had extensive hands on cross-industry enterprise systems integration delivery and management experiences during his time at Accenture, managed full stack application development, DevOps, and ITOps. Ray specialized in middleware, big data, and PaaS products during his time at Red Hat while contributing to open source projects, such as Infinispan. Aside from technology, Ray enjoys traveling and adventures.<br><br>Follow Ray on Twitter @saturnism (https://twitter.com/saturnism)",
+        "tags": [
+            "Cloud", "Kubernetes"
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/+RayTsang"
+            },
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/saturnism"
+            },
+            {
+                "name": "GitHub",
+                "icon": "app-icons:github",
+                "link": "https://github.com/saturnism"
+            },
+            {
+                "name": "Blog",
+                "icon": "link",
+                "link": "https://medium.com/@saturnism"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "featured": false,
+        "name": "Christophe Jollivet",
+        "title": "Agitateur technique",
+        "company": "Apside",
+        "country": "FR",
+        "photoUrl": "../../images/people/cjollivet.jpg",
+        "bio": "Agitateur technique chez Apside, Christophe prêche les bonnes pratiques sur divers projets informatiques et universités en région tourangelle. Reconverti à l’informatique il y a 12 ans suite à un doctorat de neurobiologie, il contribue activement dans les communautés Java en ayant été co-responsable de la rubrique Java du site developpez.com mais aussi en participant à des conférences et en animant depuis 2008 le Tours JUG.",
+        "tags": [
+            "Web", "Chrome"
+        ],
+        "socials": [
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/jollivetc"
+            },
+            {
+                "name": "GitHub",
+                "icon": "app-icons:github",
+                "link": "https://github.com/jollivetc"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "featured": false,
+        "name": "Turhan Oz",
+        "title": "Entrepreneur & Developer",
+        "company": "Socosmoz",
+        "country": "FR",
+        "photoUrl": "../../images/people/toz.jpg",
+        "bio": "Android Developer, interested in clean coding, lean startuping, knowledge sharing.<br>staff @ParisAndroidUG",
+        "tags": [
+            "IoT"
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/u/0/108342574058924181125"
+            },
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/turhanoz"
+            },
+            {
+                "name": "GitHub",
+                "icon": "app-icons:github",
+                "link": "https://github.com/TurhanOz"
+            },
+            {
+                "name": "Blog",
+                "icon": "link",
+                "link": "http://turhanoz.com"
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "featured": false,
+        "name": "Mathieu Parisot",
+        "title": "Développeur web",
+        "company": "Freelance",
+        "country": "FR",
+        "photoUrl": "../../images/people/mparisot.jpg",
+        "bio": "Développeur passionné, formateur et co-organisateur des HumanTalks Paris",
+        "tags": [
+            "Web", "CSS3"
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://www.google.com/+ParisotMathieu"
+            },
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/matparisot"
+            },
+            {
+                "name": "GitHub",
+                "icon": "app-icons:github",
+                "link": "https://github.com/mparisot"
+            },
+            {
+                "name": "Blog",
+                "icon": "link",
+                "link": "http://matparisot.fr/"
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "featured": false,
+        "name": "Corentin Leclerc",
+        "title": "Software Engineer",
+        "company": "Cirruseo / Designed For Work",
+        "country": "FR",
+        "photoUrl": "../../images/people/cleclerc.jpg",
+        "bio": "Développeur Python depuis toujours chez Cirruseo / Designed For Work. Responsable d'intégration des produits de Designed For Work / Apprenti DevOps",
+        "tags": [
+            "Cloud"
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/+CorentinLeclerc"
+            },
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/corentin_l"
+            },
+            {
+                "name": "Blog",
+                "icon": "link",
+                "link": "http://www.designedforwork.com/"
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "featured": false,
+        "name": "Alexis Tual",
+        "title": "Solution Engineer",
+        "company": "JFrog",
+        "country": "FR",
+        "photoUrl": "../../images/people/atual.jpg",
+        "bio": "Alexis is a versatile Solution Engineeer, he's passionate about technology and likes to work with a wide range of language and tools from Java to Docker, through web technologies. But since he fell in love with Groovy, he works on Gradle plugins at JFrog.",
+        "tags": [
+            "Cloud", "Microservices"
+        ],
+        "socials": [
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/alex_tual"
+            },
+            {
+                "name": "GitHub",
+                "icon": "app-icons:github",
+                "link": "https://github.com/alextu"
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "featured": false,
+        "name": "Marc Poppleton",
+        "title": "Developer",
+        "company": "Orange Labs",
+        "country": "FR",
+        "photoUrl": "../../images/people/mpoppleton.jpg",
+        "bio": "I'm a Software Engineer at Orange Labs and tinker with code for Android since version 1.0 Apple Pie. <br>I'm also the leader of the GDG Code d'Armor.<br>The rest of the time, I'm Robopop, cyber-father and husband, half flesh and bones, half carbon fiber and steel.",
+        "tags": [
+            "Android", "Doze"
+        ],
+        "badges": [
+            {
+                "name": "GDG",
+                "description": "GDG Code d'Armor organizer",
+                "link": "http://www.meetup.com/fr-FR/Code-dArmor/"
+            }
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/+MarcPoppleton"
+            },
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/marcpoppleton"
+            },
+            {
+                "name": "GitHub",
+                "icon": "app-icons:github",
+                "link": "https://github.com/marcpoppleton"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "featured": false,
+        "name": "Pierre Crépieux",
+        "title": "Solution Engineer",
+        "company": "Orange Labs",
+        "country": "FR",
+        "photoUrl": "../../images/people/pcrepieux.jpg",
+        "bio": "Après plusieurs années passées du coté des infrastructures réseau (Réseau Intelligent, H.323, IMS), je suis aujourd'hui développeur senior sur Android. Mon sujet de prédilection du moment: l’impact que peuvent avoir les applications sur le terminal mobile et le réseau.",
+        "tags": [
+            "Android", "Doze"
+        ]
+    },
+    {
+        "id": 29,
+        "featured": false,
+        "name": "Thierry Chatel",
+        "title": "",
+        "company": "MethoTIC Conseil",
+        "country": "FR",
+        "photoUrl": "../../images/people/tchatel.jpg",
+        "bio": "Je suis consultant et formateur, passionné par l'achitecture des applications web, et spécialiste de JavaScript et du framework AngularJS. Et Google Developer Expert sur AngularJS depuis 2014.",
+        "tags": [
+            "AngularJS"
+        ],
+        "badges": [
+            {
+                "name": "GDE",
+                "description": "Google Developer Expert",
+                "link": "https://developers.google.com/experts/people/thierry-chatel"
+            }
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/+ThierryChatel"
+            },
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/ThierryChatel"
+            },
+            {
+                "name": "GitHub",
+                "icon": "app-icons:github",
+                "link": "https://github.com/tchatel"
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "featured": false,
+        "name": "Scott Jenson",
+        "title": "Project Lead for Physical Web",
+        "company": "Google",
+        "country": "FR",
+        "photoUrl": "../../images/people/sjenson.jpg",
+        "bio": "Scott Jenson has been doing user interface design and strategic planning for over 20 years. He worked at Apple on System 7, Newton, and the Apple Human Interface guidelines. He was the director of Symbian’s DesignLab, VP of product design for Cognima, a manager of mobile UX for Google for 5 years, and a creative director at frog design in San Francisco.<br><br>Scott returned to Google working on the Chrome team in November 2013<br><br>As a battle-scarred veteran of the software industry, Scott has shipped a consumer spreadsheet, been a part of 2 Mac OS releases, 5 Newton product cycles, 4 commercial web site revisions, designed 3 different mobile phone UIs, sworn at innumerable mobile browsers, and has over 20 patents.",
+        "tags": [
+            "Web", "IoT"
+        ],
+        "badges": [
+            {
+                "name": "Googler",
+                "description": "Googler",
+                "link": "https://google.github.io/physical-web/"
+            }
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/+ScottJenson"
+            },
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/scottjenson"
+            },
+            {
+                "name": "Blog",
+                "icon": "link",
+                "link": "https://jenson.org//"
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "featured": false,
+        "name": "Julien Landuré",
+        "title": "CTO Zenika Nantes",
+        "company": "Zenika",
+        "country": "FR",
+        "photoUrl": "../../images/people/jlandure.jpg",
+        "bio": "CTO de Zenika Nantes, Julien navigue entre des missions de formation (AngularJS, AppEngine) et d'architecture. Issu de la génération Google, il a co-fondé en Janvier 2011 le GDG Nantes, participe depuis 5 ans au Google I/O et organise le DevFest Nantes.",
+        "tags": [
+            "Web", "HTTP2"
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/+julienlanduré"
+            },
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/jlandure"
+            },
+            {
+                "name": "GitHub",
+                "icon": "app-icons:github",
+                "link": "https://github.com/jlandure"
             }
         ]
     }

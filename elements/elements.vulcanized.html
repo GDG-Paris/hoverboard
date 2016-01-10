@@ -17113,6 +17113,55 @@ Custom property | Description | Default
 
 -->
 
+<!--
+Material design: [Menus](https://www.google.com/design/spec/components/menus.html)
+
+`<paper-listbox>` implements an accessible listbox control with Material Design styling. The focused item
+is highlighted, and the selected item has bolded text.
+
+    <paper-listbox>
+      <paper-item>Item 1</paper-item>
+      <paper-item>Item 2</paper-item>
+    </paper-listbox>
+
+An initial selection can be specified with the `selected` attribute.
+
+    <paper-listbox selected="0">
+      <paper-item>Item 1</paper-item>
+      <paper-item>Item 2</paper-item>
+    </paper-listbox>
+
+Make a multi-select listbox with the `multi` attribute. Items in a multi-select listbox can be deselected,
+and multiple item can be selected.
+
+    <paper-listbox multi>
+      <paper-item>Item 1</paper-item>
+      <paper-item>Item 2</paper-item>
+    </paper-listbox>
+
+### Styling
+
+The following custom properties and mixins are available for styling:
+
+Custom property | Description | Default
+----------------|-------------|----------
+`--paper-listbox-background-color`   | Menu background color                                            | `--primary-background-color`
+`--paper-listbox-color`              | Menu foreground color                                            | `--primary-text-color`
+`--paper-listbox`                    | Mixin applied to the listbox                                        | `{}`
+
+### Accessibility
+
+`<paper-listbox>` has `role="listbox"` by default. A multi-select listbox will also have
+`aria-multiselectable` set. It implements key bindings to navigate through the listbox with the up and
+down arrow keys, esc to exit the listbox, and enter to activate a listbox item. Typing the first letter
+of a listbox item will also focus it.
+
+@group Paper Elements
+@element paper-listbox
+@hero hero.svg
+@demo demo/index.html
+-->
+
 <!-- Google elements -->
 <script>
 (function() {
@@ -31801,6 +31850,41 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     }
   });
 </script>
+<dom-module id="paper-listbox" assetpath="../bower_components/paper-listbox/">
+  <template>
+    <style>
+      :host {
+        display: block;
+        padding: 8px 0;
+
+        background: var(--paper-listbox-background-color, --primary-background-color);
+        color: var(--paper-listbox-color, --primary-text-color);
+
+        @apply(--paper-listbox);
+      }
+    </style>
+
+    <div class="selectable-content">
+      <content></content>
+    </div>
+  </template>
+
+  <script>
+    (function() {
+      Polymer({
+        is: 'paper-listbox',
+
+        behaviors: [
+          Polymer.IronMenuBehavior
+        ],
+
+        hostAttributes: {
+          role: 'listbox'
+        }
+      });
+    })();
+  </script>
+</dom-module>
 <dom-module id="google-map-marker" assetpath="../bower_components/google-map/">
   <style>
     :host {
@@ -34596,9 +34680,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             },
             sessionsSource: {
                 type: String,
-                value: function(){
-                    return '../../data/' + window.I18nMsg.lang + '/sessions.json';
-                }
+                value: '../../data/sessions.json'
             },
             postsSource: {
                 type: String,
@@ -34612,9 +34694,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             },
             scheduleSource: {
                 type: String,
-                value: function(){
-                    return '../../data/' + window.I18nMsg.lang + '/schedule.json';
-                }
+                value: '../../data/schedule.json'
             },
             speakers: {
                 type: Array,
@@ -34814,6 +34894,16 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                         </a>
                     </div>
 
+                    <!--
+                    <paper-dropdown-menu label="Your favourite pastry">
+                      <paper-listbox class="dropdown-content" attr-for-selected="lang" selected="{{selectedLanguage}}">
+                          <template is="dom-repeat" items="[[languages]]" as="language" >
+                            <paper-item lang="[[language.value]]">[[language.label]]</paper-item>
+                          </template>
+                      </paper-listbox>
+                    </paper-dropdown-menu>
+                    -->
+
                     <paper-tabs class="hidden-xs" attr-for-selected="data-route" selected="{{route}}">
                       <paper-tab class="text-u-c" link="">
                           <a data-route="home" href="/" class="nav-link horizontal center-center layout">
@@ -34831,6 +34921,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                             </a>
                         </paper-tab>
                         <paper-tab class="text-u-c" link="">
+                            <a data-route="schedule" href="#!/schedule" class="nav-link horizontal center-center layout">
+                                Schedule
+                            </a>
+                        </paper-tab>
+                        <paper-tab class="text-u-c" link="">
                             <a data-route="home" href="/" onclick="window.I18nMsg.lang='en'" class="nav-link horizontal center-center layout">
                                 English
                             </a>
@@ -34840,13 +34935,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                                 Français
                             </a>
                         </paper-tab>
-                        <!-- TODO Add links back when we publish those parts
-                        <paper-tab class="text-u-c" link>
-                            <a data-route="schedule" href="#!/schedule" class="nav-link horizontal center-center layout">
-                                Schedule
-                            </a>
-                        </paper-tab>
-                        -->
                         <!--
                         <paper-tab class="text-u-c">
                             <a data-route="contact" href="#!/contact" class="nav-link horizontal center-center layout">Contact</a>
@@ -34869,6 +34957,23 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             route: {
                 type: String,
                 notify: true
+            },
+            selectedLanguage: {
+                type: String,
+                notify: true,
+                value: window.I18nMsg.lang
+            },
+            languages: {
+                type: Array,
+                value: [
+                    {
+                        label: 'English',
+                        value: 'en'
+                    },{
+                        label: 'French',
+                        value: 'fr'
+                    }
+                ]
             }
         },
         togglePanel: function() {
@@ -35259,7 +35364,7 @@ Polymer({
                     filteredPeople.push(this.people[i]);
                 }
             }
-            this.featuredPeople = this.randomOrder(filteredPeople).slice(0, 8);
+            this.featuredPeople = this.randomOrder(filteredPeople).slice(0, 4);
         },
         randomOrder: function(array) {
             return array.sort(function() {
