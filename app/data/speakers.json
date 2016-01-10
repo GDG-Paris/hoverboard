@@ -221,9 +221,7 @@
         "bio": "I am a software engineer with experience in: Cloud Technologies, BigData, Machine Learning, Java and Go.",
         "tags": [
             "Cloud",
-            "BigData",
-            "Machine Learning",
-            "Go"
+            "BigData"
         ],
         "badges": [
             {
@@ -559,7 +557,7 @@
         "photoUrl": "../../images/people/jsdupuy.jpeg",
         "bio": "Evangéliste développeur chez Microsoft France. Passionné par le développement d’applications mobiles et les objets connectés, Jean-Sébastien anime les relations techniques avec les développeurs depuis plusieurs années. Vous pouvez suivre son actualité et le contacter sur twitter @dupuyjs ou sur son blog http://blogs.msdn.com/b/jdupuy.",
         "tags": [
-            "Data", "Cloud", "Vision"
+            "Cloud", "Machine Learning"
         ],
         "socials": [
             {
@@ -854,7 +852,7 @@
         "photoUrl": "../../images/people/tchatel.jpg",
         "bio": "Je suis consultant et formateur, passionné par l'achitecture des applications web, et spécialiste de JavaScript et du framework AngularJS. Et Google Developer Expert sur AngularJS depuis 2014.",
         "tags": [
-            "Android", "Doze"
+            "AngularJS"
         ],
         "badges": [
             {
