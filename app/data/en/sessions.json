@@ -54,7 +54,7 @@
   },
   {
     "id": 102,
-    "title": "Harald à la dent bleue",
+    "title": "Harald à la dent bleue dans ton navigateur web",
     "description": "Interagir avec des appareils en Bluetooth depuis une application Web est sur le point de devenir possible grâce à une nouvelle API Web standardisée qui se veut moderne et simple d'utilisation.",
     "speakers": [1],
     "language": "fr",
@@ -150,7 +150,7 @@
   {
     "id": 108,
     "title": "Graphes et Recommandations",
-    "description": "Implémenter une mécanique de recommandation sur Neo4J avec Google Cloud Platform",
+    "description": "Implémenter une mécanique de recommandation sur la base de données orientée graphe Neo4J avec Google Cloud Platform",
     "speakers": [11,12],
     "language": "fr",
     "duration": "20",
@@ -317,7 +317,7 @@
   {
     "id": 120,
     "title": "Développez dans le futur, dès maintenant !",
-    "description": "Le web et ses standards évolue rapidement, très rapidement, trop rapidement... Les navigateurs n'arrivent pas forcément à suivre le mouvement et les utilisateurs bloqués sans mise à jour encore moins.<br>Il devient frustrant pour les développeurs de sans cesse entendre parler de nouveautés qu'il ne pourra pas utiliser avant des années.<br>Heureusement des outils comme Babel et PostCSS nous permettent d'enfin utiliser les dernières normes et de les laisser se préoccuper de la compatibilité !<br>Venez découvrir ces super outils qui vous permettront de développer dans le futur dès aujourd'hui !",
+    "description": "Le web et ses standards évoluent rapidement, très rapidement, trop rapidement... Les navigateurs n'arrivent pas forcément à suivre le mouvement et les utilisateurs bloqués sans mise à jour encore moins.<br>Il devient frustrant pour les développeurs de sans cesse entendre parler de nouveautés qu'il ne pourra pas utiliser avant des années.<br>Heureusement des outils comme Babel et PostCSS nous permettent d'enfin utiliser les dernières normes et de les laisser se préoccuper de la compatibilité !<br>Venez découvrir ces super outils qui vous permettront de développer dans le futur dès aujourd'hui !",
     "speakers": [24],
     "language": "fr",
     "duration": "20",
@@ -372,15 +372,15 @@
   },
   {
     "id": 125,
-    "title": "TBD",
-    "description": "TBD",
-    "speakers": [],
+    "title": "Angular 2 : templates, composants et injection de dépendances",
+    "description": "La genèse d'Angular 2 n'est pas achevée, mais la version alpha permet déjà de se faire une bonne idée de ce à quoi il va ressembler. Et c'est bluffant ! Si la version 1 a paru magique, dans sa version 2 c'est un Angular épuré, à la fois plus puissant et plus limpide.<br>Dans cette session, rien que du code, pour vous montrer comment se créent les composants, s'écrivent les templates et s'injectent les dépendances.",
+    "speakers": [ 29 ],
     "language": "fr",
     "complexity": "Intermediate",
     "presentation": "",
     "video": "",
     "tags": [
-        "IoT"
+        "Angular"
     ]
   },
   {
