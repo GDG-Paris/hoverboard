@@ -143,7 +143,7 @@
   {
     "id": 108,
     "title": "Graphes et Recommandations",
-    "description": "Implémenter une mécanique de recommandation sur Neo4J avec Google Cloud Platform",
+    "description": "Implémenter une mécanique de recommandation sur la base de données orientée graphe Neo4J avec Google Cloud Platform",
     "speakers": [11,12],
     "language": "fr",
     "complexity": "Intermediate",
