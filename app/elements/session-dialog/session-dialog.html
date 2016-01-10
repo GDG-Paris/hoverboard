@@ -105,6 +105,12 @@
                         <iron-icon class="session-meta-icon" icon="room"></iron-icon>
                         <span>[[session.track.title]]</span>
                     </div>
+                    <template is="dom-if" if="[[session.duration]]">
+                        <div class="meta-block">
+                            <iron-icon class="session-meta-icon" icon="alarm-on"></iron-icon>
+                            <span>[[session.duration]]</span> min
+                        </div>
+                    </template>
                     <template is="dom-if" if="[[session.complexity]]">
                         <div class="meta-block">
                             <iron-icon class="session-meta-icon" icon="extension"></iron-icon>

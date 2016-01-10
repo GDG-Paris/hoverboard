@@ -158,5 +158,21 @@
   "filters": {
     "description": "...",
     "message": "Filtres"
+  },
+  "schedule": {
+    "description": "...",
+    "message": "Agenda"
+  },
+  "language-upper": {
+    "description": "...",
+    "message": "Langue"
+  },
+  "duration-upper": {
+    "description": "...",
+    "message": "Durée"
+  },
+  "complexity-upper": {
+    "description": "...",
+    "message": "Complexité"
   }
 }

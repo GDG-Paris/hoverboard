@@ -114,10 +114,16 @@
                     <template is="dom-repeat" items="[[person.sessions]]" as="session">
                         <div class="session">
                             <h3 class="session-title">[[session.title]]</h3>
-                            <span class="session-meta">Language:
+                            <span class="session-meta">
+                                <i18n-msg msgid="language-upper">Language</i18n-msg>:
                                 <span>[[session.language]]</span>
                             </span>
-                            <span class="session-meta">Complexity:
+                            <span class="session-meta">
+                                <i18n-msg msgid="duration-upper">Duration</i18n-msg>:
+                                <span>[[session.duration]]</span> min
+                            </span>
+                            <span class="session-meta">
+                                <i18n-msg msgid="complexity-upper">Complexity</i18n-msg>:
                                 <span>[[session.complexity]]</span>
                             </span>
                             <marked-element markdown="[[session.description]]"></marked-element>
