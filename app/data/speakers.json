@@ -806,6 +806,13 @@
         "tags": [
             "Android", "Doze"
         ],
+        "badges": [
+            {
+                "name": "GDG",
+                "description": "GDG Code d'Armor organizer",
+                "link": "http://www.meetup.com/fr-FR/Code-dArmor/"
+            }
+        ],
         "socials": [
             {
                 "name": "Google+",
