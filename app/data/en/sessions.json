@@ -38,21 +38,6 @@
     "video": ""
   },
   {
-    "id": 101,
-    "title": "Docker Swarm and Kubernetes",
-    "description": "Docker Swarm is a powerful solution to manage your Kubernetes cluster on any Platform. In this talk, we will show how you can quickly deploy and manage a Kubernetes cluster on the cloud and on your local environment in the exact same way.",
-    "speakers": [3],
-    "language": "fr",
-    "duration": "45",
-    "complexity": "Advanced",
-    "presentation": "",
-    "video": "",
-    "tags": [
-        "Cloud",
-        "Docker"
-    ]
-  },
-  {
     "id": 102,
     "title": "Harald à la dent bleue dans ton navigateur web",
     "description": "Interagir avec des appareils en Bluetooth depuis une application Web est sur le point de devenir possible grâce à une nouvelle API Web standardisée qui se veut moderne et simple d'utilisation.",

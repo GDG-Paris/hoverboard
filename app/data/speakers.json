@@ -72,44 +72,6 @@
         ]
     },
     {
-        "id": 3,
-        "featured": true,
-        "name": "David Gageot",
-        "title": "",
-        "company": "Docker",
-        "country": "FR",
-        "photoUrl": "../../images/people/dgageot.jpg",
-        "bio": "What can I say except that I'm born to be a geek. I started with computers being my dad's own static code analyzer. I would seat next to him and spot bugs before he even ran the code. It's been a while and I can proudly state that I'm fully capable of creating my own bugs now. I felt in love at first sight with Docker at CloudConf (now DotScale) conference in Paris in 2013.  Has been using it since. Now I'm proud to be part of the team.",
-        "tags": [
-            "Cloud",
-            "Docker"
-        ],
-        "badges": [
-            {
-                "name": "GDE",
-                "description": "Google Developer Expert",
-                "link": "https://developers.google.com/experts/people/david-gageot"
-            }
-        ],
-        "socials": [
-            {
-                "name": "Twitter",
-                "icon": "app-icons:twitter",
-                "link": "https://twitter.com/dgageot"
-            },
-            {
-                "name": "GitHub",
-                "icon": "app-icons:github",
-                "link": "https://github.com/dgageot"
-            },
-            {
-                "name": "Blog",
-                "icon": "link",
-                "link": "http://blog.javabien.net/"
-            }
-        ]
-    },
-    {
         "id": 4,
         "featured": true,
         "name": "Cyril Mottier",
