@@ -843,7 +843,7 @@
     },
     {
         "id": 30,
-        "featured": false,
+        "featured": true,
         "name": "Scott Jenson",
         "title": "Project Lead for Physical Web",
         "company": "Google",
