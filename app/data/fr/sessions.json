@@ -116,7 +116,7 @@
     "id": 107,
     "title": "Firebase meets Google Maps",
     "description": "Firebase is a very powerful real time database created for web applications.<br>Using this technology with Google Maps brings the best of two worlds together. <br><br>The map displayed on the map can be displayed in real time with awesome animations. <br><br>During this talk we will show you how to build a connector between Firebase and Google Maps and the usages associated.",
-    "speakers": [10],
+    "speakers": [10, 34],
     "language": "fr",
     "duration": "20",
     "complexity": "Avancé",
