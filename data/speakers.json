@@ -641,6 +641,13 @@
         "tags": [
             "IoT"
         ],
+        "badges": [
+            {
+                "name": "PAUG",
+                "description": "PAUG Organizer",
+                "link": "http://www.paug.fr/"
+            }
+        ],
         "socials": [
             {
                 "name": "Google+",
@@ -889,6 +896,13 @@
         "bio": "CTO de Zenika Nantes, Julien navigue entre des missions de formation (AngularJS, AppEngine) et d'architecture. Issu de la génération Google, il a co-fondé en Janvier 2011 le GDG Nantes, participe depuis 5 ans au Google I/O et organise le DevFest Nantes.",
         "tags": [
             "Web"
+        ],
+        "badges": [
+            {
+                "name": "GDG",
+                "description": "GDG Nantes organizer",
+                "link": "http://www.meetup.com/fr-FR/GDG-Nantes"
+            }
         ],
         "socials": [
             {
