@@ -113,7 +113,7 @@
         "photoUrl": "../../images/people/xhallade.jpg",
         "bio": "Xavier Hallade is a software engineer at Intel Software and Services Group in Paris, France, where he works on a wide range of Android frameworks, libraries and applications, helping developers to improve their support for new hardware and technologies. <br> He's a Google Developer Expert in Android, with a focus on the Android NDK and Android TV.",
         "tags": [
-            "Android"
+            "Android", "Android Wear", "Android TV"
         ],
         "badges": [
             {
@@ -479,7 +479,7 @@
         "photoUrl": "../../images/people/ycadoret.png",
         "bio": "",
         "tags": [
-            "Design", "UX"
+            "UX"
         ],
         "socials": [
             {
@@ -499,7 +499,7 @@
         "photoUrl": "../../images/people/aduplouy.jpg",
         "bio": "",
         "tags": [
-            "Design", "UX"
+            "UX"
         ],
         "socials": [
             {
@@ -764,7 +764,7 @@
         "photoUrl": "../../images/people/mpoppleton.jpg",
         "bio": "I'm a Software Engineer at Orange Labs and tinker with code for Android since version 1.0 Apple Pie. <br>I'm also the leader of the GDG Code d'Armor.<br>The rest of the time, I'm Robopop, cyber-father and husband, half flesh and bones, half carbon fiber and steel.",
         "tags": [
-            "Android", "Doze"
+            "Android"
         ],
         "badges": [
             {
@@ -801,7 +801,7 @@
         "photoUrl": "../../images/people/pcrepieux.jpg",
         "bio": "Après plusieurs années passées du coté des infrastructures réseau (Réseau Intelligent, H.323, IMS), je suis aujourd'hui développeur senior sur Android. Mon sujet de prédilection du moment: l’impact que peuvent avoir les applications sur le terminal mobile et le réseau.",
         "tags": [
-            "Android", "Doze"
+            "Android"
         ]
     },
     {
@@ -851,7 +851,7 @@
         "photoUrl": "../../images/people/sjenson.jpg",
         "bio": "Scott Jenson has been doing user interface design and strategic planning for over 20 years. He worked at Apple on System 7, Newton, and the Apple Human Interface guidelines. He was the director of Symbian’s DesignLab, VP of product design for Cognima, a manager of mobile UX for Google for 5 years, and a creative director at frog design in San Francisco.<br><br>Scott returned to Google working on the Chrome team in November 2013<br><br>As a battle-scarred veteran of the software industry, Scott has shipped a consumer spreadsheet, been a part of 2 Mac OS releases, 5 Newton product cycles, 4 commercial web site revisions, designed 3 different mobile phone UIs, sworn at innumerable mobile browsers, and has over 20 patents.",
         "tags": [
-            "Web", "IoT"
+            "Web", "IoT", "Keynote"
         ],
         "badges": [
             {
@@ -888,7 +888,7 @@
         "photoUrl": "../../images/people/jlandure.jpg",
         "bio": "CTO de Zenika Nantes, Julien navigue entre des missions de formation (AngularJS, AppEngine) et d'architecture. Issu de la génération Google, il a co-fondé en Janvier 2011 le GDG Nantes, participe depuis 5 ans au Google I/O et organise le DevFest Nantes.",
         "tags": [
-            "Web", "HTTP2"
+            "Web"
         ],
         "socials": [
             {
@@ -953,7 +953,7 @@
         "photoUrl": "../../images/people/lcinquin.jpg",
         "bio": "",
         "tags": [
-            "Cloud", "Devops"
+            "Cloud", "Keynote", "DevOps"
         ],
         "socials": [
             {

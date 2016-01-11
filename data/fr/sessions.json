@@ -77,8 +77,8 @@
     "video": "",
     "tags": [
         "Android",
-        "Wear",
-        "TV"
+        "Android Wear",
+        "Android TV"
     ]
   },
   {
@@ -93,7 +93,7 @@
     "video": "",
     "tags": [
         "Android",
-        "Wear",
+        "Android Wear",
         "UX"
     ]
   },
@@ -209,7 +209,7 @@
     "presentation": "",
     "video": "",
     "tags": [
-        "Web"
+        "UX"
     ]
   },
   {
@@ -237,7 +237,7 @@
     "presentation": "",
     "video": "",
     "tags": [
-        "Web", "HTTP2"
+        "Web"
     ]
   },
   {
@@ -251,7 +251,7 @@
     "presentation": "",
     "video": "",
     "tags": [
-        "Web", "HTTP2"
+        "Web", "Polymer"
     ]
   },
   {
@@ -348,7 +348,7 @@
     "presentation": "",
     "video": "",
     "tags": [
-        "Android", "Doze"
+        "Android"
     ]
   },
   {
