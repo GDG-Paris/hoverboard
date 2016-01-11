@@ -20,22 +20,18 @@
     "description": "Coffeeeeeee!"
   },
   {
-    "id": 1005,
-    "title": "GDG DevFest Paris 2016 opening keynote",
-    "description": "Official start of the conference. Greetings from the organizers, sponsors and partners.",
-    "language": "fr",
-    "complexity": "",
-    "presentation": "",
-    "video": ""
-  },
-  {
     "id": 1006,
-    "title": "Conference closing keynote and contest winners announcements",
+    "title": "Closing Keynote",
     "description": "Make sure you won't miss closing ceremony, all gifts from out sponsors and partners will find their owners during this session.",
-    "language": "fr",
+    "speakers": [30],
+    "language": "en",
+    "duration": "45",
     "complexity": "",
     "presentation": "",
-    "video": ""
+    "video": "",
+    "tags": [
+        "IoT"
+    ]
   },
   {
     "id": 102,
@@ -120,7 +116,7 @@
     "id": 107,
     "title": "Firebase meets Google Maps",
     "description": "Firebase is a very powerful real time database created for web applications.<br>Using this technology with Google Maps brings the best of two worlds together. <br><br>The map displayed on the map can be displayed in real time with awesome animations. <br><br>During this talk we will show you how to build a connector between Firebase and Google Maps and the usages associated.",
-    "speakers": [10],
+    "speakers": [10, 34],
     "language": "fr",
     "duration": "20",
     "complexity": "Advanced",
@@ -408,5 +404,19 @@
     "tags": [
         "Cardboard", "VR"
     ]
+  },
+  {
+    "id": 129,
+    "title": "Opening Keynote - Les Géants du Web",
+    "description": "De l’autre côté de l’Atlantique, les Géants du Web (Google, Amazon, Facebook, Linkedin...) réinventent la façon de faire de l’informatique. Grace à ces nouvelles façons de travailler, ils sont capables de faire plus gros, plus vite, et plus efficace que ce que nous connaissons habituellement. Comment ces secrets des Géants du Web peuvent-ils être une source d'inspiration pour faire de l'informatique différemment ?",
+    "speakers": [33],
+    "language": "fr",
+    "duration": "45",
+    "complexity": "Beginner",
+    "presentation": "",
+    "video": "",
+    "tags": [
+        "Cloud", "Devops"
+      ]
   }
 ]
