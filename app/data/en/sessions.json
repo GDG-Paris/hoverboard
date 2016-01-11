@@ -303,7 +303,7 @@
   {
     "id": 119,
     "title": "Eddystone™, the open beacon format from Google",
-    "description": "Le web et ses standards évolue rapidement, très rapidement, trop rapidement... Les navigateurs n'arrivent pas forcément à suivre le mouvement et les utilisateurs bloqués sans mise à jour encore moins.<br>Il devient frustrant pour les développeurs de sans cesse entendre parler de nouveautés qu'il ne pourra pas utiliser avant des années.<br>Heureusement des outils comme Babel et PostCSS nous permettent d'enfin utiliser les dernières normes et de les laisser se préoccuper de la compatibilité !<br>Venez découvrir ces super outils qui vous permettront de développer dans le futur dès aujourd'hui !",
+    "description": "Back mid july 2015, Google has announced Eddystone, an open BLE beacon format. In this session, we'll cover how to develop with beacons. We'll dive into the core of the protocol format as well as the higher APIs (i.e Nearby API and the Proximity Beacon API) for better semantic context and higher location.",
     "speakers": [23],
     "language": "fr",
     "duration": "45",
