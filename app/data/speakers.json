@@ -942,5 +942,30 @@
                 "link": "http://wajdibr.com/"
             }
         ]
+    },
+    {
+        "id": 33,
+        "featured": false,
+        "name": "Ludovic Cinquin",
+        "title": "Directeur Général",
+        "company": "OCTO Technology",
+        "country": "FR",
+        "photoUrl": "../../images/people/lcinquin.jpg",
+        "bio": "",
+        "tags": [
+            "Cloud", "Devops"
+        ],
+        "socials": [
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/lcinquin"
+            },
+            {
+                "name": "Blog",
+                "icon": "link",
+                "link": "http://blog.octo.com/author/lci/"
+            }
+        ]
     }
 ]
