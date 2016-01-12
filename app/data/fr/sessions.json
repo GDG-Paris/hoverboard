@@ -20,36 +20,17 @@
     "description": "Caffééééééé!"
   },
   {
-    "id": 1005,
-    "title": "Session d'ouverture du GDG DevFest Paris 2016",
-    "description": "Official start of the conference. Greetings from the organizers, sponsors and partners.",
-    "language": "fr",
-    "complexity": "",
-    "presentation": "",
-    "video": ""
-  },
-  {
     "id": 1006,
-    "title": "Session de fermeture de la conférence et résultats des concours",
+    "title": "keynote de clôture",
     "description": "Make sure you won't miss closing ceremony, all gifts from out sponsors and partners will find their owners during this session.",
-    "language": "fr",
-    "complexity": "",
-    "presentation": "",
-    "video": ""
-  },
-  {
-    "id": 101,
-    "title": "Docker Swarm and Kubernetes",
-    "description": "Docker Swarm is a powerful solution to manage your Kubernetes cluster on any Platform. In this talk, we will show how you can quickly deploy and manage a Kubernetes cluster on the cloud and on your local environment in the exact same way.",
-    "speakers": [3],
-    "language": "fr",
+    "speakers": [30],
+    "language": "en",
     "duration": "45",
-    "complexity": "Avancé",
+    "complexity": "",
     "presentation": "",
     "video": "",
     "tags": [
-        "Cloud",
-        "Docker"
+        "IoT", "Keynote"
     ]
   },
   {
@@ -96,8 +77,8 @@
     "video": "",
     "tags": [
         "Android",
-        "Wear",
-        "TV"
+        "Android Wear",
+        "Android TV"
     ]
   },
   {
@@ -112,7 +93,7 @@
     "video": "",
     "tags": [
         "Android",
-        "Wear",
+        "Android Wear",
         "UX"
     ]
   },
@@ -135,7 +116,7 @@
     "id": 107,
     "title": "Firebase meets Google Maps",
     "description": "Firebase is a very powerful real time database created for web applications.<br>Using this technology with Google Maps brings the best of two worlds together. <br><br>The map displayed on the map can be displayed in real time with awesome animations. <br><br>During this talk we will show you how to build a connector between Firebase and Google Maps and the usages associated.",
-    "speakers": [10],
+    "speakers": [10, 34],
     "language": "fr",
     "duration": "20",
     "complexity": "Avancé",
@@ -228,7 +209,7 @@
     "presentation": "",
     "video": "",
     "tags": [
-        "Web"
+        "UX"
     ]
   },
   {
@@ -256,7 +237,7 @@
     "presentation": "",
     "video": "",
     "tags": [
-        "Web", "HTTP2"
+        "Web"
     ]
   },
   {
@@ -270,7 +251,7 @@
     "presentation": "",
     "video": "",
     "tags": [
-        "Web", "HTTP2"
+        "Web", "Polymer"
     ]
   },
   {
@@ -353,7 +334,7 @@
     "presentation": "",
     "video": "",
     "tags": [
-        "Cloud", "Microservices"
+        "Cloud", "Microservices", "DevOps"
     ]
   },
   {
@@ -367,20 +348,21 @@
     "presentation": "",
     "video": "",
     "tags": [
-        "Android", "Doze"
+        "Android"
     ]
   },
   {
     "id": 125,
-    "title": "TBD",
-    "description": "TBD",
-    "speakers": [],
+    "title": "Angular 2 : templates, composants et injection de dépendances",
+    "description": "La genèse d'Angular 2 n'est pas achevée, mais la version alpha permet déjà de se faire une bonne idée de ce à quoi il va ressembler. Et c'est bluffant ! Si la version 1 a paru magique, dans sa version 2 c'est un Angular épuré, à la fois plus puissant et plus limpide.<br>Dans cette session, rien que du code, pour vous montrer comment se créent les composants, s'écrivent les templates et s'injectent les dépendances.",
+    "speakers": [ 29 ],
+    "duration": "45",
     "language": "fr",
     "complexity": "Intermédiaire",
     "presentation": "",
     "video": "",
     "tags": [
-        "IoT"
+        "Angular"
     ]
   },
   {
@@ -423,5 +405,19 @@
     "tags": [
         "Cardboard", "VR"
     ]
+  },
+  {
+    "id": 129,
+    "title": "Keynote d'ouverture - Les Géants du Web",
+    "description": "De l’autre côté de l’Atlantique, les Géants du Web (Google, Amazon, Facebook, Linkedin...) réinventent la façon de faire de l’informatique. Grace à ces nouvelles façons de travailler, ils sont capables de faire plus gros, plus vite, et plus efficace que ce que nous connaissons habituellement. Comment ces secrets des Géants du Web peuvent-ils être une source d'inspiration pour faire de l'informatique différemment ?",
+    "speakers": [33],
+    "language": "fr",
+    "duration": "45",
+    "complexity": "Débutant",
+    "presentation": "",
+    "video": "",
+    "tags": [
+        "Cloud", "DevOps", "Keynote"
+      ]
   }
 ]

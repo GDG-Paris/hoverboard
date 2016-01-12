@@ -20,36 +20,17 @@
     "description": "Coffeeeeeee!"
   },
   {
-    "id": 1005,
-    "title": "GDG DevFest Paris 2016 opening keynote",
-    "description": "Official start of the conference. Greetings from the organizers, sponsors and partners.",
-    "language": "fr",
-    "complexity": "",
-    "presentation": "",
-    "video": ""
-  },
-  {
     "id": 1006,
-    "title": "Conference closing keynote and contest winners announcements",
+    "title": "Closing Keynote",
     "description": "Make sure you won't miss closing ceremony, all gifts from out sponsors and partners will find their owners during this session.",
-    "language": "fr",
-    "complexity": "",
-    "presentation": "",
-    "video": ""
-  },
-  {
-    "id": 101,
-    "title": "Docker Swarm and Kubernetes",
-    "description": "Docker Swarm is a powerful solution to manage your Kubernetes cluster on any Platform. In this talk, we will show how you can quickly deploy and manage a Kubernetes cluster on the cloud and on your local environment in the exact same way.",
-    "speakers": [3],
-    "language": "fr",
+    "speakers": [30],
+    "language": "en",
     "duration": "45",
-    "complexity": "Advanced",
+    "complexity": "",
     "presentation": "",
     "video": "",
     "tags": [
-        "Cloud",
-        "Docker"
+        "IoT", "Keynote"
     ]
   },
   {
@@ -96,8 +77,8 @@
     "video": "",
     "tags": [
         "Android",
-        "Wear",
-        "TV"
+        "Android Wear",
+        "Android TV"
     ]
   },
   {
@@ -112,7 +93,7 @@
     "video": "",
     "tags": [
         "Android",
-        "Wear",
+        "Android Wear",
         "UX"
     ]
   },
@@ -135,7 +116,7 @@
     "id": 107,
     "title": "Firebase meets Google Maps",
     "description": "Firebase is a very powerful real time database created for web applications.<br>Using this technology with Google Maps brings the best of two worlds together. <br><br>The map displayed on the map can be displayed in real time with awesome animations. <br><br>During this talk we will show you how to build a connector between Firebase and Google Maps and the usages associated.",
-    "speakers": [10],
+    "speakers": [10, 34],
     "language": "fr",
     "duration": "20",
     "complexity": "Advanced",
@@ -228,7 +209,7 @@
     "presentation": "",
     "video": "",
     "tags": [
-        "Web"
+        "UX"
     ]
   },
   {
@@ -256,7 +237,7 @@
     "presentation": "",
     "video": "",
     "tags": [
-        "Web", "HTTP2"
+        "Web"
     ]
   },
   {
@@ -270,7 +251,7 @@
     "presentation": "",
     "video": "",
     "tags": [
-        "Web", "HTTP2"
+        "Web", "Polymer"
     ]
   },
   {
@@ -303,7 +284,7 @@
   {
     "id": 119,
     "title": "Eddystone™, the open beacon format from Google",
-    "description": "Le web et ses standards évolue rapidement, très rapidement, trop rapidement... Les navigateurs n'arrivent pas forcément à suivre le mouvement et les utilisateurs bloqués sans mise à jour encore moins.<br>Il devient frustrant pour les développeurs de sans cesse entendre parler de nouveautés qu'il ne pourra pas utiliser avant des années.<br>Heureusement des outils comme Babel et PostCSS nous permettent d'enfin utiliser les dernières normes et de les laisser se préoccuper de la compatibilité !<br>Venez découvrir ces super outils qui vous permettront de développer dans le futur dès aujourd'hui !",
+    "description": "Back mid july 2015, Google has announced Eddystone, an open BLE beacon format. In this session, we'll cover how to develop with beacons. We'll dive into the core of the protocol format as well as the higher APIs (i.e Nearby API and the Proximity Beacon API) for better semantic context and higher location.",
     "speakers": [23],
     "language": "fr",
     "duration": "45",
@@ -353,7 +334,7 @@
     "presentation": "",
     "video": "",
     "tags": [
-        "Cloud", "Microservices"
+        "Cloud", "Microservices", "DevOps"
     ]
   },
   {
@@ -367,7 +348,7 @@
     "presentation": "",
     "video": "",
     "tags": [
-        "Android", "Doze"
+        "Android"
     ]
   },
   {
@@ -375,6 +356,7 @@
     "title": "Angular 2 : templates, composants et injection de dépendances",
     "description": "La genèse d'Angular 2 n'est pas achevée, mais la version alpha permet déjà de se faire une bonne idée de ce à quoi il va ressembler. Et c'est bluffant ! Si la version 1 a paru magique, dans sa version 2 c'est un Angular épuré, à la fois plus puissant et plus limpide.<br>Dans cette session, rien que du code, pour vous montrer comment se créent les composants, s'écrivent les templates et s'injectent les dépendances.",
     "speakers": [ 29 ],
+    "duration": "45",
     "language": "fr",
     "complexity": "Intermediate",
     "presentation": "",
@@ -423,5 +405,19 @@
     "tags": [
         "Cardboard", "VR"
     ]
+  },
+  {
+    "id": 129,
+    "title": "Opening Keynote - Les Géants du Web",
+    "description": "De l’autre côté de l’Atlantique, les Géants du Web (Google, Amazon, Facebook, Linkedin...) réinventent la façon de faire de l’informatique. Grace à ces nouvelles façons de travailler, ils sont capables de faire plus gros, plus vite, et plus efficace que ce que nous connaissons habituellement. Comment ces secrets des Géants du Web peuvent-ils être une source d'inspiration pour faire de l'informatique différemment ?",
+    "speakers": [33],
+    "language": "fr",
+    "duration": "45",
+    "complexity": "Beginner",
+    "presentation": "",
+    "video": "",
+    "tags": [
+        "Cloud", "DevOps", "Keynote"
+      ]
   }
 ]

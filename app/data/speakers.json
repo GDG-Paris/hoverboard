@@ -72,44 +72,6 @@
         ]
     },
     {
-        "id": 3,
-        "featured": true,
-        "name": "David Gageot",
-        "title": "",
-        "company": "Docker",
-        "country": "FR",
-        "photoUrl": "../../images/people/dgageot.jpg",
-        "bio": "What can I say except that I'm born to be a geek. I started with computers being my dad's own static code analyzer. I would seat next to him and spot bugs before he even ran the code. It's been a while and I can proudly state that I'm fully capable of creating my own bugs now. I felt in love at first sight with Docker at CloudConf (now DotScale) conference in Paris in 2013.  Has been using it since. Now I'm proud to be part of the team.",
-        "tags": [
-            "Cloud",
-            "Docker"
-        ],
-        "badges": [
-            {
-                "name": "GDE",
-                "description": "Google Developer Expert",
-                "link": "https://developers.google.com/experts/people/david-gageot"
-            }
-        ],
-        "socials": [
-            {
-                "name": "Twitter",
-                "icon": "app-icons:twitter",
-                "link": "https://twitter.com/dgageot"
-            },
-            {
-                "name": "GitHub",
-                "icon": "app-icons:github",
-                "link": "https://github.com/dgageot"
-            },
-            {
-                "name": "Blog",
-                "icon": "link",
-                "link": "http://blog.javabien.net/"
-            }
-        ]
-    },
-    {
         "id": 4,
         "featured": true,
         "name": "Cyril Mottier",
@@ -151,7 +113,7 @@
         "photoUrl": "../../images/people/xhallade.jpg",
         "bio": "Xavier Hallade is a software engineer at Intel Software and Services Group in Paris, France, where he works on a wide range of Android frameworks, libraries and applications, helping developers to improve their support for new hardware and technologies. <br> He's a Google Developer Expert in Android, with a focus on the Android NDK and Android TV.",
         "tags": [
-            "Android"
+            "Android", "Android Wear", "Android TV"
         ],
         "badges": [
             {
@@ -330,7 +292,7 @@
         "company": "gPartner",
         "country": "FR",
         "photoUrl": "../../images/people/slebrun.jpg",
-        "bio": "I have been working for gPartner for the last 4 years. I created the Digital Lab to answer our clients needs to create innovative web experience around Google Maps ans Street View. Last year I presented \"WebGL meets Google Street View\" @Devfest2015, this year I want to show you again how to merge 2 worlds. With Quentin Veyret from my team, we will demonstrate how to integrate a real time framework like Firebase into a Google Maps experiment.",
+        "bio": "I have been working for gPartner for the last 4 years. I created the Digital Lab to answer our clients needs to create innovative web experience around Google Maps ans Street View.",
         "tags": [
             "Web", "Firebase", "Google Maps"
         ],
@@ -389,7 +351,7 @@
         "title": "Spring Framework committer",
         "company": "Pivotal",
         "country": "FR",
-        "photoUrl": "../../images/people/snicoll.png",
+        "photoUrl": "../../images/people/snicoll.jpg",
         "bio": "Stéphane has a thing for code quality and robustness. He's been spreading the word for more than ten years while developing large scale Java enterprise applications in the geospatial, financial, or logistics sectors. An Apache Maven PMC member since 2006, he joined the core Spring Framework development team early 2014, being one of the main contributors to both Spring Framework and Spring Boot since. During his free time, he loves traveling around the world.",
         "tags": [
             "Java", "Spring", "Web"
@@ -424,7 +386,7 @@
         "title": "Spring Framework committer",
         "company": "Pivotal",
         "country": "FR",
-        "photoUrl": "../../images/people/bclozel.jpeg",
+        "photoUrl": "../../images/people/bclozel.jpg",
         "bio": "Spring Framework core committer, focusing on web and messaging. Lead developer of Sagan, the Spring reference app that powers http://spring.io",
         "tags": [
             "Java", "Spring", "Cloud"
@@ -459,7 +421,7 @@
         "title": "Front end CTO",
         "company": "Sfeir",
         "country": "FR",
-        "photoUrl": "../../images/people/cbalit.jpeg",
+        "photoUrl": "../../images/people/cbalit.jpg",
         "bio": "Cyril Balit est directeur technique front dans la société Sfeir. Il encadre une équipe de développeurs frontend spécialisés dans le développement d’applications RIA (Node, Angular, Backbone) et les problématiques d’industrialisation (usine de développement, intégration continue, cloud)",
         "tags": [
             "Web", "Polymer"
@@ -484,7 +446,7 @@
         "title": "Software Engineer",
         "company": "INEAT Conseil",
         "country": "FR",
-        "photoUrl": "../../images/people/hsablonniere.png",
+        "photoUrl": "../../images/people/hsablonniere.jpg",
         "bio": "Hubert est développeur Web et passionné d’HTML, CSS et JavaScript. Il travaille depuis 7 ans chez INEAT Conseil et partage son temps entre des missions de développement sur des projets et des missions de conseil d'audit. Il est familier avec PHP et Java mais sa spécialité reste le JavaScript et la plateforme du Web en général.<br><br>Après avoir donné des cours pendant 2 ans, il participe maintenant à plusieurs conférences en tant qu'orateur. Il parle des dernières technologies et a toujours à cœur de trouver des nouveaux usages pour ses utilisateurs et des facilités pour les développeurs.",
         "tags": [
             "Web"
@@ -517,7 +479,7 @@
         "photoUrl": "../../images/people/ycadoret.png",
         "bio": "",
         "tags": [
-            "Design", "UX"
+            "UX"
         ],
         "socials": [
             {
@@ -537,7 +499,7 @@
         "photoUrl": "../../images/people/aduplouy.jpg",
         "bio": "",
         "tags": [
-            "Design", "UX"
+            "UX"
         ],
         "socials": [
             {
@@ -554,7 +516,7 @@
         "title": "Technical Evangelist",
         "company": "Microsoft France",
         "country": "FR",
-        "photoUrl": "../../images/people/jsdupuy.jpeg",
+        "photoUrl": "../../images/people/jsdupuy.jpg",
         "bio": "Evangéliste développeur chez Microsoft France. Passionné par le développement d’applications mobiles et les objets connectés, Jean-Sébastien anime les relations techniques avec les développeurs depuis plusieurs années. Vous pouvez suivre son actualité et le contacter sur twitter @dupuyjs ou sur son blog http://blogs.msdn.com/b/jdupuy.",
         "tags": [
             "Cloud", "Machine Learning"
@@ -579,7 +541,7 @@
         "title": "Cloud dev team leader",
         "company": "MyScript",
         "country": "FR",
-        "photoUrl": "../../images/people/padewitte.jpeg",
+        "photoUrl": "../../images/people/padewitte.jpg",
         "bio": "Passioné de nouvelles technologies avec un soucis de leur bon usage. Intéressé par toutes les solutions permettant de faire mieux et simplement.",
         "tags": [
             "Web", "Polymer"
@@ -613,8 +575,8 @@
         "name": "Ray Tsang",
         "title": "Developer Advocate",
         "company": "Google",
-        "country": "FR",
-        "photoUrl": "../../images/people/rtsang.jpeg",
+        "country": "US",
+        "photoUrl": "../../images/people/rtsang.jpg",
         "bio": "Ray is a Developer Advocate for the Google Cloud Platform. Ray had extensive hands on cross-industry enterprise systems integration delivery and management experiences during his time at Accenture, managed full stack application development, DevOps, and ITOps. Ray specialized in middleware, big data, and PaaS products during his time at Red Hat while contributing to open source projects, such as Infinispan. Aside from technology, Ray enjoys traveling and adventures.<br><br>Follow Ray on Twitter @saturnism (https://twitter.com/saturnism)",
         "tags": [
             "Cloud", "Kubernetes"
@@ -679,6 +641,13 @@
         "tags": [
             "IoT"
         ],
+        "badges": [
+            {
+                "name": "GDG",
+                "description": "PAUG Organizer",
+                "link": "http://www.paug.fr/"
+            }
+        ],
         "socials": [
             {
                 "name": "Google+",
@@ -742,10 +711,10 @@
         "featured": false,
         "name": "Corentin Leclerc",
         "title": "Software Engineer",
-        "company": "Cirruseo / Designed For Work",
+        "company": "Designed4Work",
         "country": "FR",
         "photoUrl": "../../images/people/cleclerc.jpg",
-        "bio": "Développeur Python depuis toujours chez Cirruseo / Designed For Work. Responsable d'intégration des produits de Designed For Work / Apprenti DevOps",
+        "bio": "Développeur Python depuis toujours chez Cirruseo / Designed4Work. Responsable d'intégration des produits de Designed For Work / Apprenti DevOps",
         "tags": [
             "Cloud"
         ],
@@ -802,7 +771,7 @@
         "photoUrl": "../../images/people/mpoppleton.jpg",
         "bio": "I'm a Software Engineer at Orange Labs and tinker with code for Android since version 1.0 Apple Pie. <br>I'm also the leader of the GDG Code d'Armor.<br>The rest of the time, I'm Robopop, cyber-father and husband, half flesh and bones, half carbon fiber and steel.",
         "tags": [
-            "Android", "Doze"
+            "Android"
         ],
         "badges": [
             {
@@ -839,7 +808,7 @@
         "photoUrl": "../../images/people/pcrepieux.jpg",
         "bio": "Après plusieurs années passées du coté des infrastructures réseau (Réseau Intelligent, H.323, IMS), je suis aujourd'hui développeur senior sur Android. Mon sujet de prédilection du moment: l’impact que peuvent avoir les applications sur le terminal mobile et le réseau.",
         "tags": [
-            "Android", "Doze"
+            "Android"
         ]
     },
     {
@@ -881,15 +850,15 @@
     },
     {
         "id": 30,
-        "featured": false,
+        "featured": true,
         "name": "Scott Jenson",
         "title": "Project Lead for Physical Web",
         "company": "Google",
-        "country": "FR",
+        "country": "US",
         "photoUrl": "../../images/people/sjenson.jpg",
         "bio": "Scott Jenson has been doing user interface design and strategic planning for over 20 years. He worked at Apple on System 7, Newton, and the Apple Human Interface guidelines. He was the director of Symbian’s DesignLab, VP of product design for Cognima, a manager of mobile UX for Google for 5 years, and a creative director at frog design in San Francisco.<br><br>Scott returned to Google working on the Chrome team in November 2013<br><br>As a battle-scarred veteran of the software industry, Scott has shipped a consumer spreadsheet, been a part of 2 Mac OS releases, 5 Newton product cycles, 4 commercial web site revisions, designed 3 different mobile phone UIs, sworn at innumerable mobile browsers, and has over 20 patents.",
         "tags": [
-            "Web", "IoT"
+            "Web", "IoT", "Keynote"
         ],
         "badges": [
             {
@@ -926,7 +895,14 @@
         "photoUrl": "../../images/people/jlandure.jpg",
         "bio": "CTO de Zenika Nantes, Julien navigue entre des missions de formation (AngularJS, AppEngine) et d'architecture. Issu de la génération Google, il a co-fondé en Janvier 2011 le GDG Nantes, participe depuis 5 ans au Google I/O et organise le DevFest Nantes.",
         "tags": [
-            "Web", "HTTP2"
+            "Web"
+        ],
+        "badges": [
+            {
+                "name": "GDG",
+                "description": "GDG Nantes organizer",
+                "link": "http://www.meetup.com/fr-FR/GDG-Nantes"
+            }
         ],
         "socials": [
             {
@@ -978,6 +954,51 @@
                 "name": "Blog",
                 "icon": "link",
                 "link": "http://wajdibr.com/"
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "featured": false,
+        "name": "Ludovic Cinquin",
+        "title": "Directeur Général",
+        "company": "OCTO Technology",
+        "country": "FR",
+        "photoUrl": "../../images/people/lcinquin.jpg",
+        "bio": "Ludovic Cinquin is CEO France for the IT Management and Technologies consulting firm, OCTO Technology. He is also a regular speaker at corporate seminars and at OCTO’s annual USI event.<br>In addition to his managerial responsibilities, Ludovic oversees major accounts for strategic consulting assignments. His motto : ''Technology is a powerful engine for change that requires ever-evolving ways of working''.<br>A graduate of the Ecole Centrale de Paris and of the Technische Universität München, Ludovic is also co-author of several books, including OCTO’s most recent publication The Giants of the Web: Culture – Practices – Architecture.",
+        "tags": [
+            "Cloud", "Keynote", "DevOps"
+        ],
+        "socials": [
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/lcinquin"
+            },
+            {
+                "name": "Blog",
+                "icon": "link",
+                "link": "http://blog.octo.com/author/lci/"
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "featured": false,
+        "name": "Quentin Veyret",
+        "title": "Développeur Digital Lab",
+        "company": "gPartner",
+        "country": "FR",
+        "photoUrl": "../../images/people/qveyret.jpg",
+        "bio": "Quentin has been working for gPartner for 1 year as a consultant in the Digital Lab team. He develops innovative applications using technologies such as Google Maps, StreetView & Cardboard.",
+        "tags": [
+            "Web", "Firebase", "Google Maps"
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/+QuentinVeyret-gPartner"
             }
         ]
     }
