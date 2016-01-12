@@ -353,15 +353,16 @@
   },
   {
     "id": 125,
-    "title": "TBD",
-    "description": "TBD",
-    "speakers": [],
+    "title": "Angular 2 : templates, composants et injection de dépendances",
+    "description": "La genèse d'Angular 2 n'est pas achevée, mais la version alpha permet déjà de se faire une bonne idée de ce à quoi il va ressembler. Et c'est bluffant ! Si la version 1 a paru magique, dans sa version 2 c'est un Angular épuré, à la fois plus puissant et plus limpide.<br>Dans cette session, rien que du code, pour vous montrer comment se créent les composants, s'écrivent les templates et s'injectent les dépendances.",
+    "speakers": [ 29 ],
+    "duration": "45",
     "language": "fr",
     "complexity": "Intermédiaire",
     "presentation": "",
     "video": "",
     "tags": [
-        "IoT"
+        "Angular"
     ]
   },
   {
