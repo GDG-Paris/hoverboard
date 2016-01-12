@@ -89,6 +89,10 @@
   }, {
     "title": "Community partners",
     "logos": [{
+        "name": "GDG Nantes",
+        "url": "http://www.meetup.com/fr-FR/GDG-Nantes/",
+        "logoUrl": "../images/partners/gdgnantes.png"
+    }, {
         "name": "PAUG",
         "url": "http://www.paug.fr/",
         "logoUrl": "../images/partners/paug.jpg"

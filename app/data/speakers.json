@@ -351,7 +351,7 @@
         "title": "Spring Framework committer",
         "company": "Pivotal",
         "country": "FR",
-        "photoUrl": "../../images/people/snicoll.png",
+        "photoUrl": "../../images/people/snicoll.jpg",
         "bio": "Stéphane has a thing for code quality and robustness. He's been spreading the word for more than ten years while developing large scale Java enterprise applications in the geospatial, financial, or logistics sectors. An Apache Maven PMC member since 2006, he joined the core Spring Framework development team early 2014, being one of the main contributors to both Spring Framework and Spring Boot since. During his free time, he loves traveling around the world.",
         "tags": [
             "Java", "Spring", "Web"
@@ -386,7 +386,7 @@
         "title": "Spring Framework committer",
         "company": "Pivotal",
         "country": "FR",
-        "photoUrl": "../../images/people/bclozel.jpeg",
+        "photoUrl": "../../images/people/bclozel.jpg",
         "bio": "Spring Framework core committer, focusing on web and messaging. Lead developer of Sagan, the Spring reference app that powers http://spring.io",
         "tags": [
             "Java", "Spring", "Cloud"
@@ -421,7 +421,7 @@
         "title": "Front end CTO",
         "company": "Sfeir",
         "country": "FR",
-        "photoUrl": "../../images/people/cbalit.jpeg",
+        "photoUrl": "../../images/people/cbalit.jpg",
         "bio": "Cyril Balit est directeur technique front dans la société Sfeir. Il encadre une équipe de développeurs frontend spécialisés dans le développement d’applications RIA (Node, Angular, Backbone) et les problématiques d’industrialisation (usine de développement, intégration continue, cloud)",
         "tags": [
             "Web", "Polymer"
@@ -446,7 +446,7 @@
         "title": "Software Engineer",
         "company": "INEAT Conseil",
         "country": "FR",
-        "photoUrl": "../../images/people/hsablonniere.png",
+        "photoUrl": "../../images/people/hsablonniere.jpg",
         "bio": "Hubert est développeur Web et passionné d’HTML, CSS et JavaScript. Il travaille depuis 7 ans chez INEAT Conseil et partage son temps entre des missions de développement sur des projets et des missions de conseil d'audit. Il est familier avec PHP et Java mais sa spécialité reste le JavaScript et la plateforme du Web en général.<br><br>Après avoir donné des cours pendant 2 ans, il participe maintenant à plusieurs conférences en tant qu'orateur. Il parle des dernières technologies et a toujours à cœur de trouver des nouveaux usages pour ses utilisateurs et des facilités pour les développeurs.",
         "tags": [
             "Web"
@@ -516,7 +516,7 @@
         "title": "Technical Evangelist",
         "company": "Microsoft France",
         "country": "FR",
-        "photoUrl": "../../images/people/jsdupuy.jpeg",
+        "photoUrl": "../../images/people/jsdupuy.jpg",
         "bio": "Evangéliste développeur chez Microsoft France. Passionné par le développement d’applications mobiles et les objets connectés, Jean-Sébastien anime les relations techniques avec les développeurs depuis plusieurs années. Vous pouvez suivre son actualité et le contacter sur twitter @dupuyjs ou sur son blog http://blogs.msdn.com/b/jdupuy.",
         "tags": [
             "Cloud", "Machine Learning"
@@ -541,7 +541,7 @@
         "title": "Cloud dev team leader",
         "company": "MyScript",
         "country": "FR",
-        "photoUrl": "../../images/people/padewitte.jpeg",
+        "photoUrl": "../../images/people/padewitte.jpg",
         "bio": "Passioné de nouvelles technologies avec un soucis de leur bon usage. Intéressé par toutes les solutions permettant de faire mieux et simplement.",
         "tags": [
             "Web", "Polymer"
@@ -575,8 +575,8 @@
         "name": "Ray Tsang",
         "title": "Developer Advocate",
         "company": "Google",
-        "country": "FR",
-        "photoUrl": "../../images/people/rtsang.jpeg",
+        "country": "US",
+        "photoUrl": "../../images/people/rtsang.jpg",
         "bio": "Ray is a Developer Advocate for the Google Cloud Platform. Ray had extensive hands on cross-industry enterprise systems integration delivery and management experiences during his time at Accenture, managed full stack application development, DevOps, and ITOps. Ray specialized in middleware, big data, and PaaS products during his time at Red Hat while contributing to open source projects, such as Infinispan. Aside from technology, Ray enjoys traveling and adventures.<br><br>Follow Ray on Twitter @saturnism (https://twitter.com/saturnism)",
         "tags": [
             "Cloud", "Kubernetes"
@@ -643,7 +643,7 @@
         ],
         "badges": [
             {
-                "name": "PAUG",
+                "name": "GDG",
                 "description": "PAUG Organizer",
                 "link": "http://www.paug.fr/"
             }
@@ -854,7 +854,7 @@
         "name": "Scott Jenson",
         "title": "Project Lead for Physical Web",
         "company": "Google",
-        "country": "FR",
+        "country": "US",
         "photoUrl": "../../images/people/sjenson.jpg",
         "bio": "Scott Jenson has been doing user interface design and strategic planning for over 20 years. He worked at Apple on System 7, Newton, and the Apple Human Interface guidelines. He was the director of Symbian’s DesignLab, VP of product design for Cognima, a manager of mobile UX for Google for 5 years, and a creative director at frog design in San Francisco.<br><br>Scott returned to Google working on the Chrome team in November 2013<br><br>As a battle-scarred veteran of the software industry, Scott has shipped a consumer spreadsheet, been a part of 2 Mac OS releases, 5 Newton product cycles, 4 commercial web site revisions, designed 3 different mobile phone UIs, sworn at innumerable mobile browsers, and has over 20 patents.",
         "tags": [
@@ -965,7 +965,7 @@
         "company": "OCTO Technology",
         "country": "FR",
         "photoUrl": "../../images/people/lcinquin.jpg",
-        "bio": "",
+        "bio": "Ludovic Cinquin is CEO France for the IT Management and Technologies consulting firm, OCTO Technology. He is also a regular speaker at corporate seminars and at OCTO’s annual USI event.<br>In addition to his managerial responsibilities, Ludovic oversees major accounts for strategic consulting assignments. His motto : ''Technology is a powerful engine for change that requires ever-evolving ways of working''.<br>A graduate of the Ecole Centrale de Paris and of the Technische Universität München, Ludovic is also co-author of several books, including OCTO’s most recent publication The Giants of the Web: Culture – Practices – Architecture.",
         "tags": [
             "Cloud", "Keynote", "DevOps"
         ],
