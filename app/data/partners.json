@@ -92,9 +92,14 @@
         "name": "GDG Nantes",
         "url": "http://www.meetup.com/fr-FR/GDG-Nantes/",
         "logoUrl": "../images/partners/gdgnantes.png"
-    }, {
+      }, {
         "name": "PAUG",
         "url": "http://www.paug.fr/",
         "logoUrl": "../images/partners/paug.jpg"
-  }]
+      }, {
+        "name": "Paris Datageeks",
+        "url": "http://www.meetup.com/fr-FR/Paris-Datageeks/",
+        "logoUrl": "../images/partners/paris_datageeks.jpeg"
+      }
+    ]
 }]
