@@ -88,7 +88,8 @@
     }]
   }, {
     "title": "Community partners",
-    "logos": [{
+    "logos": [
+      {
         "name": "GDG Nantes",
         "url": "http://www.meetup.com/fr-FR/GDG-Nantes/",
         "logoUrl": "../images/partners/gdgnantes.png"
@@ -96,7 +97,15 @@
         "name": "PAUG",
         "url": "http://www.paug.fr/",
         "logoUrl": "../images/partners/paug.jpg"
-      }, {
+      },{
+        "name": "GDG Lille",
+        "url": "http://www.meetup.com/fr-FR/GDG-Lille/",
+        "logoUrl": "../images/partners/gdglille.png"
+      },{
+        "name": "TAUG",
+        "url": "http://www.meetup.com/fr-FR/Toulouse-Android-User-Group/",
+        "logoUrl": "../images/partners/taug.jpeg"
+      },{
         "name": "Paris Datageeks",
         "url": "http://www.meetup.com/fr-FR/Paris-Datageeks/",
         "logoUrl": "../images/partners/paris_datageeks.jpeg"
