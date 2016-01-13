@@ -1001,5 +1001,37 @@
                 "link": "https://plus.google.com/+QuentinVeyret-gPartner"
             }
         ]
+    },
+    {
+        "id": 35,
+        "featured": false,
+        "name": "Edouard Marquez",
+        "title": "Développeur",
+        "company": "Freelance",
+        "country": "FR",
+        "photoUrl": "../../images/people/emarquez.jpg",
+        "bio": "Développeur Android depuis la première heure, il ne jure que par Android depuis qu'il a reçu un bugdroid sur la tête (et cela fait bien moins mal qu'une pomme). Il est convaincu que le monde sera bientôt contrôlé par les bonhommes verts !",
+        "tags": [
+            "Android", "Android Wear", "Android TV"
+        ],
+        "badges": [
+            {
+                "name": "GDG",
+                "description": "PAUG Organizer",
+                "link": "http://www.paug.fr/"
+            }
+        ],
+        "socials": [
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/g123k"
+            },
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/u/0/+EdouardMarquez"
+            }
+        ]
     }
 ]

@@ -51,8 +51,8 @@
   },
   {
     "id": 103,
-    "title": "Go, gRPC, Kubernetes",
-    "description": "",
+    "title": "Taming the microservice with gRPC and Kubernetes",
+    "description": "gRPC and Kubernetes are two separate open source projects born at Google and with a similar goal: sharing Google's experience building distributed applications. This talk will cover the basic concepts of both projects and show how to build a simple application using both project plus a third Google open source project: Go",
     "speakers": [2],
     "language": "en",
     "duration": "45",
@@ -418,6 +418,22 @@
     "video": "",
     "tags": [
         "Cloud", "DevOps", "Keynote"
+      ]
+  },
+  {
+    "id": 130,
+    "title": "Android Studio: introduction à la version 2.0 - astuces pour développeurs",
+    "description": "Android Studio est l'IDE de référence pour tous les développeurs Android. Google a présenté la version 2.0 il y a quelques mois lors de l'Android Developer Summit. Ce talk reviendra sur les nouveautés apportées dans cette version et notamment la fonction Instant Run. Quelques astuces d'utilisation de l'IDE seront également données (quelle que soit la version).",
+    "speakers": [35],
+    "language": "fr",
+    "duration": "45",
+    "complexity": "Intermédiaire",
+    "presentation": "",
+    "video": "",
+    "tags": [
+        "Android",
+        "Android Wear",
+        "Android TV"
       ]
   }
 ]
