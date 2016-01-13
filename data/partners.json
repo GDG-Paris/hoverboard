@@ -102,6 +102,10 @@
         "url": "http://www.meetup.com/fr-FR/GDG-Lille/",
         "logoUrl": "../images/partners/gdglille.png"
       },{
+        "name": "TAUG",
+        "url": "http://www.meetup.com/fr-FR/Toulouse-Android-User-Group/",
+        "logoUrl": "../images/partners/taug.jpeg"
+      },{
         "name": "Paris Datageeks",
         "url": "http://www.meetup.com/fr-FR/Paris-Datageeks/",
         "logoUrl": "../images/partners/paris_datageeks.jpeg"
