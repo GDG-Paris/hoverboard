@@ -90,25 +90,33 @@
     "title": "Community partners",
     "logos": [
       {
+        "name": "Duchess France",
+        "url": "http://www.duchess-france.org/",
+        "logoUrl": "../images/partners/duchess.svg"
+      }, {
+        "name": "GDG Lille",
+        "url": "http://www.meetup.com/fr-FR/GDG-Lille/",
+        "logoUrl": "../images/partners/gdglille.png"
+      }, {
         "name": "GDG Nantes",
         "url": "http://www.meetup.com/fr-FR/GDG-Nantes/",
         "logoUrl": "../images/partners/gdgnantes.png"
       }, {
+        "name": "Google Polymer Paris",
+        "url": "http://www.meetup.com/fr-FR/Google-Polymer-Paris/",
+        "logoUrl": "../images/partners/polymerparis.png"
+      }, {
+        "name": "Paris Datageeks",
+        "url": "http://www.meetup.com/fr-FR/Paris-Datageeks/",
+        "logoUrl": "../images/partners/paris_datageeks.jpg"
+      }, {
         "name": "PAUG",
         "url": "http://www.paug.fr/",
         "logoUrl": "../images/partners/paug.jpg"
-      },{
-        "name": "GDG Lille",
-        "url": "http://www.meetup.com/fr-FR/GDG-Lille/",
-        "logoUrl": "../images/partners/gdglille.png"
-      },{
+      }, {
         "name": "TAUG",
         "url": "http://www.meetup.com/fr-FR/Toulouse-Android-User-Group/",
-        "logoUrl": "../images/partners/taug.jpeg"
-      },{
-        "name": "Paris Datageeks",
-        "url": "http://www.meetup.com/fr-FR/Paris-Datageeks/",
-        "logoUrl": "../images/partners/paris_datageeks.jpeg"
+        "logoUrl": "../images/partners/taug.jpg"
       }
     ]
 }]
