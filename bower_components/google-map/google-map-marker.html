@@ -130,10 +130,7 @@ child of `google-map`.
        * A Google Maps marker object.
        * @type google.maps.Marker
        */
-      marker: {
-        type: Object,
-        notify: true
-      },
+      marker: Object,
 
       /**
        * The Google map object.
@@ -195,7 +192,7 @@ child of `google-map`.
       longitude: {
         type: Number,
         value: null,
-        notify: true
+        reflectToAttribute: true
       },
 
       /**
@@ -204,7 +201,7 @@ child of `google-map`.
       latitude: {
         type: Number,
         value: null,
-        notify: true
+        reflectToAttribute: true
       },
 
       /**
@@ -233,8 +230,6 @@ child of `google-map`.
 
     detached: function() {
       if (this.marker) {
-        google.maps.event.clearInstanceListeners(this.marker);
-        this._listeners = {};
         this.marker.setMap(null);
       }
       if (this._contentObserver)
