@@ -41,7 +41,7 @@
         "company": "Google",
         "country": "US",
         "photoUrl": "../../images/people/fcampoy.jpg",
-        "bio": "",
+        "bio": "Francesc Campoy Flores is a Developer Advocate for Go and the Cloud at Google. He joined the Go team in 2012 and since then he has written some considerable didactic resources and traveled the world attending conferences, organizing live courses, and meeting fellow gophers. He joined Google in 2011 as a backend software engineer working mostly in C++ and Python, but it was with Go that he rediscovered how fun programming can be.",
         "tags": [
             "Cloud",
             "Go"
