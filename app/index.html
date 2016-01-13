@@ -246,8 +246,10 @@
                 </div>
             </div>
         </paper-drawer-panel>
-        <paper-toast id="caching-complete" class="toast" duration="6000" text="Caching complete! This app will work offline.">
-        </paper-toast>
+
+        <paper-toast id="caching-complete" class="toast" duration="6000" text="Caching complete! This app will work offline."></paper-toast>
+
+        <!--
         <paper-dialog class="video-dialog fit" id="promo-video-dialog" with-backdrop modal entry-animation="scale-up-animation" exit-animation="fade-out-animation">
             <paper-toolbar class="navbar-overlay fit">
                 <paper-icon-button icon="icons:arrow-back" on-tap="closeVideoCard"></paper-icon-button>
@@ -257,10 +259,13 @@
                 <google-youtube id="promo-video" video-id="_yhIH9wb3hE" fluid="true" autohide="1" chromeless="true"></google-youtube>
             </div>
         </paper-dialog>
+        -->
+
         <platinum-sw-register auto-register clients-claim skip-waiting on-service-worker-installed="displayInstalledToast">
             <platinum-sw-cache default-cache-strategy="networkFirst" precache-file="precache.json">
             </platinum-sw-cache>
         </platinum-sw-register>
+
         <webfont-loader families="Roboto:100,200,400&subset=latin"></webfont-loader>
     </template>
     <google-analytics code="UA-47720405-4"></google-analytics>
