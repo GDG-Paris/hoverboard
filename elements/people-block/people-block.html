@@ -194,41 +194,39 @@
             }
         </style>
         <div id="people" class="container flex layout vertical">
-            <div class="layout vertical-horizontal">
-                <div class="flex">
-                    <div class="layout vertical-horizontal-xs wrap">
-                        <template id="peopleList" is="dom-repeat" items="[[people]]" as="person" filter="checkHiding">
-                            <div class="card-wrapper layout horizontal" hidden$="{{person.hide}}">
-                                <paper-material class="flex pointer" on-tap="readMore">
-                                    <div class="people-header relative">
-                                        <iron-image src="[[person.photoUrl]]" class="placeholder-color fit" preload fade sizing="cover"></iron-image>
-                                        <div class="people-image-overlay fit"></div>
-                                        <ul class="badges relative text-right">
-                                            <template is="dom-repeat" items="[[person.badges]]" as="badge">
-                                                <li class="badge">
-                                                    <a href="[[badge.link]]" target="_blank">[[badge.name]]</a>
-                                                </li>
-                                            </template>
-                                        </ul>
-                                        <div class="bottom-image-text">
-                                            <span class="people-name relative">[[person.name]]</span>
-                                            <div class="title">
-                                                <span>[[person.company]]</span>,
-                                                <span>[[person.country]]</span>
-                                            </div>
+            <div class="layout horizontal">
+                <div class="flex-10 layout horizontal wrap">
+                    <template id="peopleList" is="dom-repeat" items="[[people]]" as="person" filter="checkHiding">
+                        <div class="card-wrapper layout horizontal" hidden$="{{person.hide}}">
+                            <paper-material class="flex pointer" on-tap="readMore">
+                                <div class="people-header relative">
+                                    <iron-image src="[[person.photoUrl]]" class="placeholder-color fit" preload fade sizing="cover"></iron-image>
+                                    <div class="people-image-overlay fit"></div>
+                                    <ul class="badges relative text-right">
+                                        <template is="dom-repeat" items="[[person.badges]]" as="badge">
+                                            <li class="badge">
+                                                <a href="[[badge.link]]" target="_blank">[[badge.name]]</a>
+                                            </li>
+                                        </template>
+                                    </ul>
+                                    <div class="bottom-image-text">
+                                        <span class="people-name relative">[[person.name]]</span>
+                                        <div class="title">
+                                            <span>[[person.company]]</span>,
+                                            <span>[[person.country]]</span>
                                         </div>
                                     </div>
-                                    <div class="card-content flex sessions">
-                                        <template is="dom-repeat" items="[[person.sessions]]" as="session">
-                                            <h3 class="session-title">[[session.title]]</h3>
-                                        </template>
-                                    </div>
-                                </paper-material>
-                            </div>
-                        </template>
-                    </div>
+                                </div>
+                                <div class="card-content flex sessions">
+                                    <template is="dom-repeat" items="[[person.sessions]]" as="session">
+                                        <h3 class="session-title">[[session.title]]</h3>
+                                    </template>
+                                </div>
+                            </paper-material>
+                        </div>
+                    </template>
                 </div>
-                <div id="sideMenu" class="side-menu layout vertical">
+                <div id="sideMenu" class="flex-2 side-menu layout vertical">
                     <paper-card class="filters">
                         <div class="card-content header">
                             <div class="title-text">
