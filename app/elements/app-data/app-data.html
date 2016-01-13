@@ -64,6 +64,8 @@
             '_generateSchedule(speakers, sessions, _scheduleRaw)'
         ],
         _generateSchedule: function() {
+            // TODO Uncomment this code to display schedule
+            /*
             for (var i = 0, scheduleLen = this._scheduleRaw.length; i < scheduleLen; i++) {
                 var day = this._scheduleRaw[i];
                 for (var j = 0, timeslotsLen = day.timeslots.length; j < timeslotsLen; j++) {
@@ -82,6 +84,7 @@
                 }
             }
             this.schedule = this._scheduleRaw;
+            */
         },
         _getSession: function(sessionId) {
             for (var i = 0, sessionsLen = this.sessions.length; i < sessionsLen; i++) {
