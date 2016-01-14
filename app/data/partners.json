@@ -110,6 +110,10 @@
         "url": "http://www.meetup.com/fr-FR/Paris-Datageeks/",
         "logoUrl": "../images/partners/paris_datageeks.jpg"
       }, {
+        "name": "paris-webComponents",
+        "url": "http://www.meetup.com/fr-FR/paris-webComponents/",
+        "logoUrl": "../images/partners/webcomponents.jpg"
+      }, {
         "name": "PAUG",
         "url": "http://www.paug.fr/",
         "logoUrl": "../images/partners/paug.jpg"
