@@ -70,6 +70,10 @@
   }, {
     "title": "Media partners",
     "logos": [{
+        "name": "Frandroid",
+        "url": "http://www.frandroid.com/",
+        "logoUrl": "../images/partners/frandroid.png"
+    }, {
         "name": "Geeek.org",
         "url": "http://www.geeek.org/",
         "logoUrl": "../images/partners/geeek.png"
