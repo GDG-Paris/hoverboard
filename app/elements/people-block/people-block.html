@@ -1,3 +1,4 @@
+<link rel="import" href="../../bower_components/iron-flex-layout/classes/iron-flex-layout.html">
 <link rel="import" href="../person-dialog/person-dialog.html">
 <link rel="import" href="../../styles/tags-color.html">
 
@@ -170,15 +171,19 @@
                 }
             }
 
-            @media (min-width: 601px) {
+            .container, .people{
+                @apply(--layout-vertical)
+            }
+
+            @media (min-width: 640px) {
                 .card-wrapper {
                     width: calc(100% / 2);
                 }
                 .card-wrapper paper-material {
                     margin: 0 10px;
                 }
-                .side-menu {
-                    padding-left: 20px;
+                .people{
+                    @apply(--layout-horizontal)
                 }
             }
 
@@ -191,69 +196,83 @@
                     min-height: 90% !important;
                     max-height: 90% !important;
                 }
+                .container{
+                    @apply(--layout-horizontal-reverse)
+                }
+                .people{
+                    @apply(--layout-horizontal)
+                }
+
+                .side-menu{
+                    @apply(flex-2)
+                }
+                .people{
+                    @apply(flex-10)
+                }
+                .side-menu {
+                    padding-left: 20px;
+                }
             }
         </style>
-        <div id="people" class="container flex layout vertical">
-            <div class="layout horizontal">
-                <div class="flex-10 layout horizontal wrap">
-                    <template id="peopleList" is="dom-repeat" items="[[people]]" as="person" filter="checkHiding">
-                        <div class="card-wrapper layout horizontal" hidden$="{{person.hide}}">
-                            <paper-material class="flex pointer" on-tap="readMore">
-                                <div class="people-header relative">
-                                    <iron-image src="[[person.photoUrl]]" class="placeholder-color fit" preload fade sizing="cover"></iron-image>
-                                    <div class="people-image-overlay fit"></div>
-                                    <ul class="badges relative text-right">
-                                        <template is="dom-repeat" items="[[person.badges]]" as="badge">
-                                            <li class="badge">
-                                                <a href="[[badge.link]]" target="_blank">[[badge.name]]</a>
-                                            </li>
-                                        </template>
-                                    </ul>
-                                    <div class="bottom-image-text">
-                                        <span class="people-name relative">[[person.name]]</span>
-                                        <div class="title">
-                                            <span>[[person.company]]</span>,
-                                            <span>[[person.country]]</span>
-                                        </div>
+        <div id="people" class="container flex">
+            <div id="sideMenu" class="side-menu layout vertical">
+                <paper-card class="filters">
+                    <div class="card-content header">
+                        <div class="title-text">
+                            <i18n-msg msgid="filters">
+                                Filters
+                            </i18n-msg>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div id="tagFilter" class="selector-group layout horizontal-vertical wrap">
+                            <template is="dom-repeat" items="{{tags}}" as="filter">
+                                <paper-checkbox class$="[[filter.className]]" on-change="_filter" checked>[[filter.name]]</paper-checkbox>
+                            </template>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div id="badgeFilter" class="selector-group layout horizontal-vertical">
+                            <template is="dom-repeat" items="[[badges]]" as="filter">
+                                <paper-checkbox class$="[[filter.className]]" on-change="_filter" checked>[[filter.name]]</paper-checkbox>
+                            </template>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <paper-button on-tap="_toggleFilters">{{toggleFiltersButton.title}}</paper-button>
+                    </div>
+                </paper-card>
+            </div>
+            <div class="people layout wrap">
+                <template id="peopleList" is="dom-repeat" items="[[people]]" as="person" filter="checkHiding">
+                    <div class="card-wrapper layout horizontal" hidden$="{{person.hide}}">
+                        <paper-material class="flex pointer" on-tap="readMore">
+                            <div class="people-header relative">
+                                <iron-image src="[[person.photoUrl]]" class="placeholder-color fit" preload fade sizing="cover"></iron-image>
+                                <div class="people-image-overlay fit"></div>
+                                <ul class="badges relative text-right">
+                                    <template is="dom-repeat" items="[[person.badges]]" as="badge">
+                                        <li class="badge">
+                                            <a href="[[badge.link]]" target="_blank">[[badge.name]]</a>
+                                        </li>
+                                    </template>
+                                </ul>
+                                <div class="bottom-image-text">
+                                    <span class="people-name relative">[[person.name]]</span>
+                                    <div class="title">
+                                        <span>[[person.company]]</span>,
+                                        <span>[[person.country]]</span>
                                     </div>
                                 </div>
-                                <div class="card-content flex sessions">
-                                    <template is="dom-repeat" items="[[person.sessions]]" as="session">
-                                        <h3 class="session-title">[[session.title]]</h3>
-                                    </template>
-                                </div>
-                            </paper-material>
-                        </div>
-                    </template>
-                </div>
-                <div id="sideMenu" class="flex-2 side-menu layout vertical">
-                    <paper-card class="filters">
-                        <div class="card-content header">
-                            <div class="title-text">
-                                <i18n-msg msgid="filters">
-                                    Filters
-                                </i18n-msg>
                             </div>
-                        </div>
-                        <div class="card-content">
-                            <div id="tagFilter" class="selector-group layout horizontal-vertical wrap">
-                                <template is="dom-repeat" items="{{tags}}" as="filter">
-                                    <paper-checkbox class$="[[filter.className]]" on-change="_filter" checked>[[filter.name]]</paper-checkbox>
+                            <div class="card-content flex sessions">
+                                <template is="dom-repeat" items="[[person.sessions]]" as="session">
+                                    <h3 class="session-title">[[session.title]]</h3>
                                 </template>
                             </div>
-                        </div>
-                        <div class="card-content">
-                            <div id="badgeFilter" class="selector-group layout horizontal-vertical">
-                                <template is="dom-repeat" items="[[badges]]" as="filter">
-                                    <paper-checkbox class$="[[filter.className]]" on-change="_filter" checked>[[filter.name]]</paper-checkbox>
-                                </template>
-                            </div>
-                        </div>
-                        <div class="card-content">
-                            <paper-button on-tap="_toggleFilters">{{toggleFiltersButton.title}}</paper-button>
-                        </div>
-                    </paper-card>
-                </div>
+                        </paper-material>
+                    </div>
+                </template>
             </div>
         </div>
         <paper-dialog id="personDialog" class="dialog-wrapper" with-backdrop modal$="{{smallScreen}}" on-iron-overlay-opened="_patchOverlay">
