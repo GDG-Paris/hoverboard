@@ -125,6 +125,10 @@
         "name": "TAUG",
         "url": "http://www.meetup.com/fr-FR/Toulouse-Android-User-Group/",
         "logoUrl": "../images/partners/taug.jpg"
+      }, {
+        "name": "webRTC Paris",
+        "url": "http://www.meetup.com/fr-FR/webrtc-paris/",
+        "logoUrl": "../images/partners/webrtc.jpg"
       }
     ]
 }]
