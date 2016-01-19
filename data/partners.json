@@ -114,6 +114,10 @@
         "url": "http://www.meetup.com/fr-FR/Paris-Datageeks/",
         "logoUrl": "../images/partners/paris_datageeks.jpg"
       }, {
+        "name": "Paris Java User Group",
+        "url": "http://www.parisjug.org/",
+        "logoUrl": "../images/partners/jug.png"
+      }, {
         "name": "paris-webComponents",
         "url": "http://www.meetup.com/fr-FR/paris-webComponents/",
         "logoUrl": "../images/partners/webcomponents.jpg"
