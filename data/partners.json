@@ -94,6 +94,10 @@
     "title": "Community partners",
     "logos": [
       {
+        "name": "dotConferences",
+        "url": "http://www.dotconferences.eu/",
+        "logoUrl": "../images/partners/dotconferences.png"
+      }, {
         "name": "Duchess France",
         "url": "http://www.duchess-france.org/",
         "logoUrl": "../images/partners/duchess.svg"
