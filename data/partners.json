@@ -126,6 +126,10 @@
         "url": "http://www.paug.fr/",
         "logoUrl": "../images/partners/paug.jpg"
       }, {
+        "name": "SoCraTes-FR",
+        "url": "http://socrates-fr.github.io/",
+        "logoUrl": "../images/partners/socrates.png"
+      }, {
         "name": "TAUG",
         "url": "http://www.meetup.com/fr-FR/Toulouse-Android-User-Group/",
         "logoUrl": "../images/partners/taug.jpg"

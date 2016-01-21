@@ -187,7 +187,7 @@
   {
     "id": 112,
     "title": "Progressive Web Apps : The future is here",
-    "description": "Avec l'arrivée d'HTTP2, des Service Workers et l'émergence du concept de Progressive Web Apps, le Web est en train de franchir une nouvelle étape de son évolution.<br><br>Ces notions et technologies sont encore très peu connues et mal maitrisées. Nous sommes dans la phase \"expérimentation\" qui va nous permettre de découvrir les bonnes pratiques et les anti-patterns.<br><br>Durant cette session, je vous propose un tour d'horizon de ces nouveautés et un aperçu de différentes expérimentations que j'ai pu réaliser.",
+    "description": "Une Progressive Web App, c’est un site Web responsive dopé aux Service Workers qui commence sa vie dans un onglet via une simple URL et qui termine sur l'écran d'accueil comme une \"vraie app\".<br>Ce nouveau concept nous promet un Web avec des notifications push, de la synchro en arrière-plan et un mode hors-ligne. Le débat Natif vs. Web est clairement relancé et au cours de cette session, je vous propose de découvrir pourquoi.<br>Nous aborderons le fonctionnement de base d’un Service Worker, les 9 attributs des PWA et nous verrons différentes expérimentations développées par la communauté.",
     "speakers": [16],
     "language": "fr",
     "duration": "45",
