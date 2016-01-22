@@ -435,5 +435,19 @@
         "Android Wear",
         "Android TV"
       ]
+  },
+  {
+    "id": 131,
+    "title": "Premier pas Deep Learning avec Tensorflow",
+    "description": "Deep Learning est une technique en plein essor dans le domaine du machine learning au cours de ces dernières années. De nombreuses applications ont vu le jour telles que Google Brain, Microsoft Cortana, DeepFace de facebook et Siri chez Apple.<br>A l’aide de l’outil d’apprentissage de google, TensorFlow, nous allons présenter le deep learning et à l’aide d’un exemple basé sur un problème de classification d’image comprendre l’utilisation de cette librairie.",
+    "speakers": [36],
+    "language": "fr",
+    "duration": "20",
+    "complexity": "Débutant",
+    "presentation": "",
+    "video": "",
+    "tags": [
+        "Machine Learning"
+      ]
   }
 ]
