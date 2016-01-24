@@ -114,6 +114,10 @@
         "url": "http://www.meetup.com/fr-FR/Google-Polymer-Paris/",
         "logoUrl": "../images/partners/polymerparis.png"
       }, {
+        "name": "iTeam",
+        "url": "http://iteam.org/",
+        "logoUrl": "../images/partners/iteam.png"
+      }, {
         "name": "Paris Datageeks",
         "url": "http://www.meetup.com/fr-FR/Paris-Datageeks/",
         "logoUrl": "../images/partners/paris_datageeks.jpg"
