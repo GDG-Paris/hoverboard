@@ -12,11 +12,16 @@ To set the language across your site, define `I18nMsg.lang` in your main page:
     document.addEventListener('HTMLImportsLoaded', function() {
       I18nMsg.lang = 'es';
       // I18nMsg.url = 'locales'; // optionally use custom folder for locales.
+      Platform.performMicrotaskCheckpoint();
     });
 
 <b>Note:</b> this is done in `HTMLImportsLoaded` so `I18nMsg` will be defined by
 the time you set `I18nMsg.lang`. This timing is necessary under the polyfill and is
 <b>not needed if the browser supports HTML Imports</b>, natively.
+
+<b>Note:</b> you must call `Platform.performMicrotaskCheckpoint()` whenever
+making a change to the `I18nMsg` object. This is required due to the removal
+of `Object.observe()`.
 
 ### Message files
 
@@ -28,13 +33,13 @@ The directory name can be configured by using the `messagesUrl` property, but th
 cannot. `<i18n-msg>` will always attempt to use messages from `<messagesUrl>/<LANG_YOU_SET>.json`.
 You can also set and/or change this location globally, at any time, by setting `I18nMsg.url`.
 
-**Example** - using a custom locales folder, setting it globally for all `<i18n-msg>` instances:
+<b>Example</b> - using a custom locales folder, setting it globally for all `<i18n-msg>` instances:
 
     I18nMsg.url = 'locales';
 
-**Example** - set locales folder path on individual element:
+<b>Example</b> - set locales folder path on individual element:
 
-    <i18n-msg message-url="path/to/locales">fallback text</i18n-msg>
+    <i18n-msg messages-url="path/to/locales">fallback text</i18n-msg>
 
 <b>Note:</b> message files are read once and reused for all instances of `<i18n-msg>`.
 
@@ -96,7 +101,8 @@ If an appropriate message file can't be found, the `textContent` of the element 
        */
       msgid: {
         type: String,
-        value: null
+        value: null,
+        observer: '_msgidChanged'
       },
 
       /**
@@ -180,6 +186,12 @@ If an appropriate message file can't be found, the `textContent` of the element 
       return null;
     },
 
+    _msgidChanged: function() {
+      if (this.language && this.locales[this.language] && !_fetching && this.msgid) {
+        this._updateElementMessage();
+      }
+    },
+
     _languageChanged: function() {
       // Don't fetch .json file if it has already been
       // fetched or another instance is already trying to.
@@ -247,7 +259,7 @@ If an appropriate message file can't be found, the `textContent` of the element 
 
     _notifyInstances: function() {
       for (var i = 0, instance; instance = _instances[i]; ++i) {
-        instance.language = I18nMsg.lang;
+        instance._setLanguage(I18nMsg.lang);
 
         if (!instance.locales[instance.language][instance.msgid]) {
           console.warn(this.localName + ': "' + instance.msgid + '" message id was not found');
