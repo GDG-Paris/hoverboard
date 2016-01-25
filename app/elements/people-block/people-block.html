@@ -243,9 +243,9 @@
                     </div>
                 </paper-card>
             </div>
-            <div class="people layout wrap">
+            <div class="people layout wrap self-start">
                 <template id="peopleList" is="dom-repeat" items="[[people]]" as="person" filter="checkHiding">
-                    <div class="card-wrapper layout horizontal" hidden$="{{person.hide}}">
+                    <div class="card-wrapper layout vertical" hidden$="{{person.hide}}">
                         <paper-material class="flex pointer" on-tap="readMore">
                             <div class="people-header relative">
                                 <iron-image src="[[person.photoUrl]]" class="placeholder-color fit" preload fade sizing="cover"></iron-image>
