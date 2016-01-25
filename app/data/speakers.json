@@ -1041,10 +1041,27 @@
         "title": "Data Scientist",
         "company": "Sfeir",
         "country": "FR",
-        "photoUrl": "",
+        "photoUrl": "../../images/people/jqiu.jpg",
         "bio": "Jiqiong QIU est titulaire d’un doctorat en traitement de l’information et des systèmes à l’université de Compiègne. Elle est actuellement data scientist chez SFEIR. Elle travaille actuellement sur l’application de techniques de statistique et d’apprentissage dans le domaine de la santé et touchant aux objets connectés.",
         "tags": [
             "Machine Learning"
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/u/0/+JiqiongQiu/about"
+            },
+            {
+                "name": "Kaggle",
+                "icon": "link",
+                "link": "https://www.kaggle.com/qiujiqiong"
+            },
+            {
+                "name": "LinkedIn",
+                "icon": "link",
+                "link": "https://fr.linkedin.com/in/jiqiong-qiu-2101695b"
+            }
         ]
     }
 ]
