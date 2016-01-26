@@ -99,8 +99,8 @@
   },
   {
     "id": 106,
-    "title": "Les nouveaux supers pouvoir du web",
-    "description": "Et si je vous disais que votre navigateur est doté de pouvoirs dont vous n’avez pas conscience ?  Et si l’installation d’une application n’était plus nécessaire pour interagir de façon riche avec les objets qui nous entourent ?<br><br>Bref, vous l’aurez compris dans ce talk, je vais vous parler des nouvelles possibilités qui s’offrent à vous en tant que développeur web et qui vont vous permettre de créer des applications web universelles ! <br><br>Nous évoquerons donc Sensors, Bluetooth, Physical Web, Usb, AppManifest, ...",
+    "title": "Les nouveaux super pouvoirs du web",
+    "description": "Et si je vous disais que votre navigateur est doté de pouvoirs dont vous n’avez pas conscience ? Et si l’installation d’une application n’était plus nécessaire pour interagir de façon riche avec les objets qui nous entourent ?<br><br>Bref, vous l’aurez compris dans ce talk, je vais vous parler des nouvelles possibilités qui s’offrent à vous en tant que développeur web et qui vont vous permettre de créer des applications web universelles ! <br><br>Nous évoquerons donc Sensors, Bluetooth, Physical Web, Usb, AppManifest, ...",
     "speakers": [9],
     "language": "fr",
     "duration": "45",
@@ -214,7 +214,7 @@
   },
   {
     "id": 114,
-    "title": "Project Oxford : Analyse d'images, de visages et de sentiments dans vos applications !",
+    "title": "Oxford : Machine Learning dans vos applications",
     "description": "Nos applications doivent parfois faire face à des défis pour lesquels un coup de main est bienvenue : analyse d’images, identification de visages, reconnaissance/synthèse vocale, et même analyse de sentiments ! Microsoft propose aujourd’hui des services que vous pouvez facilement intégrer dans vos applications Android (si, si ! ^^) pour répondre à ces besoins. Pendant ce talk, je vous propose un tour d'horizon de ces différents services, rassemblés sous le nom de Project Oxford ! https://www.projectoxford.ai/",
     "speakers": [19],
     "language": "fr",
@@ -242,7 +242,7 @@
   },
   {
     "id": 116,
-    "title": "Petite histoire d'un composant polymer de reconnaissance d'écriture",
+    "title": "Composant polymer de reconnaissance d'écriture",
     "description": "Les webcomponents et son implémentation Polymer permettent d'étendre le web. Petite histoire de comment nous avons mis à profit les custom elements pour permettre d'intégrer de la reconnaissance d'écriture dans une webapp en quelques ligens de HTML.",
     "speakers": [20],
     "language": "fr",
@@ -260,7 +260,7 @@
     "description": "What is Google Cloud Platform and Compute Engine? Come here to learn how to: - Create virtual machines - Provision w/ startup and shutdown scripts - Load balancing with Google's network load balancer and HTTP load balancer - Making a template image, and use it to spin up a cluster of something! - As a bonus, auto-scale your cluster.<br<br>But today's technology is moving fast towards using containers and managing a fleet of containers. This session has been expanded to include hands-on experience with creating containers using Docker and deploy a fleet of containerzied Java microservices into Kuberenetes. You'll get to: - Build a Java microservice - Build Docker container - Deploy the container into a private container registry - Deploy a fleet of containerized microservices - Learn service discovery - Perform rolling update, canary, and roll backs",
     "speakers": [21],
     "language": "en",
-    "duration": "45",
+    "duration": "120",
     "complexity": "Intermédiaire",
     "presentation": "",
     "video": "",

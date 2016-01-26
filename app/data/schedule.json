@@ -4,11 +4,11 @@
     "tracks": [{
         "title": "Salle Poincaré"
     }, {
-        "title": "Salle Boissière"
+        "title": "Salle Marbeau 1"
     }, {
         "title": "Salle Point d'HO"
     }, {
-        "title": "Salle"
+        "title": "Salle Marbeau 2"
     }],
     "timeslots": [{
         "startTime": "08:00",
@@ -32,13 +32,13 @@
         "startTime": "10:30",
         "endTime": "11:20",
         "sessions": [
-            [101], [105], [112], [119]
+            [102], [105], [117], [122]
         ]
     }, {
         "startTime": "11:30",
         "endTime": "12:20",
         "sessions": [
-            [102], [106], [113], [125]
+            [111], [109], [117], [123]
         ]
     }, {
         "startTime": "12:30",
@@ -48,43 +48,37 @@
         ]
     }, {
         "startTime": "13:30",
-        "endTime": "13:50",
+        "endTime": "14:20",
         "sessions": [
-            [126], [107], [114], [120]
+            [127], [107, 108], [116, 115], [120, 128]
         ]
     }, {
-        "startTime": "14:00",
-        "endTime": "14:50",
-        "sessions": [
-            [127], [108], [115], [121]
-        ]
-    },{
         "startTime": "14:30",
-        "endTime": "14:50",
+        "endTime": "15:20",
         "sessions": [
-            [], [109], [116], []
+            [125], [110], [114, 131], [112]
         ]
-    },{
-        "startTime": "15:00",
-        "endTime": "15:50",
+    }, {
+        "startTime": "15:30",
+        "endTime": "16:20",
         "sessions": [
-            [103], [110], [117], [122]
+            [130], [106], [113], [121]
         ]
-    },{
-        "startTime": "16:00",
-        "endTime": "16:30",
+    }, {
+        "startTime": "16:30",
+        "endTime": "17:00",
         "sessions": [
             [1003]
         ]
-    },{
-        "startTime": "16:30",
-        "endTime": "17:20",
+    }, {
+        "startTime": "17:00",
+        "endTime": "17:50",
         "sessions": [
-            [104], [101], [118], [123]
+            [103], [104], [118], [119]
         ]
     }, {
-        "startTime": "17:30",
-        "endTime": "18:30",
+        "startTime": "18:00",
+        "endTime": "19:00",
         "sessions": [
             [1006]
         ]
