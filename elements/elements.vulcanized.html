@@ -34724,8 +34724,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             '_generateSchedule(speakers, sessions, _scheduleRaw)'
         ],
         _generateSchedule: function() {
-            // TODO Uncomment this code to display schedule
-            /*
             for (var i = 0, scheduleLen = this._scheduleRaw.length; i < scheduleLen; i++) {
                 var day = this._scheduleRaw[i];
                 for (var j = 0, timeslotsLen = day.timeslots.length; j < timeslotsLen; j++) {
@@ -34744,7 +34742,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 }
             }
             this.schedule = this._scheduleRaw;
-            */
         },
         _getSession: function(sessionId) {
             for (var i = 0, sessionsLen = this.sessions.length; i < sessionsLen; i++) {
@@ -34923,15 +34920,13 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                                 Speakers
                             </a>
                         </paper-tab>
-                        <!--
-                        <paper-tab class="text-u-c" link>
+                        <paper-tab class="text-u-c" link="">
                             <a data-route="schedule" href="#!/schedule" class="nav-link horizontal center-center layout">
                                 <i18n-msg msgid="schedule">
                                     Schedule
                                 </i18n-msg>
                             </a>
                         </paper-tab>
-                        -->
                         <paper-tab class="text-u-c" link="">
                             <a data-route="home" href="/" onclick="window.I18nMsg.lang='en'" class="nav-link horizontal center-center layout">
                                 English
