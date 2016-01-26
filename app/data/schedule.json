@@ -2,13 +2,13 @@
     "date": "2016-02-05",
     "dateReadable": "February 5",
     "tracks": [{
-        "title": "Salle Poincaré"
+        "title": "Poincaré"
     }, {
-        "title": "Salle Marbeau 1"
+        "title": "Marbeau 1"
     }, {
-        "title": "Salle Point d'HO"
+        "title": "Point d'HO"
     }, {
-        "title": "Salle Marbeau 2"
+        "title": "Marbeau 2"
     }],
     "timeslots": [{
         "startTime": "08:00",
