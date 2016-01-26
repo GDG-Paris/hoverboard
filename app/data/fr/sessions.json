@@ -1,453 +1,453 @@
 [
-  {
-    "id": 1001,
-    "title": "Accueil & café",
-    "description": "Récupérez votre badge, prenez un café et profitez-en pour rencontrer les autres participants"
-  },
-  {
-    "id": 1002,
-    "title": "Déjeuner",
-    "description": "A taaaaaaaable!"
-  },
-  {
-    "id": 1003,
-    "title": "Pause café",
-    "description": "Caffééééééé!"
-  },
-  {
-    "id": 1004,
-    "title": "Pause café",
-    "description": "Caffééééééé!"
-  },
-  {
-    "id": 1006,
-    "title": "keynote de clôture",
-    "description": "Make sure you won't miss closing ceremony, all gifts from out sponsors and partners will find their owners during this session.",
-    "speakers": [30],
-    "language": "en",
-    "duration": "45",
-    "complexity": "",
-    "presentation": "",
-    "video": "",
-    "tags": [
-        "IoT", "Keynote"
-    ]
-  },
-  {
-    "id": 102,
-    "title": "Harald à la dent bleue",
-    "description": "Interagir avec des appareils en Bluetooth depuis une application Web est sur le point de devenir possible grâce à une nouvelle API Web standardisée qui se veut moderne et simple d'utilisation.",
-    "speakers": [1],
-    "language": "fr",
-    "duration": "45",
-    "complexity": "Intermédiaire",
-    "presentation": "",
-    "video": "",
-    "tags": [
-        "Chrome",
-        "Web",
-        "IoT"
-    ]
-  },
-  {
-    "id": 103,
-    "title": "Taming the microservice with gRPC and Kubernetes",
-    "description": "gRPC and Kubernetes are two separate open source projects born at Google and with a similar goal: sharing Google's experience building distributed applications. This talk will cover the basic concepts of both projects and show how to build a simple application using both project plus a third Google open source project: Go",
-    "speakers": [2],
-    "language": "en",
-    "duration": "45",
-    "complexity": "Avancé",
-    "presentation": "",
-    "video": "",
-    "tags": [
-        "Cloud",
-        "Go",
-        "Kubernetes"
-    ]
-  },
-  {
-    "id": 104,
-    "title": "Étendre ses applications aux smartwatches et télévisions Android",
-    "description": "Les cibles TV et Android Wear ont toutes deux leur spécificité, tant en terme d'interface que de logique de développement. Vous verrez de quelle manière l'OS Android se différencie sur ces plateformes, et comment simplement étendre votre support de ces versions depuis des applications Android classiques.",
-    "speakers": [5],
-    "language": "fr",
-    "duration": "45",
-    "complexity": "Intermédiaire",
-    "presentation": "",
-    "video": "",
-    "tags": [
-        "Android",
-        "Android Wear",
-        "Android TV"
-    ]
-  },
-  {
-    "id": 105,
-    "title": "Designing Captain Train Mobile Experience",
-    "description": "Developing a mobile application is a complex process. It requires UI & UX design skills as well as great development capabilities. The process is even more difficult when the application you are building acts as a companion to an existing web application. In this talk we explain the process of creating a mobile application from the ground up using an existing web app as a starting point. We will use the Captain Train Android app as our main example and will explain how most of the issues were faced and solved in order to create a mobile-friendly user experience.",
-    "speakers": [4],
-    "language": "fr",
-    "duration": "45",
-    "complexity": "Intermédiaire",
-    "presentation": "",
-    "video": "",
-    "tags": [
-        "Android",
-        "Android Wear",
-        "UX"
-    ]
-  },
-  {
-    "id": 106,
-    "title": "Les nouveaux super pouvoirs du web",
-    "description": "Et si je vous disais que votre navigateur est doté de pouvoirs dont vous n’avez pas conscience ? Et si l’installation d’une application n’était plus nécessaire pour interagir de façon riche avec les objets qui nous entourent ?<br><br>Bref, vous l’aurez compris dans ce talk, je vais vous parler des nouvelles possibilités qui s’offrent à vous en tant que développeur web et qui vont vous permettre de créer des applications web universelles ! <br><br>Nous évoquerons donc Sensors, Bluetooth, Physical Web, Usb, AppManifest, ...",
-    "speakers": [9],
-    "language": "fr",
-    "duration": "45",
-    "complexity": "Intermédiaire",
-    "presentation": "",
-    "video": "",
-    "tags": [
-        "Web",
-        "IoT"
-    ]
-  },
-  {
-    "id": 107,
-    "title": "Firebase meets Google Maps",
-    "description": "Firebase is a very powerful real time database created for web applications.<br>Using this technology with Google Maps brings the best of two worlds together. <br><br>The map displayed on the map can be displayed in real time with awesome animations. <br><br>During this talk we will show you how to build a connector between Firebase and Google Maps and the usages associated.",
-    "speakers": [10, 34],
-    "language": "fr",
-    "duration": "20",
-    "complexity": "Avancé",
-    "presentation": "",
-    "video": "",
-    "tags": [
-        "Google Maps",
-        "Firebase",
-        "Web"
-    ]
-  },
-  {
-    "id": 108,
-    "title": "Graphes et Recommandations",
-    "description": "Implémenter une mécanique de recommandation sur Neo4J avec Google Cloud Platform",
-    "speakers": [11,12],
-    "language": "fr",
-    "duration": "20",
-    "complexity": "Intermédiaire",
-    "presentation": "",
-    "video": "",
-    "tags": [
-        "Data", "Cloud", "Neo4J"
-    ]
-  },
-  {
-    "id": 109,
-    "title": "Tracking app usage with Google Analytics",
-    "description": "Google Analytics is one of the best tools to learn what keeps your users engaged and what should be improved to make your app more successful.",
-    "speakers": [6],
-    "language": "fr",
-    "duration": "45",
-    "complexity": "Avancé",
-    "presentation": "",
-    "video": "",
-    "tags": [
-        "Apps Script", "Analytics"
-    ]
-  },
-  {
-    "id": 110,
-    "title": "Intro à Spring Boot",
-    "description": "Pendant cette session live coding, nous allons voir comment coder une application Spring Boot qui va utiliser un datastore, exposer des endpoints REST hypermedia, sécuriser les accès, le tout déployé dans un conteneur embedded.<br><br>Nous verrons aussi les outils apportés par le module actuator, qui permet de construire son application tout en respectant les principes \"12factor app\".",
-    "speakers": [13,14],
-    "language": "fr",
-    "duration": "45",
-    "complexity": "Intermédiaire",
-    "presentation": "",
-    "video": "",
-    "tags": [
-        "Java", "Spring", "Web"
-    ]
-  },
-  {
-    "id": 111,
-    "title": "Polymer 1.0: Production ready",
-    "description": "Malgré une promesse alléchante, on constate qu'après plus d'un an, les web components ont du mal à s'imposer. On constate quand même que les acteurs majeurs convergent vers cette notion de composant. Les nouveaux frameworks de 2016 (Angular2, React) sont construits sur cette architecture. Et Polymer enfonce le clou en annonçant cet été sa version 1.0 taguée \"production ready\". Nous verrons ici les apports de cette dernière ainsi que des exemples concrets de composants utilisables en production.",
-    "speakers": [15],
-    "language": "fr",
-    "duration": "45",
-    "complexity": "Intermédiaire",
-    "presentation": "",
-    "video": "",
-    "tags": [
-        "Java", "Spring", "Web"
-    ]
-  },
-  {
-    "id": 112,
-    "title": "Progressive Web Apps : The future is here",
-    "description": "Une Progressive Web App, c’est un site Web responsive dopé aux Service Workers qui commence sa vie dans un onglet via une simple URL et qui termine sur l'écran d'accueil comme une \"vraie app\".<br>Ce nouveau concept nous promet un Web avec des notifications push, de la synchro en arrière-plan et un mode hors-ligne. Le débat Natif vs. Web est clairement relancé et au cours de cette session, je vous propose de découvrir pourquoi.<br>Nous aborderons le fonctionnement de base d’un Service Worker, les 9 attributs des PWA et nous verrons différentes expérimentations développées par la communauté.",
-    "speakers": [16],
-    "language": "fr",
-    "duration": "45",
-    "complexity": "Intermédiaire",
-    "presentation": "",
-    "video": "",
-    "tags": [
-        "Web"
-    ]
-  },
-  {
-    "id": 113,
-    "title": "Le rôle du développeur dans la User eXperience (UX)",
-    "description": "L'émergence de la conception centrée utilisateur, appuyée par de nombreuses innovations technologiques comme le Material Design, a placé le développeur comme un acteur clé et un composant majeur de l'UX. Il ne se contente plus de traduire et d'intégrer des données, il donne vie aux interfaces.<br>Dans ce slot, des experts de la User eXperience et du développement front, traiteront des nombreux enjeux liés à l'UX et à la place du développeur dans la conception, en abordant notamment le Material Design.",
-    "speakers": [17,18],
-    "language": "fr",
-    "duration": "45",
-    "complexity": "Intermédiaire",
-    "presentation": "",
-    "video": "",
-    "tags": [
-        "UX"
-    ]
-  },
-  {
-    "id": 114,
-    "title": "Oxford : Machine Learning dans vos applications",
-    "description": "Nos applications doivent parfois faire face à des défis pour lesquels un coup de main est bienvenue : analyse d’images, identification de visages, reconnaissance/synthèse vocale, et même analyse de sentiments ! Microsoft propose aujourd’hui des services que vous pouvez facilement intégrer dans vos applications Android (si, si ! ^^) pour répondre à ces besoins. Pendant ce talk, je vous propose un tour d'horizon de ces différents services, rassemblés sous le nom de Project Oxford ! https://www.projectoxford.ai/",
-    "speakers": [19],
-    "language": "fr",
-    "duration": "20",
-    "complexity": "Débutant",
-    "presentation": "",
-    "video": "",
-    "tags": [
-        "Data", "Mobile", "Vision"
-    ]
-  },
-  {
-    "id": 115,
-    "title": "HTTP2 : ce qui va changer !",
-    "description": "HTTP1 est omniprésent en 2016 et HTTP2 est pourtant \"sorti\" le 15 mai 2015. Qu'est-ce qu'on y gagne, nous développeurs ? Les principes d'optimisation Web seront-ils toujours d'actualités ? Venez découvrir HTTP2, le futur protocole du Web !",
-    "speakers": [31],
-    "language": "fr",
-    "duration": "20",
-    "complexity": "Intermédiaire",
-    "presentation": "",
-    "video": "",
-    "tags": [
-        "Web"
-    ]
-  },
-  {
-    "id": 116,
-    "title": "Composant polymer de reconnaissance d'écriture",
-    "description": "Les webcomponents et son implémentation Polymer permettent d'étendre le web. Petite histoire de comment nous avons mis à profit les custom elements pour permettre d'intégrer de la reconnaissance d'écriture dans une webapp en quelques ligens de HTML.",
-    "speakers": [20],
-    "language": "fr",
-    "duration": "20",
-    "complexity": "Débutant",
-    "presentation": "",
-    "video": "",
-    "tags": [
-        "Web", "Polymer"
-    ]
-  },
-  {
-    "id": 117,
-    "title": "Hands-on with Google Compute Engine and Kubernetes",
-    "description": "What is Google Cloud Platform and Compute Engine? Come here to learn how to: - Create virtual machines - Provision w/ startup and shutdown scripts - Load balancing with Google's network load balancer and HTTP load balancer - Making a template image, and use it to spin up a cluster of something! - As a bonus, auto-scale your cluster.<br<br>But today's technology is moving fast towards using containers and managing a fleet of containers. This session has been expanded to include hands-on experience with creating containers using Docker and deploy a fleet of containerzied Java microservices into Kuberenetes. You'll get to: - Build a Java microservice - Build Docker container - Deploy the container into a private container registry - Deploy a fleet of containerized microservices - Learn service discovery - Perform rolling update, canary, and roll backs",
-    "speakers": [21],
-    "language": "en",
-    "duration": "120",
-    "complexity": "Intermédiaire",
-    "presentation": "",
-    "video": "",
-    "tags": [
-        "Cloud", "Kubernetes"
-    ]
-  },
-  {
-    "id": 118,
-    "title": "Debugage moderne de JavaScript avec Chrome Dev Tools",
-    "description": "Vous avez cédé à la mode des applications JavaScript, que ce soit pour le Front ou bien en full stack. Mais comment allez vous débuguer votre application ? Avec des “alert” ? Saviez vous que la console des navigateurs peut mettre en forme les logs ou bien les objets et que Chrome Dev Tools peut résoudre les piles d’appels asynchrones ? Avez-vous déjà essayé de modifier des valeurs ou carrément des fonctions pendant un débogage ? Au cours de cette session, nous ferons un panorama des possibilités de débogage offerte par Chrome Dev Tools.",
-    "speakers": [22],
-    "language": "fr",
-    "complexity": "Débutant",
-    "presentation": "",
-    "video": "",
-    "tags": [
-        "Web", "Chrome"
-    ]
-  },
-  {
-    "id": 119,
-    "title": "Eddystone™, the open beacon format from Google",
-    "description": "Le web et ses standards évolue rapidement, très rapidement, trop rapidement... Les navigateurs n'arrivent pas forcément à suivre le mouvement et les utilisateurs bloqués sans mise à jour encore moins.<br>Il devient frustrant pour les développeurs de sans cesse entendre parler de nouveautés qu'il ne pourra pas utiliser avant des années.<br>Heureusement des outils comme Babel et PostCSS nous permettent d'enfin utiliser les dernières normes et de les laisser se préoccuper de la compatibilité !<br>Venez découvrir ces super outils qui vous permettront de développer dans le futur dès aujourd'hui !",
-    "speakers": [23],
-    "language": "fr",
-    "duration": "45",
-    "complexity": "Intermédiaire",
-    "presentation": "",
-    "video": "",
-    "tags": [
-        "Web", "CSS3"
-    ]
-  },
-  {
-    "id": 120,
-    "title": "Développez dans le futur, dès maintenant !",
-    "description": "Le web et ses standards évolue rapidement, très rapidement, trop rapidement... Les navigateurs n'arrivent pas forcément à suivre le mouvement et les utilisateurs bloqués sans mise à jour encore moins.<br>Il devient frustrant pour les développeurs de sans cesse entendre parler de nouveautés qu'il ne pourra pas utiliser avant des années.<br>Heureusement des outils comme Babel et PostCSS nous permettent d'enfin utiliser les dernières normes et de les laisser se préoccuper de la compatibilité !<br>Venez découvrir ces super outils qui vous permettront de développer dans le futur dès aujourd'hui !",
-    "speakers": [24],
-    "language": "fr",
-    "duration": "20",
-    "complexity": "Intermédiaire",
-    "presentation": "",
-    "video": "",
-    "tags": [
-        "Web", "CSS3"
-    ]
-  },
-  {
-    "id": 121,
-    "title": "Monitorer votre infra Cloud Platform en souplesse",
-    "description": "Maintenant que l’usage des différentes plates-formes Cloud est répandu, les tâches d’exploitation et de monitoring ne sont plus réservés seulement aux professionnels de l’hébergement et de l'infogérance. Aujourd’hui, chaque développeur peut facilement mettre en place rapidement une supervision de ses applications. Je vous montrerai comment monitorer facilement vos applis et automatiser la remontée d’alertes grâce à Google Cloud Monitoring et à d’autres produits tiers.",
-    "speakers": [25],
-    "language": "fr",
-    "duration": "45",
-    "complexity": "Intermédiaire",
-    "presentation": "",
-    "video": "",
-    "tags": [
-        "Cloud", "Monitoring"
-    ]
-  },
-  {
-    "id": 122,
-    "title": "La grande migration vers les microservices",
-    "description": "Les microservices sont-ils une solution viable ou juste une mode éphémère ? Dans cette session, nous détaillerons pourquoi lorsque nous avons développé Bintray, nous avons naturellement migré vers les microservices avant même que la question ne se pose. Si nous avons gagné en simplification de la maintenance, en un meilleur découplage et en une grande parallélisation des développements, nos DevOps ont du surmonté de nouveaux défis comme la communication inter-services et la compatibilité.",
-    "speakers": [26],
-    "language": "fr",
-    "duration": "45",
-    "complexity": "Avancé",
-    "presentation": "",
-    "video": "",
-    "tags": [
-        "Cloud", "Microservices", "DevOps"
-    ]
-  },
-  {
-    "id": 123,
-    "title": "Le magicien Doze",
-    "description": "Grâce au magicien Doze, fini les problèmes de batterie! Ah? Non? Ce n'est pas si magique que ça? Je dois quand même faire attention à  mon code?<br>Durant cette session nous présenterons le fonctionnement de Doze et ce qu'il vous reste à faire pour avoir un code sympa avec votre batterie sans pour autant dégrader l'UX de votre service.",
-    "speakers": [27,28],
-    "duration": "45",
-    "language": "fr",
-    "complexity": "Avancé",
-    "presentation": "",
-    "video": "",
-    "tags": [
-        "Android"
-    ]
-  },
-  {
-    "id": 125,
-    "title": "Angular 2 : templates, composants et injection de dépendances",
-    "description": "La genèse d'Angular 2 n'est pas achevée, mais la version beta permet déjà de se faire une bonne idée de ce à quoi il va ressembler. Et c'est bluffant ! Si la version 1 a paru magique, dans sa version 2 c'est un Angular épuré, à la fois plus puissant et plus limpide.<br>Dans cette session, rien que du code, pour vous montrer comment se créent les composants, s'écrivent les templates et s'injectent les dépendances.",
-    "speakers": [ 29 ],
-    "duration": "45",
-    "language": "fr",
-    "complexity": "Intermédiaire",
-    "presentation": "",
-    "video": "",
-    "tags": [
-        "Angular"
-    ]
-  },
-  {
-    "id": 126,
-    "title": "TBD",
-    "description": "TBD",
-    "speakers": [],
-    "language": "fr",
-    "complexity": "Intermédiaire",
-    "presentation": "",
-    "video": "",
-    "tags": [
-        "IoT"
-    ]
-  },
-  {
-    "id": 127,
-    "title": "Top 10 des news sur le Cloud",
-    "description": "Depuis 10 ans le cloud n'arrête pas de s'inventer. La dernière année a encore été riche en avancées : de l'adoption généralisée des conteneurs, aux bases de données relationnelles pouvant stockées 10To de données en passant par des coûts en baisse et une flexibilité en hausse, le cloud continue de nous étonner. Durant cette session, nous reprendrons les 10 nouveautés du cloud qui ont marqué ces derniers mois.",
-    "speakers": [7,8],
-    "language": "fr",
-    "duration": "45",
-    "complexity": "Avancé",
-    "presentation": "",
-    "video": "",
-    "tags": [
-        "Cloud"
-    ]
-  },
-  {
-    "id": 128,
-    "title": "Android VR with cardboard",
-    "description": "An introduction to Virtual Reality application with Unity3D and Google Cardboard SDK (live demo).",
-    "speakers": [32],
-    "language": "fr",
-    "duration": "20",
-    "complexity": "Débutant",
-    "presentation": "",
-    "video": "",
-    "tags": [
-        "Cardboard", "VR"
-    ]
-  },
-  {
-    "id": 129,
-    "title": "Keynote d'ouverture - Les Géants du Web",
-    "description": "De l’autre côté de l’Atlantique, les Géants du Web (Google, Amazon, Facebook, Linkedin...) réinventent la façon de faire de l’informatique. Grace à ces nouvelles façons de travailler, ils sont capables de faire plus gros, plus vite, et plus efficace que ce que nous connaissons habituellement. Comment ces secrets des Géants du Web peuvent-ils être une source d'inspiration pour faire de l'informatique différemment ?",
-    "speakers": [33],
-    "language": "fr",
-    "duration": "45",
-    "complexity": "Débutant",
-    "presentation": "",
-    "video": "",
-    "tags": [
-        "Cloud", "DevOps", "Keynote"
-      ]
-  },
-  {
-    "id": 130,
-    "title": "Android Studio: introduction à la version 2.0 - astuces pour développeurs",
-    "description": "Android Studio est l'IDE de référence pour tous les développeurs Android. Google a présenté la version 2.0 il y a quelques mois lors de l'Android Developer Summit. Ce talk reviendra sur les nouveautés apportées dans cette version et notamment la fonction Instant Run. Quelques astuces d'utilisation de l'IDE seront également données (quelle que soit la version).",
-    "speakers": [35],
-    "language": "fr",
-    "duration": "45",
-    "complexity": "Intermédiaire",
-    "presentation": "",
-    "video": "",
-    "tags": [
-        "Android",
-        "Android Wear",
-        "Android TV"
-      ]
-  },
-  {
-    "id": 131,
-    "title": "Premier pas Deep Learning avec Tensorflow",
-    "description": "Deep Learning est une technique en plein essor dans le domaine du machine learning au cours de ces dernières années. De nombreuses applications ont vu le jour telles que Google Brain, Microsoft Cortana, DeepFace de facebook et Siri chez Apple.<br>A l’aide de l’outil d’apprentissage de google, TensorFlow, nous allons présenter le deep learning et à l’aide d’un exemple basé sur un problème de classification d’image comprendre l’utilisation de cette librairie.",
-    "speakers": [36],
-    "language": "fr",
-    "duration": "20",
-    "complexity": "Débutant",
-    "presentation": "",
-    "video": "",
-    "tags": [
-        "Machine Learning"
-      ]
-  }
+    {
+        "id": 1001,
+        "title": "Accueil & café",
+        "description": "Récupérez votre badge, prenez un café et profitez-en pour rencontrer les autres participants"
+    },
+    {
+        "id": 1002,
+        "title": "Déjeuner",
+        "description": "A taaaaaaaable!"
+    },
+    {
+        "id": 1003,
+        "title": "Pause café",
+        "description": "Caffééééééé!"
+    },
+    {
+        "id": 1004,
+        "title": "Pause café",
+        "description": "Caffééééééé!"
+    },
+    {
+        "id": 1006,
+        "title": "keynote de clôture",
+        "description": "Make sure you won't miss closing ceremony, all gifts from out sponsors and partners will find their owners during this session.",
+        "speakers": [30],
+        "language": "en",
+        "duration": "45",
+        "complexity": "",
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Keynote", "IoT"
+        ]
+    },
+    {
+        "id": 102,
+        "title": "Harald à la dent bleue",
+        "description": "Interagir avec des appareils en Bluetooth depuis une application Web est sur le point de devenir possible grâce à une nouvelle API Web standardisée qui se veut moderne et simple d'utilisation.",
+        "speakers": [1],
+        "language": "fr",
+        "duration": "45",
+        "complexity": "Intermédiaire",
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Web",
+            "Chrome",
+            "IoT"
+        ]
+    },
+    {
+        "id": 103,
+        "title": "Taming the microservice with gRPC and Kubernetes",
+        "description": "gRPC and Kubernetes are two separate open source projects born at Google and with a similar goal: sharing Google's experience building distributed applications. This talk will cover the basic concepts of both projects and show how to build a simple application using both project plus a third Google open source project: Go",
+        "speakers": [2],
+        "language": "en",
+        "duration": "45",
+        "complexity": "Avancé",
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Cloud",
+            "Go",
+            "Kubernetes"
+        ]
+    },
+    {
+        "id": 104,
+        "title": "Étendre ses applications aux smartwatches et télévisions Android",
+        "description": "Les cibles TV et Android Wear ont toutes deux leur spécificité, tant en terme d'interface que de logique de développement. Vous verrez de quelle manière l'OS Android se différencie sur ces plateformes, et comment simplement étendre votre support de ces versions depuis des applications Android classiques.",
+        "speakers": [5],
+        "language": "fr",
+        "duration": "45",
+        "complexity": "Intermédiaire",
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Android",
+            "Android Wear",
+            "Android TV"
+        ]
+    },
+    {
+        "id": 105,
+        "title": "Designing Captain Train Mobile Experience",
+        "description": "Developing a mobile application is a complex process. It requires UI & UX design skills as well as great development capabilities. The process is even more difficult when the application you are building acts as a companion to an existing web application. In this talk we explain the process of creating a mobile application from the ground up using an existing web app as a starting point. We will use the Captain Train Android app as our main example and will explain how most of the issues were faced and solved in order to create a mobile-friendly user experience.",
+        "speakers": [4],
+        "language": "fr",
+        "duration": "45",
+        "complexity": "Intermédiaire",
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Android",
+            "Android Wear",
+            "UX"
+        ]
+    },
+    {
+        "id": 106,
+        "title": "Les nouveaux super pouvoirs du web",
+        "description": "Et si je vous disais que votre navigateur est doté de pouvoirs dont vous n’avez pas conscience ? Et si l’installation d’une application n’était plus nécessaire pour interagir de façon riche avec les objets qui nous entourent ?<br><br>Bref, vous l’aurez compris dans ce talk, je vais vous parler des nouvelles possibilités qui s’offrent à vous en tant que développeur web et qui vont vous permettre de créer des applications web universelles ! <br><br>Nous évoquerons donc Sensors, Bluetooth, Physical Web, Usb, AppManifest, ...",
+        "speakers": [9],
+        "language": "fr",
+        "duration": "45",
+        "complexity": "Intermédiaire",
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Web",
+            "IoT"
+        ]
+    },
+    {
+        "id": 107,
+        "title": "Firebase meets Google Maps",
+        "description": "Firebase is a very powerful real time database created for web applications.<br>Using this technology with Google Maps brings the best of two worlds together. <br><br>The map displayed on the map can be displayed in real time with awesome animations. <br><br>During this talk we will show you how to build a connector between Firebase and Google Maps and the usages associated.",
+        "speakers": [10, 34],
+        "language": "fr",
+        "duration": "20",
+        "complexity": "Avancé",
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Discovery",
+            "Google Maps",
+            "Firebase"
+        ]
+    },
+    {
+        "id": 108,
+        "title": "Graphes et Recommandations",
+        "description": "Implémenter une mécanique de recommandation sur Neo4J avec Google Cloud Platform",
+        "speakers": [11,12],
+        "language": "fr",
+        "duration": "20",
+        "complexity": "Intermédiaire",
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Discovery", "Cloud", "Data", "Neo4J"
+        ]
+    },
+    {
+        "id": 109,
+        "title": "Tracking app usage with Google Analytics",
+        "description": "Google Analytics is one of the best tools to learn what keeps your users engaged and what should be improved to make your app more successful.",
+        "speakers": [6],
+        "language": "fr",
+        "duration": "45",
+        "complexity": "Avancé",
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Web", "Apps Script", "Analytics"
+        ]
+    },
+    {
+        "id": 110,
+        "title": "Intro à Spring Boot",
+        "description": "Pendant cette session live coding, nous allons voir comment coder une application Spring Boot qui va utiliser un datastore, exposer des endpoints REST hypermedia, sécuriser les accès, le tout déployé dans un conteneur embedded.<br><br>Nous verrons aussi les outils apportés par le module actuator, qui permet de construire son application tout en respectant les principes \"12factor app\".",
+        "speakers": [13,14],
+        "language": "fr",
+        "duration": "45",
+        "complexity": "Intermédiaire",
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Cloud", "Java", "Spring"
+        ]
+    },
+    {
+        "id": 111,
+        "title": "Polymer 1.0: Production ready",
+        "description": "Malgré une promesse alléchante, on constate qu'après plus d'un an, les web components ont du mal à s'imposer. On constate quand même que les acteurs majeurs convergent vers cette notion de composant. Les nouveaux frameworks de 2016 (Angular2, React) sont construits sur cette architecture. Et Polymer enfonce le clou en annonçant cet été sa version 1.0 taguée \"production ready\". Nous verrons ici les apports de cette dernière ainsi que des exemples concrets de composants utilisables en production.",
+        "speakers": [15],
+        "language": "fr",
+        "duration": "45",
+        "complexity": "Intermédiaire",
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Web", "Polymer"
+        ]
+    },
+    {
+        "id": 112,
+        "title": "Progressive Web Apps : The future is here",
+        "description": "Une Progressive Web App, c’est un site Web responsive dopé aux Service Workers qui commence sa vie dans un onglet via une simple URL et qui termine sur l'écran d'accueil comme une \"vraie app\".<br>Ce nouveau concept nous promet un Web avec des notifications push, de la synchro en arrière-plan et un mode hors-ligne. Le débat Natif vs. Web est clairement relancé et au cours de cette session, je vous propose de découvrir pourquoi.<br>Nous aborderons le fonctionnement de base d’un Service Worker, les 9 attributs des PWA et nous verrons différentes expérimentations développées par la communauté.",
+        "speakers": [16],
+        "language": "fr",
+        "duration": "45",
+        "complexity": "Intermédiaire",
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Web"
+        ]
+    },
+    {
+        "id": 113,
+        "title": "Le rôle du développeur dans la User eXperience (UX)",
+        "description": "L'émergence de la conception centrée utilisateur, appuyée par de nombreuses innovations technologiques comme le Material Design, a placé le développeur comme un acteur clé et un composant majeur de l'UX. Il ne se contente plus de traduire et d'intégrer des données, il donne vie aux interfaces.<br>Dans ce slot, des experts de la User eXperience et du développement front, traiteront des nombreux enjeux liés à l'UX et à la place du développeur dans la conception, en abordant notamment le Material Design.",
+        "speakers": [17,18],
+        "language": "fr",
+        "duration": "45",
+        "complexity": "Intermédiaire",
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Discovery", "UX"
+        ]
+    },
+    {
+        "id": 114,
+        "title": "Oxford : Machine Learning dans vos applications",
+        "description": "Nos applications doivent parfois faire face à des défis pour lesquels un coup de main est bienvenue : analyse d’images, identification de visages, reconnaissance/synthèse vocale, et même analyse de sentiments ! Microsoft propose aujourd’hui des services que vous pouvez facilement intégrer dans vos applications Android (si, si ! ^^) pour répondre à ces besoins. Pendant ce talk, je vous propose un tour d'horizon de ces différents services, rassemblés sous le nom de Project Oxford ! https://www.projectoxford.ai/",
+        "speakers": [19],
+        "language": "fr",
+        "duration": "20",
+        "complexity": "Débutant",
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Discovery", "Data", "Mobile", "Vision"
+        ]
+    },
+    {
+        "id": 115,
+        "title": "HTTP2 : ce qui va changer !",
+        "description": "HTTP1 est omniprésent en 2016 et HTTP2 est pourtant \"sorti\" le 15 mai 2015. Qu'est-ce qu'on y gagne, nous développeurs ? Les principes d'optimisation Web seront-ils toujours d'actualités ? Venez découvrir HTTP2, le futur protocole du Web !",
+        "speakers": [31],
+        "language": "fr",
+        "duration": "20",
+        "complexity": "Intermédiaire",
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Web"
+        ]
+    },
+    {
+        "id": 116,
+        "title": "Composant polymer de reconnaissance d'écriture",
+        "description": "Les webcomponents et son implémentation Polymer permettent d'étendre le web. Petite histoire de comment nous avons mis à profit les custom elements pour permettre d'intégrer de la reconnaissance d'écriture dans une webapp en quelques ligens de HTML.",
+        "speakers": [20],
+        "language": "fr",
+        "duration": "20",
+        "complexity": "Débutant",
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Web", "Polymer"
+        ]
+    },
+    {
+        "id": 117,
+        "title": "Hands-on with Google Compute Engine and Kubernetes",
+        "description": "What is Google Cloud Platform and Compute Engine? Come here to learn how to: - Create virtual machines - Provision w/ startup and shutdown scripts - Load balancing with Google's network load balancer and HTTP load balancer - Making a template image, and use it to spin up a cluster of something! - As a bonus, auto-scale your cluster.<br<br>But today's technology is moving fast towards using containers and managing a fleet of containers. This session has been expanded to include hands-on experience with creating containers using Docker and deploy a fleet of containerzied Java microservices into Kuberenetes. You'll get to: - Build a Java microservice - Build Docker container - Deploy the container into a private container registry - Deploy a fleet of containerized microservices - Learn service discovery - Perform rolling update, canary, and roll backs",
+        "speakers": [21],
+        "language": "en",
+        "duration": "120",
+        "complexity": "Intermédiaire",
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Cloud", "Kubernetes"
+        ]
+    },
+    {
+        "id": 118,
+        "title": "Debugage moderne de JavaScript avec Chrome Dev Tools",
+        "description": "Vous avez cédé à la mode des applications JavaScript, que ce soit pour le Front ou bien en full stack. Mais comment allez vous débuguer votre application ? Avec des “alert” ? Saviez vous que la console des navigateurs peut mettre en forme les logs ou bien les objets et que Chrome Dev Tools peut résoudre les piles d’appels asynchrones ? Avez-vous déjà essayé de modifier des valeurs ou carrément des fonctions pendant un débogage ? Au cours de cette session, nous ferons un panorama des possibilités de débogage offerte par Chrome Dev Tools.",
+        "speakers": [22],
+        "language": "fr",
+        "complexity": "Débutant",
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Web", "Chrome"
+        ]
+    },
+    {
+        "id": 119,
+        "title": "Eddystone™, the open beacon format from Google",
+        "description": "Le web et ses standards évolue rapidement, très rapidement, trop rapidement... Les navigateurs n'arrivent pas forcément à suivre le mouvement et les utilisateurs bloqués sans mise à jour encore moins.<br>Il devient frustrant pour les développeurs de sans cesse entendre parler de nouveautés qu'il ne pourra pas utiliser avant des années.<br>Heureusement des outils comme Babel et PostCSS nous permettent d'enfin utiliser les dernières normes et de les laisser se préoccuper de la compatibilité !<br>Venez découvrir ces super outils qui vous permettront de développer dans le futur dès aujourd'hui !",
+        "speakers": [23],
+        "language": "fr",
+        "duration": "45",
+        "complexity": "Intermédiaire",
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Discovery", "IoT", "Eddystone"
+        ]
+    },
+    {
+        "id": 120,
+        "title": "Développez dans le futur, dès maintenant !",
+        "description": "Le web et ses standards évolue rapidement, très rapidement, trop rapidement... Les navigateurs n'arrivent pas forcément à suivre le mouvement et les utilisateurs bloqués sans mise à jour encore moins.<br>Il devient frustrant pour les développeurs de sans cesse entendre parler de nouveautés qu'il ne pourra pas utiliser avant des années.<br>Heureusement des outils comme Babel et PostCSS nous permettent d'enfin utiliser les dernières normes et de les laisser se préoccuper de la compatibilité !<br>Venez découvrir ces super outils qui vous permettront de développer dans le futur dès aujourd'hui !",
+        "speakers": [24],
+        "language": "fr",
+        "duration": "20",
+        "complexity": "Intermédiaire",
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Web", "CSS3"
+        ]
+    },
+    {
+        "id": 121,
+        "title": "Monitorer votre infra Cloud Platform en souplesse",
+        "description": "Maintenant que l’usage des différentes plates-formes Cloud est répandu, les tâches d’exploitation et de monitoring ne sont plus réservés seulement aux professionnels de l’hébergement et de l'infogérance. Aujourd’hui, chaque développeur peut facilement mettre en place rapidement une supervision de ses applications. Je vous montrerai comment monitorer facilement vos applis et automatiser la remontée d’alertes grâce à Google Cloud Monitoring et à d’autres produits tiers.",
+        "speakers": [25],
+        "language": "fr",
+        "duration": "45",
+        "complexity": "Intermédiaire",
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Cloud", "Monitoring"
+        ]
+    },
+    {
+        "id": 122,
+        "title": "La grande migration vers les microservices",
+        "description": "Les microservices sont-ils une solution viable ou juste une mode éphémère ? Dans cette session, nous détaillerons pourquoi lorsque nous avons développé Bintray, nous avons naturellement migré vers les microservices avant même que la question ne se pose. Si nous avons gagné en simplification de la maintenance, en un meilleur découplage et en une grande parallélisation des développements, nos DevOps ont du surmonté de nouveaux défis comme la communication inter-services et la compatibilité.",
+        "speakers": [26],
+        "language": "fr",
+        "duration": "45",
+        "complexity": "Avancé",
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Cloud", "Microservices", "DevOps"
+        ]
+    },
+    {
+        "id": 123,
+        "title": "Le magicien Doze",
+        "description": "Grâce au magicien Doze, fini les problèmes de batterie! Ah? Non? Ce n'est pas si magique que ça? Je dois quand même faire attention à  mon code?<br>Durant cette session nous présenterons le fonctionnement de Doze et ce qu'il vous reste à faire pour avoir un code sympa avec votre batterie sans pour autant dégrader l'UX de votre service.",
+        "speakers": [27,28],
+        "duration": "45",
+        "language": "fr",
+        "complexity": "Avancé",
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Android"
+        ]
+    },
+    {
+        "id": 125,
+        "title": "Angular 2 : templates, composants et injection de dépendances",
+        "description": "La genèse d'Angular 2 n'est pas achevée, mais la version beta permet déjà de se faire une bonne idée de ce à quoi il va ressembler. Et c'est bluffant ! Si la version 1 a paru magique, dans sa version 2 c'est un Angular épuré, à la fois plus puissant et plus limpide.<br>Dans cette session, rien que du code, pour vous montrer comment se créent les composants, s'écrivent les templates et s'injectent les dépendances.",
+        "speakers": [ 29 ],
+        "duration": "45",
+        "language": "fr",
+        "complexity": "Intermédiaire",
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Web", "Angular"
+        ]
+    },
+    {
+        "id": 126,
+        "title": "TBD",
+        "description": "TBD",
+        "speakers": [],
+        "language": "fr",
+        "complexity": "Intermédiaire",
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Discovery", "IoT"
+        ]
+    },
+    {
+        "id": 127,
+        "title": "Top 10 des news sur le Cloud",
+        "description": "Depuis 10 ans le cloud n'arrête pas de s'inventer. La dernière année a encore été riche en avancées : de l'adoption généralisée des conteneurs, aux bases de données relationnelles pouvant stockées 10To de données en passant par des coûts en baisse et une flexibilité en hausse, le cloud continue de nous étonner. Durant cette session, nous reprendrons les 10 nouveautés du cloud qui ont marqué ces derniers mois.",
+        "speakers": [7,8],
+        "language": "fr",
+        "duration": "45",
+        "complexity": "Avancé",
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Cloud"
+        ]
+    },
+    {
+        "id": 128,
+        "title": "Android VR with cardboard",
+        "description": "An introduction to Virtual Reality application with Unity3D and Google Cardboard SDK (live demo).",
+        "speakers": [32],
+        "language": "fr",
+        "duration": "20",
+        "complexity": "Débutant",
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Discovery", "Cardboard", "VR"
+        ]
+    },
+    {
+        "id": 129,
+        "title": "Keynote d'ouverture - Les Géants du Web",
+        "description": "De l’autre côté de l’Atlantique, les Géants du Web (Google, Amazon, Facebook, Linkedin...) réinventent la façon de faire de l’informatique. Grace à ces nouvelles façons de travailler, ils sont capables de faire plus gros, plus vite, et plus efficace que ce que nous connaissons habituellement. Comment ces secrets des Géants du Web peuvent-ils être une source d'inspiration pour faire de l'informatique différemment ?",
+        "speakers": [33],
+        "language": "fr",
+        "duration": "45",
+        "complexity": "Débutant",
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Keynote"
+        ]
+    },
+    {
+        "id": 130,
+        "title": "Android Studio: introduction à la version 2.0 - astuces pour développeurs",
+        "description": "Android Studio est l'IDE de référence pour tous les développeurs Android. Google a présenté la version 2.0 il y a quelques mois lors de l'Android Developer Summit. Ce talk reviendra sur les nouveautés apportées dans cette version et notamment la fonction Instant Run. Quelques astuces d'utilisation de l'IDE seront également données (quelle que soit la version).",
+        "speakers": [35],
+        "language": "fr",
+        "duration": "45",
+        "complexity": "Intermédiaire",
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Android",
+            "Android Wear",
+            "Android TV"
+        ]
+    },
+    {
+        "id": 131,
+        "title": "Premier pas Deep Learning avec Tensorflow",
+        "description": "Deep Learning est une technique en plein essor dans le domaine du machine learning au cours de ces dernières années. De nombreuses applications ont vu le jour telles que Google Brain, Microsoft Cortana, DeepFace de facebook et Siri chez Apple.<br>A l’aide de l’outil d’apprentissage de google, TensorFlow, nous allons présenter le deep learning et à l’aide d’un exemple basé sur un problème de classification d’image comprendre l’utilisation de cette librairie.",
+        "speakers": [36],
+        "language": "fr",
+        "duration": "20",
+        "complexity": "Débutant",
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Discovery", "Machine Learning"
+        ]
+    }
 ]
