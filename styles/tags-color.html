@@ -2,8 +2,9 @@
             :root {
                 --android: #78C257;
                 --web: #2196F3;
-                --cloud: #3F51B5;
-                --community: #E91E63;
+                --cloud: #FFC107;
+                --discovery: #E91E63;
+                --keynote: #7B1FA2;
                 --angularjs: #E0343D;
                 --polymer: #D81B60;
                 --dart: #00B4AA;
@@ -21,13 +22,18 @@
                 --grpc: #607D8B;
                 --ux: #9C27B0;
                 --material-design: #009688;
-                --entrepreneurship: #673AB7;
             }
 
             .default {
                 background: var(--disabled-text-color);
                 color: var(--disabled-text-color);
                 border-color: var(--disabled-text-color);
+            }
+
+            .keynote {
+                background: var(--keynote);
+                color: var(--keynote);
+                border-color: var(--keynote);
             }
 
             .android {
@@ -48,16 +54,10 @@
                 border-color: var(--cloud);
             }
 
-            .community {
-                background: var(--community);
-                color: var(--community);
-                border-color: var(--community);
-            }
-
-            .entrepreneurship {
-                background: var(--entrepreneurship);
-                color: var(--entrepreneurship);
-                border-color: var(--entrepreneurship);
+            .discovery {
+                background: var(--discovery);
+                color: var(--discovery);
+                border-color: var(--discovery);
             }
 
             paper-checkbox.android {
@@ -79,9 +79,9 @@
             }
 
             paper-checkbox.community {
-                --paper-checkbox-checked-color: var(--community);
-                --paper-checkbox-checked-ink-color: var(--community);
-                --paper-checkbox-unchecked-ink-color: var(--community);
+                --paper-checkbox-checked-color: var(--discovery);
+                --paper-checkbox-checked-ink-color: var(--discovery);
+                --paper-checkbox-unchecked-ink-color: var(--discovery);
             }
 
             paper-checkbox.angularjs {
@@ -184,12 +184,6 @@
                 --paper-checkbox-checked-color: var(--material-design);
                 --paper-checkbox-checked-ink-color: var(--material-design);
                 --paper-checkbox-unchecked-ink-color: var(--material-design);
-            }
-
-            paper-checkbox.entrepreneurship {
-                --paper-checkbox-checked-color: var(--entrepreneurship);
-                --paper-checkbox-checked-ink-color: var(--entrepreneurship);
-                --paper-checkbox-unchecked-ink-color: var(--entrepreneurship);
             }
 
             .tag-label {
