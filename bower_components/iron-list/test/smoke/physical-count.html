@@ -22,14 +22,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <script src="../../../webcomponentsjs/webcomponents-lite.js"></script>
 
   <link rel="import" href="../../../polymer/polymer.html">
+  <link rel="import" href="../../../paper-styles/paper-styles.html">
   <link rel="import" href="../../../paper-button/paper-button.html">
 
   <link rel="import" href="../../iron-list.html">
 
   <style is="custom-style">
-    body {
-      @apply(--layout-fullbleed);
-    }
 
     .item {
       background-color: green;
@@ -57,6 +55,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       z-index: 1;
     }
 
+
     .wrapper iron-list {
       position: absolute;
       top: 0;
@@ -72,7 +71,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   </style>
 
 </head>
-<body unresolved>
+<body class="fullbleed" unresolved>
 
   <template is="dom-bind">
 
@@ -197,7 +196,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
         Object.observe(list, function(changes) {
           var physicalCount = list._physicalCount;
-          changes.forEach(function(change) {
+          changes.forEach(function(change) { 
 
             if (change.name === '_physicalCount') {
               values.pop();
