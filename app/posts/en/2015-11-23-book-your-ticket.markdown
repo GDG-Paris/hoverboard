@@ -9,7 +9,7 @@ We have 3 different prices to encourage you to book early:
   * For the first 100 registered attendees
 * Early birds : 40 €
   * For the next 300 registered attendees
-* General admission : 60 €
+* General admission : 50 €
   * Standard price
 * On site : 80 €
   * On site registration
