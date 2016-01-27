@@ -104,6 +104,17 @@
                 requestAnimationFrame(callback);
             }
 
+            function smoothStep(start, end, point) {
+                if (point <= start) {
+                    return 0;
+                }
+                if (point >= end) {
+                    return 1;
+                }
+                var x = (point - start) / (end - start);
+                return x * x * (3 - 2 * x);
+            }
+
             var point = smoothStep(startTime, endTime, timestamp);
             var scrollTop = Math.round(startTop + (destY * point));
 
@@ -115,16 +126,5 @@
         };
         callback(startTime);
     };
-
-    function smoothStep(start, end, point) {
-        if (point <= start) {
-            return 0;
-        }
-        if (point >= end) {
-            return 1;
-        }
-        var x = (point - start) / (end - start);
-        return x * x * (3 - 2 * x);
-    }
 
 })(document);
