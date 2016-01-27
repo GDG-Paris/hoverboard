@@ -9,7 +9,7 @@ Nous avons 3 prix différents pour vous encourager à réserver au plus tôt :
   * Pour les 100 premiers inscrits
 * Early birds : 40 €
   * Pour les 300 suivants
-* General admission : 60 €
+* General admission : 50 €
   * Prix standard
 * On site : 80 €
   * Achat sur site
