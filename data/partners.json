@@ -74,6 +74,10 @@
         "url": "http://www.frandroid.com/",
         "logoUrl": "../images/partners/frandroid.png"
     }, {
+        "name": "Frenchweb",
+        "url": "http://www.frenchweb.fr/",
+        "logoUrl": "../images/partners/frenchweb.png"
+    }, {
         "name": "Geeek.org",
         "url": "http://www.geeek.org/",
         "logoUrl": "../images/partners/geeek.png"
