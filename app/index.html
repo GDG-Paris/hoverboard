@@ -118,13 +118,12 @@
                                                 </i18n-msg>
                                             </p>
                                             <div class="links layout horizontal align-pb-block">
-                                                <!--
                                                 <paper-button noink on-tap="playVideo">
                                                     <i18n-msg msgid="watch-video">
                                                         Watch a video
                                                     </i18n-msg>
                                                 </paper-button>
-                                                -->
+                                                <!--
                                                 <a href="http://www.eventbrite.fr/e/billets-devfest-paris-2016-19529320724">
                                                     <paper-button class="colorful" raised>
                                                         <i18n-msg msgid="register">
@@ -132,6 +131,7 @@
                                                         </i18n-msg>
                                                     </paper-button>
                                                 </a>
+                                                -->
                                             </div>
                                         </div>
                                         <div class="flex relative right-section">
@@ -139,9 +139,11 @@
                                         </div>
                                     </div>
                                 </div>
+                                <!--
                                 <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MHZ1dHZibGc0b3RvMXVoZXI5dGlvMTQ2NGcgdDQ0M2t1cXN0anY4Y2ZzMnVzYW0zazViYjhAZw&tmsrc=t443kuqstjv8cfs2usam3k5bb8%40group.calendar.google.com" target="_blank" onclick="ga('send', 'add-event-to-calendar', 'button', 'click');">
                                     <paper-fab class="section-fab-right" icon="icons:event"></paper-fab>
                                 </a>
+                                -->
                             </hero-block>
                             <statistics-block></statistics-block>
                             <featured-people people="{{speakers}}">
@@ -153,10 +155,12 @@
                             </featured-people>
                             <call-to-action></call-to-action>
                             <photo-block></photo-block>
+                            <!--
                             <tickets-block></tickets-block>
+                            -->
                             <latest-news posts="{{posts}}"></latest-news>
-                            <!-- TODO Twitter hashtags integration
-                            <social-feed source="https://api.twitter.com/1.1/search/tweets.json?q=@gdgparis&result_type=mixed&count=5"></social-feed>
+                            <!--
+                            <social-feed source="https://api.twitter.com/1.1/search/tweets.json?q=%23DevFestParis&result_type=mixed&count=5"></social-feed>
                             -->
                             <map-block></map-block>
                             <logos-block logos-blocks="{{partners}}">
@@ -247,17 +251,15 @@
 
         <paper-toast id="caching-complete" class="toast" duration="6000" text="Caching complete! This app will work offline."></paper-toast>
 
-        <!--
         <paper-dialog class="video-dialog fit" id="promo-video-dialog" with-backdrop modal entry-animation="scale-up-animation" exit-animation="fade-out-animation">
             <paper-toolbar class="navbar-overlay fit">
                 <paper-icon-button icon="icons:arrow-back" on-tap="closeVideoCard"></paper-icon-button>
                 <div class="title text-left">GDG DevFest Paris 2016</div>
             </paper-toolbar>
             <div class="fullvideo-container fit">
-                <google-youtube id="promo-video" video-id="_yhIH9wb3hE" fluid="true" autohide="1" chromeless="true"></google-youtube>
+                <google-youtube id="promo-video" video-id="Dlr5cN3IQes" fluid="true" autohide="1" chromeless="true"></google-youtube>
             </div>
         </paper-dialog>
-        -->
 
         <platinum-sw-register auto-register clients-claim skip-waiting on-service-worker-installed="displayInstalledToast">
             <platinum-sw-cache default-cache-strategy="networkFirst" precache-file="precache.json">
