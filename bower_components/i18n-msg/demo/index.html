@@ -33,11 +33,13 @@
   // Event is only needed when running under the HTMLImports polyfill.
   document.addEventListener('HTMLImportsLoaded', function() {
     I18nMsg.lang = selector.value || document.documentElement.lang || 'en';
+    Platform.performMicrotaskCheckpoint();
   });
 
   selector.addEventListener('change', function() {
     document.documentElement.lang = this.value;
     I18nMsg.lang = this.value;
+    Platform.performMicrotaskCheckpoint();
   });
 
   document.addEventListener('i18n-language-ready', function(e) {
