@@ -55,7 +55,7 @@ strong, b {
     background-size: cover !important;
 }
 .placeholder-color {
-    background-color: #3F51B5;
+    background-color: transparent;
 }
 .gradient-overlay {
     position: absolute;
