@@ -42,7 +42,7 @@
         "duration": "45",
         "complexity": "Intermediate",
         "presentation": "",
-        "video": "",
+        "video": "https://www.youtube.com/watch?v=sg7Ryq5q6y0",
         "tags": [
             "Web",
             "Chrome",
@@ -179,7 +179,7 @@
         "duration": "45",
         "complexity": "Intermediate",
         "presentation": "http://fr.slideshare.net/SfeirGroup/polymer-10-par-cyril-balit-au-devfest-paris-2016",
-        "video": "",
+        "video": "https://www.youtube.com/watch?v=8EQxR1JVmOo",
         "tags": [
             "Web", "Polymer"
         ]
@@ -331,7 +331,7 @@
         "language": "fr",
         "duration": "45",
         "complexity": "Advanced",
-        "presentation": "",
+        "presentation": "https://drive.google.com/open?id=0B_4fKsULreWNV0lQcHl4Z2I1TGM",
         "video": "",
         "tags": [
             "Cloud", "Microservices", "DevOps"
@@ -387,7 +387,7 @@
         "duration": "45",
         "complexity": "Advanced",
         "presentation": "https://drive.google.com/open?id=0B_4fKsULreWNMUZ3djNaYTU2Z0U5cWFlVUo2RW9UYWhWSW9z",
-        "video": "",
+        "video": "https://www.youtube.com/watch?v=ragVBP7xjDA",
         "tags": [
             "Cloud"
         ]
@@ -415,7 +415,7 @@
         "duration": "45",
         "complexity": "Beginner",
         "presentation": "https://drive.google.com/open?id=0B_4fKsULreWNUFpFY1BYR2NHTmw4Njg5VUlkNklPbnpMNmlv",
-        "video": "",
+        "video": "https://www.youtube.com/watch?v=8oxo8JoOYAo",
         "tags": [
             "Keynote"
         ]
